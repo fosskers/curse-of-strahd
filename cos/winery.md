@@ -12,13 +12,13 @@ Encounters
 
 Challenge below is based on a 4-player party of level 5 characters.
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | W16 | 450 | 1x [Druid](images/druid.png) w/ *Gulthias Staff*
-Easy | W20 | 650 | 2x Vine Blights, 1x [Druid](images/druid.png)
-Easy | W14 | 700 | 5x Needle Blights, 1x [Druid](images/druid.png)
-Hard | W9 | 1,050 | 24x Twig Blights, 1x [Druid](images/druid.png)*
-Deadly | W | 1,500 | 30x Needle Blights (MM p. 32)
+| Challenge | Location |   EXP | Enemy                                            |
+|-----------|----------|-------|--------------------------------------------------|
+| N/A       | W16      |   450 | 1x [Druid](images/druid.png) w/ *Gulthias Staff* |
+| Easy      | W20      |   650 | 2x Vine Blights, 1x [Druid](images/druid.png)    |
+| Easy      | W14      |   700 | 5x Needle Blights, 1x [Druid](images/druid.png)  |
+| Hard      | W9       | 1,050 | 24x Twig Blights, 1x [Druid](images/druid.png)*  |
+| Deadly    | W        | 1,500 | 30x Needle Blights (MM p. 32)                    |
 
 **Notes**
 

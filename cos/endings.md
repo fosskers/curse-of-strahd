@@ -7,9 +7,9 @@ The main ending branches can be differentiated by one question: Who rules Barovi
 No One Rules Barovia
 --------------------
 
-Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei
-------- | ------ | ------- | ------- | ---------- | ------ | ------
-Alive | Dead | Dead | Dead | Smashed | ? | Dead
+| Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei |
+|---------|--------|---------|---------|------------|--------|--------|
+| Alive   | Dead   | Dead    | Dead    | Smashed    | ?      | Dead   |
 
 Strahd is defeated, and not avenged by Rahadin. Patrina was not revived, or
 if she was, she was redefeated. The Amber sarcophagi were smashed, banishing
@@ -26,9 +26,9 @@ Bonus points for:
 Sergei and Ireena Rule Barovia
 ------------------------------
 
-Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei
-------- | ------ | ------- | ------- | ---------- | ------ | ------
-Alive | Dead | Dead | Dead | Smashed | Alive | Alive
+| Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei |
+|---------|--------|---------|---------|------------|--------|--------|
+| Alive   | Dead   | Dead    | Dead    | Smashed    | Alive  | Alive  |
 
 Using the Dark Gift from the Corpse Star, the players revive Sergei. He
 helps them slay Strahd, much to Strahd's horror. Ireena is still alive, and
@@ -41,9 +41,9 @@ alone.
 Players Rule Barovia
 --------------------
 
-Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei
-------- | ------ | ------- | ------- | ---------- | ------ | ------
-Alive | Dead | Dead | Dead | Intact | ? | Dead
+| Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei |
+|---------|--------|---------|---------|------------|--------|--------|
+| Alive   | Dead   | Dead    | Dead    | Intact     | ?      | Dead   |
 
 Having infused their bodies with evil power from the Amber Temple, the
 players annihilate Strahd and decide to rule over Barovia themselves. The
@@ -52,9 +52,9 @@ Dark Powers oblige them.
 Rahadin Rules Barovia
 ---------------------
 
-Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei
-------- | ------ | ------- | ------- | ---------- | ------ | ------
-Dead | Dead | Alive | Dead | Smashed | ? | ?
+| Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei |
+|---------|--------|---------|---------|------------|--------|--------|
+| Dead    | Dead   | Alive   | Dead    | Smashed    | ?      | ?      |
 
 The players slay Strahd and prevent his revival, but in their fatigue
 succumb to Rahadin's vengence. Perhaps Rahadin commits suicide afterward,
@@ -63,9 +63,9 @@ instead of assuming rule.
 Patrina Rules Barovia
 ---------------------
 
-Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei
-------- | ------ | ------- | ------- | ---------- | ------ | ------
-Alive | Dead? | Dead | Dead | ? | ? | ?
+| Players | Strahd | Rahadin | Patrina | Amber Sar. | Ireena | Sergei |
+|---------|--------|---------|---------|------------|--------|--------|
+| Alive   | Dead?  | Dead    | Dead    | ?          | ?      | ?      |
 
 There are a few ways this could happen:
 

@@ -1,15 +1,14 @@
-
 Encounters
 ----------
 
 Challenge below is based on a 4-player party of level 3 characters.
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | G | 200 | [Damia](images/spy.png), daughter of Stanimir
-Deadly | G | 2,300 | [Stanimir](images/mage.png) the Mage
-3x Deadly | G | 5,900 | Madam Eva (CoS p. 233)
-4x Deadly | G | 1,650 | 12x Drunk Vistani [Bandits](images/bandit.png), 3x [Bandit Captains](images/bandit-captain.png)
+| Challenge | Location | EXP   | Enemy                                                                                           |
+|-----------|----------|-------|-------------------------------------------------------------------------------------------------|
+| N/A       | G        | 200   | [Damia](images/spy.png), daughter of Stanimir                                                   |
+| Deadly    | G        | 2,300 | [Stanimir](images/mage.png) the Mage                                                            |
+| 3x Deadly | G        | 5,900 | Madam Eva (CoS p. 233)                                                                          |
+| 4x Deadly | G        | 1,650 | 12x Drunk Vistani [Bandits](images/bandit.png), 3x [Bandit Captains](images/bandit-captain.png) |
 
 **Notes:**
 
@@ -33,13 +32,13 @@ the illusion of randomness.
 For further explanations, see the Appendix pages [On the Tarokka Deck](tarokka)
 and [Cutting the Werewolf Den](werewolves).
 
-Target | Rigged Location | Tarokka Card | Normal Card
------- | --------------- | ------------ | -----------
-Tome of Strahd | Marina's Monument (U5) | 3 of Stars (Enchanter) | 3 of Clubs
-Holy Symbol of Ravenkind | Blue Water Inn (N2q) | Master of Coins (Rogue) | 10 of Diamonds
-The Sunsword | Beacon of Argynvostholt (Q53) | 4 of Stars (Abjurer) | 4 of Clubs
-Strahd's Enemy | Any |  |
-Strahd | Any |  |
+| Target                   | Rigged Location               | Tarokka Card            | Normal Card    |
+|--------------------------|-------------------------------|-------------------------|----------------|
+| Tome of Strahd           | Marina's Monument (U5)        | 3 of Stars (Enchanter)  | 3 of Clubs     |
+| Holy Symbol of Ravenkind | Blue Water Inn (N2q)          | Master of Coins (Rogue) | 10 of Diamonds |
+| The Sunsword             | Beacon of Argynvostholt (Q53) | 4 of Stars (Abjurer)    | 4 of Clubs     |
+| Strahd's Enemy           | Any                           |                         |                |
+| Strahd                   | Any                           |                         |                |
 
 **Notes:**
 

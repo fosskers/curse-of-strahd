@@ -32,15 +32,15 @@ Encounters: Vallaki
 Challenge below is based on a 4-player party of level 4 characters. See also
 [Occupants of Vallakian Houses](rolls/#occupants-of-vallakian-houses).
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | N1 | 10 | [Milijov](images/commoner.png) w/ 15 STR, +4 atk, 1d4+2 dmg
-N/A (2) | N1 | 450 | [Father Lucian Petrovich](images/priest.png) (LG)
-Easy | ? | 300 | Arresting Party of 12x [Guards](images/guard.png)
-Medium | ? | 300 | Lynching Party of 30x [Commoners](images/commoner.png)
-Deadly | ? | 600 | Routing Party of 24x [Guards](images/guard.png)
-Hard | ? | 1,800 | Izek Strazni (CoS p. 232)
-10x Deadly | N6f | 10,800 | 6x [Vampire Spawn](images/vampire-spawn.png)
+| Challenge  | Location |    EXP | Enemy                                                       |
+|------------|----------|--------|-------------------------------------------------------------|
+| N/A        | N1       |     10 | [Milijov](images/commoner.png) w/ 15 STR, +4 atk, 1d4+2 dmg |
+| N/A (2)    | N1       |    450 | [Father Lucian Petrovich](images/priest.png) (LG)           |
+| Easy       | ?        |    300 | Arresting Party of 12x [Guards](images/guard.png)           |
+| Medium     | ?        |    300 | Lynching Party of 30x [Commoners](images/commoner.png)      |
+| Deadly     | ?        |    600 | Routing Party of 24x [Guards](images/guard.png)             |
+| Hard       | ?        |  1,800 | Izek Strazni (CoS p. 232)                                   |
+| 10x Deadly | N6f      | 10,800 | 6x [Vampire Spawn](images/vampire-spawn.png)                |
 
 **Notes**
 
@@ -50,13 +50,14 @@ Hard | ? | 1,800 | Izek Strazni (CoS p. 232)
 
 Encounters: Burgomaster's Mansion
 ---------------------------------
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | N3c | 10 | [Lydia Petrovna](images/commoner.png), the Baron's wife (LG)
-N/A | N3e/N3l | 75 | [The Baron](images/noble.png) (NE), 2x [Mastiffs](images/mastiff.png)
-Hard | N3j | 1,800 | Izek Strazni (CoS p. 232)
-Deadly | N3p | 3,900 | Spirit [Assassin](images/assassin.png)
-2x Deadly | N3t | 2,360 | [Victor Vallakovich](images/mage.png) (NE), 6x [Skeletal Cats](images/cat.png)
+
+| Challenge | Location | EXP   | Enemy                                                                          |
+|-----------|----------|-------|--------------------------------------------------------------------------------|
+| N/A       | N3c      | 10    | [Lydia Petrovna](images/commoner.png), the Baron's wife (LG)                   |
+| N/A       | N3e/N3l  | 75    | [The Baron](images/noble.png) (NE), 2x [Mastiffs](images/mastiff.png)          |
+| Hard      | N3j      | 1,800 | Izek Strazni (CoS p. 232)                                                      |
+| Deadly    | N3p      | 3,900 | Spirit [Assassin](images/assassin.png)                                         |
+| 2x Deadly | N3t      | 2,360 | [Victor Vallakovich](images/mage.png) (NE), 6x [Skeletal Cats](images/cat.png) |
 
 **Notes**
 
@@ -65,26 +66,26 @@ Deadly | N3p | 3,900 | Spirit [Assassin](images/assassin.png)
 Encounters: Wachterhaus
 -----------------------
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | N4n | 10 | [Stella Wachter](images/commoner.png) (CG)
-N/A | N4p | 80 | 8x [Cats](images/cat.png)
-N/A | N4k | 200 | [Ernst Larkan](images/spy.png) (LE)
-N/A | N4i | 450 | [Fiona Wachter](images/priest.png) (LE) w/ AC 10 (CoS p. 110)
-Medium | N4s | 400 | 8x [Skeletons](images/skeleton.png)
-Deadly | N4t | 1,800 | 4x [Cult Fanatics](images/cult-fanatic.png)
+| Challenge | Location |   EXP | Enemy                                                         |
+|-----------|----------|-------|---------------------------------------------------------------|
+| N/A       | N4n      |    10 | [Stella Wachter](images/commoner.png) (CG)                    |
+| N/A       | N4p      |    80 | 8x [Cats](images/cat.png)                                     |
+| N/A       | N4k      |   200 | [Ernst Larkan](images/spy.png) (LE)                           |
+| N/A       | N4i      |   450 | [Fiona Wachter](images/priest.png) (LE) w/ AC 10 (CoS p. 110) |
+| Medium    | N4s      |   400 | 8x [Skeletons](images/skeleton.png)                           |
+| Deadly    | N4t      | 1,800 | 4x [Cult Fanatics](images/cult-fanatic.png)                   |
 
 Encounters: Vistani Camp
 ------------------------
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | N9c | 150 | 6x Drunk, sleeping Vistani [Bandits](images/bandit.png)
-Easy | N9 | 225 | 9x Dusk Elf [Guards](images/guard.png)
-Easy | N9g | 225 | 9x Vistani [Bandits](images/bandit.png)
-Easy | N9 | 300 | 12x Vistani [Bandits](images/bandit.png)*
-Deadly | N9a | 2,300 | [Kasimir Velikov](images/mage.png) (CoS p. 232)
-3x Deadly | N9c | 4,350 | [Luvash](images/bandit-captain.png) and [Arrigal](images/assassin.png)
+| Challenge | Location |   EXP | Enemy                                                                  |
+|-----------|----------|-------|------------------------------------------------------------------------|
+| N/A       | N9c      |   150 | 6x Drunk, sleeping Vistani [Bandits](images/bandit.png)                |
+| Easy      | N9       |   225 | 9x Dusk Elf [Guards](images/guard.png)                                 |
+| Easy      | N9g      |   225 | 9x Vistani [Bandits](images/bandit.png)                                |
+| Easy      | N9       |   300 | 12x Vistani [Bandits](images/bandit.png)*                              |
+| Deadly    | N9a      | 2,300 | [Kasimir Velikov](images/mage.png) (CoS p. 232)                        |
+| 3x Deadly | N9c      | 4,350 | [Luvash](images/bandit-captain.png) and [Arrigal](images/assassin.png) |
 
 **Notes**
 
@@ -101,21 +102,21 @@ reenforcements for when attacks occur.
 The Martikov sons, Brom and Bray, affectionately refer to their father as
 ворон (read "voron"), which means "raven" in Russian.
 
-Item | Cost
----- | ----
-Bed for the night | 1 ep
-Wolf steak | 1 ep
-Pint of Purple Grapemash | 3 cp
-Pint of Red Dragon Crush | 1 sp
+| Item                     | Cost |
+|--------------------------|------|
+| Bed for the night        | 1 ep |
+| Wolf steak               | 1 ep |
+| Pint of Purple Grapemash | 3 cp |
+| Pint of Red Dragon Crush | 1 sp |
 
 **Rictavio**
 
 From noon to dusk.
 
-d10 | Location
---- | --------
-1 - 4 | His private room.
-5 - 10 | The taproom.
+| d10    | Location          |
+|--------|-------------------|
+| 1 - 4  | His private room. |
+| 5 - 10 | The taproom.      |
 
 Quest: Recover the Bones of St. Andral
 --------------------------------------

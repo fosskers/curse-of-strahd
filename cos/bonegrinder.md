@@ -1,4 +1,3 @@
-
 If the players run into Old Bonegrinder at level 4 with guns blazing, they
 will most likely die to the combined power of the hag coven. This section
 adds more content, to allow the players to interact with OBG in a meaningful
@@ -9,12 +8,12 @@ Encounters
 
 Challenge below is based on a 4-player party of level 4 characters.
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-Hard (5) | Anywhere | 1,800 | 1x [Night Hag](images/night-hag.png)
-Deadly | O1 | 1,800 + N*50 | [Morgantha](images/night-hag.png), Nx [Dretches](images/dretch.png)
-2x Deadly | Anywhere | 3,600 | 2x [Night Hag](images/night-hag.png)
-8x Deadly | Anywhere | 8,700 | 3x [Night Hag](images/night-hag.png) (as a Coven)
+| Challenge | Location | EXP          | Enemy                                                               |
+|-----------|----------|--------------|---------------------------------------------------------------------|
+| Hard (5)  | Anywhere | 1,800        | 1x [Night Hag](images/night-hag.png)                                |
+| Deadly    | O1       | 1,800 + N*50 | [Morgantha](images/night-hag.png), Nx [Dretches](images/dretch.png) |
+| 2x Deadly | Anywhere | 3,600        | 2x [Night Hag](images/night-hag.png)                                |
+| 8x Deadly | Anywhere | 8,700        | 3x [Night Hag](images/night-hag.png) (as a Coven)                   |
 
 Notes:
 
@@ -49,27 +48,27 @@ day.
 
 **Morgantha**
 
-d12 | Location
---- | --------
-1 - 2 | Selling pastries in the Village of Barovia
-3 - 4 | Selling pastries in Vallaki
-5 - 12 | O2
+| d12    | Location                                   |
+|--------|--------------------------------------------|
+| 1 - 2  | Selling pastries in the Village of Barovia |
+| 3 - 4  | Selling pastries in Vallaki                |
+| 5 - 12 | O2                                         |
 
 **Bella Sunbane**
 
-d12 | Location
---- | --------
-1 - 3 | Svalich Woods (herb picking)
-4 - 11 | O3
-12 | Communing with Barovian Witches
+| d12    | Location                        |
+|--------|---------------------------------|
+| 1 - 3  | Svalich Woods (herb picking)    |
+| 4 - 11 | O3                              |
+| 12     | Communing with Barovian Witches |
 
 **Offalia Wormwiggle**
 
-d12 | Location
---- | --------
-1 - 6 | Tending the garden
-7 - 11 | O3
-12 | Communing with Barovian Witches
+| d12    | Location                        |
+|--------|---------------------------------|
+| 1 - 6  | Tending the garden              |
+| 7 - 11 | O3                              |
+| 12     | Communing with Barovian Witches |
 
 Custom: Resurrection Services
 -----------------------------

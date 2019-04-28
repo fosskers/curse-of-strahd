@@ -1,11 +1,9 @@
-
 Calendar
 --------
 
 - `k - 4` - Ilya Krezkov dies of illness at age 14.
 - `k` - The day the PCs first arrive at the gates of Krezk, whether they get
 in or not.
-
 
 Encounters
 ----------
@@ -14,24 +12,24 @@ Challenge below is based on a 4-player party of level 5 characters. There
 are no random household encounters here like in Vallaki or the Village of
 Barovia.
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A | N/A | 50 | 1x Misc. Mongrelfolk (CoS p. 234)
-N/A | S17 | 50 | Clovin Belview the Mongrelfolk
-N/A | S12a | 50 | Mishka
-N/A | S6 | 100 | Otto and Zygfrek
-N/A | S15h | 100 | 2x Mongrelfolk*
-N/A | S15a | 150 | 3x Mongrelfolk
-N/A | S15g | 150 | 3x Mongrelfolk (and 7x babies)
-N/A | S15b | 250 | 5x Mongrelfolk
-N/A | S15c | 350 | 7x Mongrelfolk
-Easy | S15f | 400 | 8x Mongrelfolk
-Easy | S15d | 450 | 9x Mongrelfolk
-Hard | S15e | 800 | 16x Mongrelfolk
-Easy | S13 | 1,800 | Vasilka the [Flesh Golem](images/flesh-golem.png)
-Easy | S15 | 1,800 | [Flesh Golem](images/flesh-golem.png)
-Deadly (10) | S13 | 5,900 | [The Abbot](images/deva.png)
-2x Deadly | S9 | 4,900 | 7x [Wights](images/wight.png)*
+| Challenge   | Location |   EXP | Enemy                                             |
+|-------------|----------|-------|---------------------------------------------------|
+| N/A         | N/A      |    50 | 1x Misc. Mongrelfolk (CoS p. 234)                 |
+| N/A         | S17      |    50 | Clovin Belview the Mongrelfolk                    |
+| N/A         | S12a     |    50 | Mishka                                            |
+| N/A         | S6       |   100 | Otto and Zygfrek                                  |
+| N/A         | S15h     |   100 | 2x Mongrelfolk*                                   |
+| N/A         | S15a     |   150 | 3x Mongrelfolk                                    |
+| N/A         | S15g     |   150 | 3x Mongrelfolk (and 7x babies)                    |
+| N/A         | S15b     |   250 | 5x Mongrelfolk                                    |
+| N/A         | S15c     |   350 | 7x Mongrelfolk                                    |
+| Easy        | S15f     |   400 | 8x Mongrelfolk                                    |
+| Easy        | S15d     |   450 | 9x Mongrelfolk                                    |
+| Hard        | S15e     |   800 | 16x Mongrelfolk                                   |
+| Easy        | S13      | 1,800 | Vasilka the [Flesh Golem](images/flesh-golem.png) |
+| Easy        | S15      | 1,800 | [Flesh Golem](images/flesh-golem.png)             |
+| Deadly (10) | S13      | 5,900 | [The Abbot](images/deva.png)                      |
+| 2x Deadly   | S9       | 4,900 | 7x [Wights](images/wight.png)*                    |
 
 **Notes:**
 

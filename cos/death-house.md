@@ -13,20 +13,20 @@ Challenge below is based on a 4-player party of level 2 characters. Creature
 numbers may need to be adjusted for the size of your party. See: [Balancing
 Death House](http://www.starwalkerstudios.com/blog/deathhouse).
 
-Challenge | Location | EXP | Enemy
---------- | -------- | --- | -----
-N/A (1/4) | 14  | 50 | Broom of Animated Attack (CoS p. 226)
-N/A (1/2) | 23D | 100 | [Swarm of Insects](images/swarm-of-insects.png)
-Easy (1) | 11 | 200 | [Animated Armour](images/animated-armour.png)
-Easy (1) | 15/18 | 200 | Nursemaid's [Specter](images/specter.png)
-Medium (2) | 28 | 450 | 1x [Grick](images/grick.png)
-Medium (2) | 33 | 450 | [Mimic](images/mimic.png)
-Medium (2) | 34 | 450 | [Ghast](images/ghast.png)
-Hard | 31 | 300 | 3x [Shadows](images/shadow.png)
-Hard | 29 | 400 | 2x [Ghouls](images/ghoul.png)
-Deadly | N/A | 800 | Escape Death House
-2x Deadly | 20 | 1,400 | 2x Child [Ghosts](images/ghost.png) w/ 35hp (Small, LG)
-2x Deadly | 38 | 1,800 | [Shambling Mound](images/shambling-mound.png)
+| Challenge  | Location |   EXP | Enemy                                                   |
+|------------|----------|-------|---------------------------------------------------------|
+| N/A (1/4)  |       14 |    50 | Broom of Animated Attack (CoS p. 226)                   |
+| N/A (1/2)  |      23D |   100 | [Swarm of Insects](images/swarm-of-insects.png)         |
+| Easy (1)   |       11 |   200 | [Animated Armour](images/animated-armour.png)           |
+| Easy (1)   |    15/18 |   200 | Nursemaid's [Specter](images/specter.png)               |
+| Medium (2) |       28 |   450 | 1x [Grick](images/grick.png)                            |
+| Medium (2) |       33 |   450 | [Mimic](images/mimic.png)                               |
+| Medium (2) |       34 |   450 | [Ghast](images/ghast.png)                               |
+| Hard       |       31 |   300 | 3x [Shadows](images/shadow.png)                         |
+| Hard       |       29 |   400 | 2x [Ghouls](images/ghoul.png)                           |
+| Deadly     |      N/A |   800 | Escape Death House                                      |
+| 2x Deadly  |       20 | 1,400 | 2x Child [Ghosts](images/ghost.png) w/ 35hp (Small, LG) |
+| 2x Deadly  |       38 | 1,800 | [Shambling Mound](images/shambling-mound.png)           |
 
 **Notes:**
 
@@ -98,29 +98,29 @@ can leave freely.
 
 Otherwise, they must escape as described on p. 220. For reference:
 
-Action | Check | On Failure
------- | ----- | ----------
-Dodge a door-scythe | DC 15 Acrobatics | **2d10 slashing** damage
-Study a door-scythe | DC 15 INT | **2d10 slashing** damage
-Start turn in smokey room | DC 10 CON| **1d10 poison** damage
+| Action                    | Check            | On Failure               |
+|---------------------------|------------------|--------------------------|
+| Dodge a door-scythe       | DC 15 Acrobatics | **2d10 slashing** damage |
+| Study a door-scythe       | DC 15 INT        | **2d10 slashing** damage |
+| Start turn in smokey room | DC 10 CON        | **1d10 poison** damage   |
 
 Rooms with smoke:
 
-Location | Name
--------- | ----
-2A | Main Hall
- 3 | Den of Wolves
-4A | Kitchen
- 5 | Dining Room
- 6 | Upper Hall
- 8 | Library
-10 | Conservatory
-12A | Master Suite
-13 | Bathroom
-15A | Nursemaid's Suite
-17 | Spare Bedroom
-18 | Storage Room
-19 | Spare Bedroom
+| Location | Name              |
+|----------|-------------------|
+|       2A | Main Hall         |
+|        3 | Den of Wolves     |
+|       4A | Kitchen           |
+|        5 | Dining Room       |
+|        6 | Upper Hall        |
+|        8 | Library           |
+|       10 | Conservatory      |
+|      12A | Master Suite      |
+|       13 | Bathroom          |
+|      15A | Nursemaid's Suite |
+|       17 | Spare Bedroom     |
+|       18 | Storage Room      |
+|       19 | Spare Bedroom     |
 
 Optimal escape route: 18 - 16 - 11 - 6 - 2A - 1B - 1A
 

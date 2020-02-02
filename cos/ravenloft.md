@@ -190,7 +190,8 @@ If your party contains a Warlock, consider the following:
 
 Touching the skull or taking the *Staff of Power* summons Khazan back to
 Barovia, whereupon he interacts with your Warlock, offering to become its new
-patron.
+patron. Perhaps this involves a combat encounter with the old patron, or some
+other puzzle.
 
 ## Custom: Reviving Sergei
 

@@ -36,6 +36,7 @@ pages:
     - On the Tarokka Deck: tarokka.md
     - Cutting the Werewolf Den: werewolves.md
     - Speed Running: speedrun.md
+    - Trivia: trivia.md
 
 markdown_extensions:
 - toc:

@@ -124,34 +124,38 @@ to fight evil.
 Misc.
 -----
 
-| Treasure                  | Location                       | Page    |
-|---------------------------|--------------------------------|---------|
-| Alchemy Jug               | K41 (Treasury)                 | DMG 150 |
-| Bag of Tricks             | N2h (Ravens' Loft)             | DMG 154 |
-| Deck of Illusions         | K84, Crypt 9                   | DMG 161 |
-| Doss Lute*                | K36 (Dining Hall of the Count) | DMG 176 |
-| +2 Greatsword             | Q36 (Dragon's Audience Hall)   | PHB 149 |
-| Helm of Brilliance        | K41 (Treasury)                 | DMG 173 |
-| Icon of Ravenloft         | K15 (Chapel)                   | CoS 222 |
-| Luck Blade                | K84, Crypt 29                  | DMG 179 |
-| Mace of Terror            | K15 (Chapel)                   | DMG 180 |
-| Oil of Sharpness          | U3 (Baba Lysaga's Hut)         | DMG 184 |
-| Pipes of Haunting         | U3 (Baba Lysaga's Hut)         | DMG 185 |
-| +2 Plate Armour           | K85 (Sergei's Tomb)            | PHB 145 |
-| Ring of Regeneration      | S7 (Abbey Graveyard)           | DMG 191 |
-| Robe of Useful Items      | X5a (God of Secrets)           | DMG 195 |
-| +1 Rod of the Pact Keeper | K41 (Treasury)                 | DMG 197 |
-| Staff of Frost            | X17 (Upper West Hall)          | DMG 202 |
-| Staff of Power            | K84, Crypt 15                  | DMG 202 |
-| Stone of Good Luck        | U3 (Baba Lysaga's Hut)         | DMG 205 |
-| Tasha's Holy Symbol*      | K84, Crypt 11                  | CoS 87  |
-| Tome of Understanding     | X20 (Architect's Room)         | DMG 209 |
-| Wand of Secrets           | X2b (Guard Room**              | DMG 211 |
+| Treasure                  | Location                                | Page    |
+|---------------------------|-----------------------------------------|---------|
+| Alchemy Jug               | K41 (Treasury)                          | DMG 150 |
+| Bag of Tricks             | N2h (Ravens' Loft)                      | DMG 154 |
+| Deck of Illusions         | K84, Crypt 9                            | DMG 161 |
+| Doss Lute*                | K36 (Dining Hall of the Count)          | DMG 176 |
+| +2 Greatsword             | Q36 (Dragon's Audience Hall - Vladimir) | PHB 149 |
+| Hat of Disguise           | Rictavio                                | DMG 173 |
+| Helm of Brilliance        | K41 (Treasury)                          | DMG 173 |
+| Icon of Ravenloft         | K15 (Chapel)                            | CoS 222 |
+| Luck Blade                | K84, Crypt 29                           | DMG 179 |
+| Mace of Terror            | K15 (Chapel)                            | DMG 180 |
+| Oil of Sharpness          | U3 (Baba Lysaga's Hut)                  | DMG 184 |
+| Pipes of Haunting         | U3 (Baba Lysaga's Hut)                  | DMG 185 |
+| +2 Plate Armour           | K85 (Sergei's Tomb)                     | PHB 145 |
+| Ring of Mind Shielding    | Rictavio                                | DMG 191 |
+| Ring of Regeneration      | S7 (Abbey Graveyard)                    | DMG 191 |
+| Ring of Warmth            | N9a (Kasimir's Hovel - Kasimir)         | DMG 193 |
+| Robe of Useful Items      | X5a (God of Secrets)                    | DMG 195 |
+| +1 Rod of the Pact Keeper | K41 (Treasury)                          | DMG 197 |
+| Staff of Frost            | X17 (Upper West Hall)                   | DMG 202 |
+| Staff of Power            | K84, Crypt 15                           | DMG 202 |
+| Stone of Good Luck        | U3 (Baba Lysaga's Hut)                  | DMG 205 |
+| Tasha's Holy Symbol*      | K84, Crypt 11                           | CoS 87  |
+| Tome of Understanding     | X20 (Architect's Room)                  | DMG 209 |
+| Wand of Secrets           | X2b (Guard Room**                       | DMG 211 |
 
 **Notes**
 
 - If a bard in your party needs a power boost, consider the *Cli Lyre* or the
-  *Canaith Mandolin* instead of the *Doss Lute*.
+  *Canaith Mandolin* instead of the *Doss Lute*. Consider though that the *Doss
+  Lute* offers a spell that grants protection from Fire, which Strahd can cast.
 - *Tasha's Holy Symbol* is not really a magic item, but is the hook for a small
   side-quest that leads to the *Ring of Regeneration* in the Abbey graveyard in
   Krezk.

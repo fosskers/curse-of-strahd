@@ -36,6 +36,14 @@ should read
 
 > Directly across from the window **stands** a set of double doors in the east wall.
 
+**Page 62, "King's Accountant" flavour text."**
+
+> ... around four heavy wooden chests fitted with study iron locks.
+
+should read
+
+> ... around four heavy wooden chests fitted with **sturdy** iron locks.
+
 **Page 100, top-left.**
 
 > Danika Martikov usually tends bar while ...

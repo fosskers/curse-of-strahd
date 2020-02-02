@@ -8,15 +8,56 @@ Ravenloft](rolls/#random-encounters-in-castle-ravenloft). Unless stated
 otherwise, Strahd encounters listed here only occur if Strahd is to appear there
 according to your party's Tarokka reading.
 
-Encounters: Walls of Ravenloft
-------------------------------
+## Castle Music
+
+| Area                         | *Tabletop Audio* Track |
+|------------------------------|------------------------|
+| Dungeon (K73)                | Sewers / Castle Jail   |
+| Catacombs                    | The Underdark          |
+| Larders of Ill Omen          | Alchemist's Lab        |
+| Main Floor                   | Graveyard?             |
+| Chapel (K15)                 | Cathedral              |
+| Walls of Ravenloft           | Graveyard              |
+| Court of the Count           | Dungeon 1              |
+| Rooms of Weeping             | Catacombs              |
+| Strahd's Study (K37)         | Antiquarian Study      |
+| Spires of Ravenloft / Towers | Graveyard              |
+| Heart of Sorrow tower (K20)  | Floating Ice Castle    |
+
+## Entering the Castle
+
+| Entrance                 | Index | Note                                  |
+|--------------------------|-------|---------------------------------------|
+| Entry                    | K7    | Follow events of K8                   |
+| Servant's Entrance       | K23   | Break through the swollen door        |
+| Chapel                   | K15   | Break through windows                 |
+| Tomb of King and Queen   | K88   | Climb/fly down from K6, break windows |
+| Audience Hall            | K25   | Climb up and break large window       |
+| Heart of Sorrow          | K20   | Through Parapets (K46)                |
+| King's Bedchamber        | K42   | Break window from Parapets (K46)      |
+| Lounge                   | K49   | Climb/fly up and break window         |
+| Smokestack               | K52   | Slide down to Study (K37)             |
+| Bridge                   | K58   | Open to K20 and K57                   |
+| North Tower Peak Rooftop | K60a  | Trapdoor to North Tower Peak (K60)    |
+| High Tower Peak          | K59   | Part of the roof is caved in          |
+
+**Notes:**
+
+- Entering through the Smokestack causes fire damage.
+- Players who enter K88 and pass through K87 *cannot exit this way* unless they
+  are Lawful Good.
+- While it does not function as an entrance, the players can **leave** through
+  the teleportation Brazier in K78.
+- Falling from the Overlook (K6) results in instant death, regardless of the
+  rules of Fall Damage.
+
+## Encounters: Walls of Ravenloft
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy               |
 |----------------|----------------|----------|--------|---------------------|
 | 6x Deadly      | Deadly         | K6       | 13,000 | Strahd (CoS p. 240) |
 
-Encounters: Main Floor
-----------------------
+## Encounters: Main Floor
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy                                                     |
 |----------------|----------------|----------|--------|-----------------------------------------------------------|
@@ -28,21 +69,20 @@ Encounters: Main Floor
 **Notes:**
 
 - The dragons won't pursue PCs out of K7.
-- When the Gargoyles attack, the turbulence of their wings put out all the
-wall torches, but not held ones.
+- The Gargoyles only attack if players return to K8 after leaving it once.
+- When the Gargoyles attack, the turbulence of their wings put out all the wall
+torches, but not held ones.
 
-Encounters: Court of the Count
-------------------------------
+## Encounters: Court of the Count
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy                                                     |
-| -------------- | -------------- | -------- | ---    | -----                                                     |
+|----------------|----------------|----------|--------|-----------------------------------------------------------|
 | N/A            | N/A            | K30      | 10     | [Lief Lipsiege](images/commoner.png)                      |
 | Easy           | N/A            | K28      | 200    | 2x Strahd Zombies (CoS p. 241)                            |
 | Hard           | N/A            | K32      | 1,800  | Helga Ruvak the [Vampire Spawn](images/vampire-spawn.png) |
 | 6x Deadly      | Deadly         | K25      | 13,000 | Strahd (CoS p. 240)                                       |
 
-Encounters: Rooms of Weeping
-----------------------------
+## Encounters: Rooms of Weeping
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy                                                |
 |----------------|----------------|----------|--------|------------------------------------------------------|
@@ -57,11 +97,9 @@ Encounters: Rooms of Weeping
 **Notes:**
 
 - The Invisible Stalker originates from K36, but it can attack the players
-anywhere. It only appears if the PCs take the groom figurine out of the
-room.
+anywhere. It only appears if the PCs take the groom figurine out of the room.
 
-Encounters: The Spires of Ravenloft
------------------------------------
+## Encounters: The Spires of Ravenloft
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy                                                                                                                |
 |----------------|----------------|----------|--------|----------------------------------------------------------------------------------------------------------------------|
@@ -86,8 +124,7 @@ Encounters: The Spires of Ravenloft
 - If the Heart takes damage from anywhere, four **Vampire Spawn** arrive three rounds
   later to counterattack.
 
-Encounters: Larders of Ill Omen
--------------------------------
+## Encounters: Larders of Ill Omen
 
 | Challenge (L4) | Challenge (L9) | Location | EXP    | Enemy                                                            |
 |----------------|----------------|----------|--------|------------------------------------------------------------------|
@@ -98,8 +135,7 @@ Encounters: Larders of Ill Omen
 | 5x Deadly      | Deadly         | K72      | 7,000  | 1x [Shadow Demon](images/shadow-demon.png), Rahadin (CoS p. 237) |
 | 6x Deadly      | Deadly         | K67      | 13,000 | Strahd (CoS p. 240)                                              |
 
-Encounters: Dungeon and Catacombs
----------------------------------
+## Encounters: Dungeon and Catacombs
 
 | Challenge (L4) | Challenge (L9) | Location    | EXP     | Enemy                                                                  |
 |----------------|----------------|-------------|---------|------------------------------------------------------------------------|
@@ -126,35 +162,37 @@ Encounters: Dungeon and Catacombs
 | 16x Deadly     | 3x Deadly      | Crypt 15    | 33,000  | Khazan the Demilich (MM p. 48)                                         |
 | 22x Deadly     | 4x Deadly      | K78         | 30,000  | 2x [Iron Golems](images/iron-golem.png)                                |
 
-Custom: Khazan the Demilich
----------------------------
+## Custom: Khazan the Demilich
 
-Khazan is an Acererak-like Demilich. This means he is not the degenerative
-form of Demilich, but the ascended form. His only remains are his skull in
-Crypt 15 of K84. The Crypt is not considered his layer, so his Challenge
-Rating is 21 (33,000 EXP). Change the text of this crypt to read:
+Khazan is an Acererak-like Demilich. This means he is not the degenerative form
+of Demilich, but the ascended form. His only remains are his skull in Crypt 15
+of K84. The Crypt is not considered his layer, so his Challenge Rating is 21
+(33,000 EXP). Change the text of this crypt to read:
 
 > A single skull sits atop a marble slab in the center of the crypt. It has
-> black opals set in its eye sockets and shards of amber where its teeth
-> should be. The floor below the slab is scattered with weapons and other
-> adventuring equipment.
+> black opals set in its eye sockets and shards of amber where its teeth should
+> be. The floor below the slab is scattered with weapons and other adventuring
+> equipment.
 
-The equipment is from adventurers who were absorbed into Khazan's opals.
-Their souls were transferred to Khazan's phylactery, which remains in his
-Tower.
+The equipment is from adventurers who were absorbed into Khazan's opals. Their
+souls were transferred to Khazan's phylactery, which remains in his Tower.
 
-As a Demilich, Khazan managed to comprehend and subvert the elaborate
-spatial warping magic that entraps Barovia, projecting his mind to other
-planes of existance. He is the only creature to have done so, and Strahd is
-unaware of this.
+As a Demilich, Khazan managed to comprehend and subvert the elaborate spatial
+warping magic that entraps Barovia, projecting his mind to other planes of
+existance. He is the only creature to have done so, and Strahd is unaware of
+this.
 
-While usually thirsty for souls, Khazan "isn't home" when the players
-arrive.
+While usually thirsty for souls, Khazan "isn't home" when the players arrive.
 
 **Custom Development**
 
 If your party contains a Warlock, consider the following:
 
 Touching the skull or taking the *Staff of Power* summons Khazan back to
-Barovia, whereupon he interacts with your Warlock, offering to become its
-new patron.
+Barovia, whereupon he interacts with your Warlock, offering to become its new
+patron.
+
+## Custom: Reviving Sergei
+
+This can be done either with the last *Wish* charge of the Luck Blade, or via
+the *Resurrection* Dark Gift.

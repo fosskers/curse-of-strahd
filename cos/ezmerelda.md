@@ -40,9 +40,16 @@ it free.
 Custom Quest: Free Ezmerelda from Strahd
 ----------------------------------------
 
-If Strahd wants to kill her, he will capture her once and torture her at
-Castle Ravenloft (K74d). She dies **1d4 + 1** days after being captured. If
-the players free her, he won't pursue her again.
+If Strahd wants to kill her, he will capture her once and torture her at Castle
+Ravenloft (K74d). Each midnight after her capture, she suffers **one level of
+Exhaustion**. If the players free her, Stradh won't pursue her again.
+
+If found alive, she has 1hp, her accumulated exhaustion, no equipment (or
+clothing?) and is missing her prosthetic leg (it has been tossed in the corner
+of the nearly Torture Chamber, under water).
+
+If found "dead", she has become a vampire spawn. Strahd intends to parade her in
+front of Van Richten, before finally destroying them both.
 
 **Reward:** +2 Renown to Vampire Hunters, -1 to Dark Powers
 
@@ -50,8 +57,8 @@ Custom Quest: Free Ezmerelda from the Vistani
 ---------------------------------------------
 
 This is only possible if the PCs relinquished Ezmerelda to Arrigal at
-Argynvostholt. The Vistani intend to whip her the day she is captured, then
-cut off a hand as punishment for horse theft the day after.
+Argynvostholt. The Vistani intend to whip her the day she is captured, then cut
+off a hand as punishment for horse theft the day after.
 
 **Reward:** +2 Renown to Vampire Hunters, -1 to Vistani
 
@@ -59,8 +66,8 @@ Custom Quest: Find her Master
 -----------------------------
 
 Ezmerelda petitions the players to help her find her master, Rudolph van
-Richten. If they do, he is happy to see his old pupil, but will urge them to
-leave him be. His cover blown, he will flee afterward to his tower, if it's
-intact.
+Richten. If they do, he is happy (or not) to see his old pupil, but will urge
+them to leave him be. His cover blown, he will flee afterward to his tower, if
+it's intact.
 
 **Reward:** +2 Renown to Vampire Hunters

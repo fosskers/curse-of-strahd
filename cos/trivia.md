@@ -1,4 +1,4 @@
-### The Deadliest Paragraph
+## The Deadliest Paragraph
 
 The **Development** section of **K78** (CoS p. 84) describes an encounter with
 two **Iron Golems**, should the PCs attack them or the Warp Brazier kept here.

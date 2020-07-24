@@ -1,5 +1,4 @@
-Encounters
-----------
+## Encounters
 
 Challenge below is based on a 4-player party of level 9 characters.
 
@@ -41,8 +40,48 @@ it should be assumed that his **Legendary Resistance**, **Paralyzing Touch**,
 and **Legendary Actions** are still available to him. His **Lair Actions** only
 return if his mind is restored.
 
-The Amber Sarcophagi
---------------------
+## Neferon's Hunt
+
+CoS Page 184 describes how the Neferon the Arcanaloth should behave while the
+PCs are in the temple. In particular, it is stated that:
+
+> If the arcanaloth loses more than half its hit points, it teleports to the
+> temple floor, turns invisible, and flees by the safest route, attacking the
+> characters again when it's safe to do so.
+
+Page 311 and 313 of the Monster Manual describe Arcanaloths. Notice that
+Arcanaloths:
+
+- Speak all languages and are telepathic.
+- Have true sight.
+- Can fly freely as their movement.
+- Are resistant to many damage types.
+- Can turn invisible "at will".
+- Can teleport as an action.
+- Can protect themselves via *Counterspell*, *Banishment*, and *Mind Blank*.
+- Can cause harm via *Fireball*, *Chain Lightning*, and *Finger of Death*.
+
+We can assume that Neferon is very protective of the Amber Temple, and that he
+and Exethanter have "an understanding".
+
+Should the PCs corner Neferon, he tries to fool them via *Alter Self* as
+described on Page 184. If instead they force him to flee the statue, he will
+pursue them about the temple. Conditions:
+
+- Neferon will not face the PCs in open combat.
+- He is always invisible while pursuing the PCs, but this guise is momentarily
+  lost when he attacks.
+- If the PCs take a long rest within the temple, Neferon gains back his HP and
+  spell slots.
+- He will not attack if the PCs are interacting normally with an NPC or Exethanter.
+- He will not attack if the PCs are engaged in a serious encounter.
+- If not otherwise barred from entering the room the PCs are in, Neferon will
+  cast *Fear* or *Fireball* on the PCs if they attempt to take a short/long
+  rest.
+- Neferon will specifically target PCs who turn invisible, since he can see them.
+
+
+## The Amber Sarcophagi
 
 It should be made clear to the players that accepting gifts can permanently
 alter their characters (i.e. becoming evil). The gifts themselves have a

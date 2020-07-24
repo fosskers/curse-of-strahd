@@ -46,7 +46,7 @@ Exhaustion**. If the players free her, Stradh won't pursue her again.
 
 If found alive, she has 1hp, her accumulated exhaustion, no equipment (or
 clothing?) and is missing her prosthetic leg (it has been tossed in the corner
-of the nearly Torture Chamber, under water).
+of the nearby Torture Chamber, under water).
 
 If found "dead", she has become a vampire spawn. Strahd intends to parade her in
 front of Van Richten, before finally destroying them both.

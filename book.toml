@@ -1,0 +1,7 @@
+[book]
+authors = ["Colin Woodbury"]
+language = "en"
+multilingual = false
+src = "cos"
+title = "Curse of Strahd: Master Quest"
+description = "Notes and extended content for the D&D 5E adventure: Curse of Strahd"

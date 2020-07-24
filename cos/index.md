@@ -1,14 +1,16 @@
+# Curse of Strahd: Master Quest
+
 Welcome to *Curse of Strahd: Master Quest*, a DM's supplemental tool for the
 Dungeons and Dragons adventure [*Curse of
 Strahd*](https://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd).
 This set of documents provides:
 
-- Prepared charts and monster stat blocks for all encounters
-- [Roll charts](./rolls.md) for random encounters and common checks
-- A [list of distances](./travel.md) between all map locations, and the roll counts involved
-- An implementation of the *Renown* system for Barovia
-- Explicit quest markings
-- Custom quests and developments
+- Prepared charts and monster stat blocks for all encounters.
+- [Roll charts](./rolls.md) for random encounters and common checks.
+- A [list of distances](./travel.md) between all map locations, and the roll counts involved.
+- An implementation of the *Renown* system for Barovia.
+- Explicit quest markings.
+- Custom quests and developments.
 
 Some quests/events in CoS are mentioned in passing, in the middle of a large
 text block, like:
@@ -24,6 +26,8 @@ Ireena dies?"
 *Master Quest* is not a name taken in hubris, but is instead a nod to the
 *Legend of Grimrock* mod of the same name, and *Ocarina of Time: Master Quest*
 which came before it. It mainly denotes an expansion of content.
+
+> **💡 Tip:** You can press `s` at any time to search this book.
 
 ## Advice for Players
 
@@ -53,5 +57,6 @@ All decisions they make in Barovia stem from these two maxims.
 
 ### Maps
 
-- [Mike Schley's CoS Maps](http://prints.mikeschley.com/p678546160)
+- [Roll20: Castle Ravenloft Map Pack](https://marketplace.roll20.net/browse/gameaddon/343/castle-ravenloft-map-pack)
+- [Mike Schley's Official *Curse of Strahd* Maps](http://prints.mikeschley.com/p678546160)
 - [G. Jensen's 2D Castle Ravenloft](https://www.dmsguild.com/product/185990/Castle-Ravenloft-hires-colour-jpg-maps)

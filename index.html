@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Introduction - Curse of Strahd: Master Quest</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html" class="active"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#curse-of-strahd-master-quest" id="curse-of-strahd-master-quest">Curse of Strahd: Master Quest</a></h1>
+<p>Welcome to <em>Curse of Strahd: Master Quest</em>, a DM's supplemental tool for the
+Dungeons and Dragons adventure <a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd"><em>Curse of
+Strahd</em></a>.
+This set of documents provides:</p>
+<ul>
+<li>Prepared charts and monster stat blocks for all encounters.</li>
+<li><a href="./rolls.html">Roll charts</a> for random encounters and common checks.</li>
+<li>A <a href="./travel.html">list of distances</a> between all map locations, and the roll counts involved.</li>
+<li>An implementation of the <em>Renown</em> system for Barovia.</li>
+<li>Explicit quest markings.</li>
+<li>Custom quests and developments.</li>
+</ul>
+<p>Some quests/events in CoS are mentioned in passing, in the middle of a large
+text block, like:</p>
+<blockquote>
+<p>If [Izek] sees [Ireena], he tries to take her by force to the burgomaster's
+mansion.</p>
+</blockquote>
+<p>These are easy to miss. <em>Master Quest</em> points these out to make them easier for
+DMs to track. It also takes other prewritten Developments to their logical
+conclusions. For instance, we suggest answers to questions like &quot;What happens if
+Ireena dies?&quot;</p>
+<p><em>Master Quest</em> is not a name taken in hubris, but is instead a nod to the
+<em>Legend of Grimrock</em> mod of the same name, and <em>Ocarina of Time: Master Quest</em>
+which came before it. It mainly denotes an expansion of content.</p>
+<blockquote>
+<p><strong>💡 Tip:</strong> You can press <code>s</code> at any time to search this book.</p>
+</blockquote>
+<h2><a class="header" href="#advice-for-players" id="advice-for-players">Advice for Players</a></h2>
+<p><em>Curse of Strahd</em> is a sandbox adventure, where the fate of the PCs is very much
+in their own hands. Tell these to the players when they first arrive in the
+Village of Barovia:</p>
+<ul>
+<li>You can do whatever you want.</li>
+<li>Discretion is the better part of valour.</li>
+</ul>
+<p>All decisions they make in Barovia stem from these two maxims.</p>
+<h2><a class="header" href="#dm-resources" id="dm-resources">DM Resources</a></h2>
+<h3><a class="header" href="#documents" id="documents">Documents</a></h3>
+<ul>
+<li><a href="https://www.amazon.ca/Strahd-Memoirs-Vampire-Ravenloft-Covenant-ebook/dp/B00BABT0W2/ref=sr_1_1?ie=UTF8&amp;qid=1511750878&amp;sr=8-1&amp;keywords=i%2C+strahd">I, Strahd: Memoirs of a Vampire</a></li>
+<li><a href="https://dnd.wizards.com/sites/default/files/media/upload/articles/UA%20Gothic%20Characters.pdf">Unearthed Arcana: Gothic Heroes</a></li>
+<li><a href="http://rpg.stackexchange.com/questions/79298/is-curse-of-strahd-really-hard-or-am-i-dming-it-wrong">Is CoS Really Hard, or am I DMing it Wrong?</a></li>
+<li><a href="https://www.reddit.com/r/CurseofStrahd/comments/8wct9k/my_notes_on_ezmerelda_davenir_vistani_monster/">Notes on Ezmerelda d'Avenir</a></li>
+</ul>
+<h3><a class="header" href="#tools" id="tools">Tools</a></h3>
+<ul>
+<li><a href="http://kobold.club/fight/#/encounter-builder">Kobold Fight Club</a></li>
+</ul>
+<h3><a class="header" href="#music" id="music">Music</a></h3>
+<ul>
+<li><a href="https://syrinscape.com/about-syrinscape/">Syrinscape: Background Music</a></li>
+<li><a href="https://tabletopaudio.com/">Tabletop Audio</a></li>
+</ul>
+<h3><a class="header" href="#maps" id="maps">Maps</a></h3>
+<ul>
+<li><a href="https://marketplace.roll20.net/browse/gameaddon/343/castle-ravenloft-map-pack">Roll20: Castle Ravenloft Map Pack</a></li>
+<li><a href="http://prints.mikeschley.com/p678546160">Mike Schley's Official <em>Curse of Strahd</em> Maps</a></li>
+<li><a href="https://www.dmsguild.com/product/185990/Castle-Ravenloft-hires-colour-jpg-maps">G. Jensen's 2D Castle Ravenloft</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+                            <a rel="next" href="hook.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+                    <a rel="next" href="hook.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

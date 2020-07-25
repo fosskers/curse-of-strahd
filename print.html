@@ -1,0 +1,2261 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Curse of Strahd: Master Quest</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#curse-of-strahd-master-quest" id="curse-of-strahd-master-quest">Curse of Strahd: Master Quest</a></h1>
+<p>Welcome to <em>Curse of Strahd: Master Quest</em>, a DM's supplemental tool for the
+Dungeons and Dragons adventure <a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd"><em>Curse of
+Strahd</em></a>.
+This set of documents provides:</p>
+<ul>
+<li>Prepared charts and monster stat blocks for all encounters.</li>
+<li><a href="./rolls.html">Roll charts</a> for random encounters and common checks.</li>
+<li>A <a href="./travel.html">list of distances</a> between all map locations, and the roll counts involved.</li>
+<li>An implementation of the <em>Renown</em> system for Barovia.</li>
+<li>Explicit quest markings.</li>
+<li>Custom quests and developments.</li>
+</ul>
+<p>Some quests/events in CoS are mentioned in passing, in the middle of a large
+text block, like:</p>
+<blockquote>
+<p>If [Izek] sees [Ireena], he tries to take her by force to the burgomaster's
+mansion.</p>
+</blockquote>
+<p>These are easy to miss. <em>Master Quest</em> points these out to make them easier for
+DMs to track. It also takes other prewritten Developments to their logical
+conclusions. For instance, we suggest answers to questions like &quot;What happens if
+Ireena dies?&quot;</p>
+<p><em>Master Quest</em> is not a name taken in hubris, but is instead a nod to the
+<em>Legend of Grimrock</em> mod of the same name, and <em>Ocarina of Time: Master Quest</em>
+which came before it. It mainly denotes an expansion of content.</p>
+<blockquote>
+<p><strong>💡 Tip:</strong> You can press <code>s</code> at any time to search this book.</p>
+</blockquote>
+<h2><a class="header" href="#advice-for-players" id="advice-for-players">Advice for Players</a></h2>
+<p><em>Curse of Strahd</em> is a sandbox adventure, where the fate of the PCs is very much
+in their own hands. Tell these to the players when they first arrive in the
+Village of Barovia:</p>
+<ul>
+<li>You can do whatever you want.</li>
+<li>Discretion is the better part of valour.</li>
+</ul>
+<p>All decisions they make in Barovia stem from these two maxims.</p>
+<h2><a class="header" href="#dm-resources" id="dm-resources">DM Resources</a></h2>
+<h3><a class="header" href="#documents" id="documents">Documents</a></h3>
+<ul>
+<li><a href="https://www.amazon.ca/Strahd-Memoirs-Vampire-Ravenloft-Covenant-ebook/dp/B00BABT0W2/ref=sr_1_1?ie=UTF8&amp;qid=1511750878&amp;sr=8-1&amp;keywords=i%2C+strahd">I, Strahd: Memoirs of a Vampire</a></li>
+<li><a href="https://dnd.wizards.com/sites/default/files/media/upload/articles/UA%20Gothic%20Characters.pdf">Unearthed Arcana: Gothic Heroes</a></li>
+<li><a href="http://rpg.stackexchange.com/questions/79298/is-curse-of-strahd-really-hard-or-am-i-dming-it-wrong">Is CoS Really Hard, or am I DMing it Wrong?</a></li>
+<li><a href="https://www.reddit.com/r/CurseofStrahd/comments/8wct9k/my_notes_on_ezmerelda_davenir_vistani_monster/">Notes on Ezmerelda d'Avenir</a></li>
+</ul>
+<h3><a class="header" href="#tools" id="tools">Tools</a></h3>
+<ul>
+<li><a href="http://kobold.club/fight/#/encounter-builder">Kobold Fight Club</a></li>
+</ul>
+<h3><a class="header" href="#music" id="music">Music</a></h3>
+<ul>
+<li><a href="https://syrinscape.com/about-syrinscape/">Syrinscape: Background Music</a></li>
+<li><a href="https://tabletopaudio.com/">Tabletop Audio</a></li>
+</ul>
+<h3><a class="header" href="#maps" id="maps">Maps</a></h3>
+<ul>
+<li><a href="https://marketplace.roll20.net/browse/gameaddon/343/castle-ravenloft-map-pack">Roll20: Castle Ravenloft Map Pack</a></li>
+<li><a href="http://prints.mikeschley.com/p678546160">Mike Schley's Official <em>Curse of Strahd</em> Maps</a></li>
+<li><a href="https://www.dmsguild.com/product/185990/Castle-Ravenloft-hires-colour-jpg-maps">G. Jensen's 2D Castle Ravenloft</a></li>
+</ul>
+<p>The adventure hook - the entire reason your PCs are travelling together.
+Provided here is a custom hook which is an adaptation of the <em>Mysterious
+Visitors</em> hook. It assumes the characters are Level 1, and offers an
+alternate path to arrive at Death House.</p>
+<h2><a class="header" href="#hook-pick-your-poison" id="hook-pick-your-poison">Hook: Pick your Poison</a></h2>
+<p>A festival is happening in the village/town/city your PCs are in. The PCs'
+arrival there was foretold by Madam Eva, and on her orders Stanimir (CN
+<a href="images/mage.png">Mage</a> w/ custom spells, see p. 20) came to the collect
+them. Stanimir is a lively character and a renowned storyteller among the
+Vistani. As your players join your D&amp;D table, address them as Stanimir and
+welcome them to his humble corner of the festival.</p>
+<p>After initial pleasantries, Stanimir calls over his daughter Damia and tells her
+to bring their new friends some drinks. She brings him some flasks, which you (the DM)
+offer to your players:</p>
+<blockquote>
+<p>&quot;So, my friends, pick your poison.&quot;</p>
+</blockquote>
+<p>Offer them these drinks (in reality), and provide snacks. What the
+characters don't know is that the drinks are poisoned to induce sleep (PSA:
+Don't poison your <strong>players</strong>). Now, tell Stanimir's story of Strahd,
+leaving out the invitation at the end. Here, the PCs have no choice; they
+are being abducted.</p>
+<p>Have the players roll a <strong>DC 25 CON</strong> save. On a fail, the PCs pass out and
+are taken away by the Vistani.</p>
+<hr>
+<p>One or more of the PCs wakes up an unknown time later. They are shackled in
+the back of a moving, roofed wagon, all their things neatly kept on hooks
+nearby. The shackles' locks can be picked with thieves tools and a <strong>DC 10
+DEX</strong> check. There are no Vistani inside the wagon with them.</p>
+<p>The wagon is being driven by Ratka, the son of Stanimir. There are several
+wagons, and the Vistani are laughing and shouting between them in their
+native language, which the PCs can't understand. One Vistana throws a wine
+bottle at Ratka's wagon, which smashes near a window and sprays wine onto
+the PCs.</p>
+<p>Some time later the wagon stops. Ratka gets down and relieves himself on a fence
+post. He urges the other wagons not to wait for him, and they don't.
+Ratka finishes, and players hear alarm in his voice. In accented Common:</p>
+<blockquote>
+<p>&quot;Hello? Hey, what are you doing? Hey, come back here!&quot;</p>
+</blockquote>
+<p>The back door of the wagon isn't locked. The players can free themselves and
+leave. When they step down from the wagon, they find themselves in the
+Village of Barovia, shrouted in mist. The mist thickens as they stand there.</p>
+<p>The wagon is stopped right in front of Death House. Its door stands ajar,
+and light streams out from inside.</p>
+<p>There is only one place to go.</p>
+<p><strong>Custom:</strong> It's the transition of Autumn into Winter. The sun rises at 8
+a.m. and sets at 5 p.m.</p>
+<ul>
+<li>Each hex on the map is considered <strong>1/4 mile</strong>.</li>
+<li>Lake Zarovich is ~1 mile wide and 5 miles long.</li>
+<li>Rowboats travel at 1.5mph and can carry 4 people.</li>
+<li>Regardless of hex count, the distance from Raven River Crossroads to
+Tsolenka Pass is written as being 7 miles.</li>
+</ul>
+<p>Always check for encounters when reaching these locations:</p>
+<ul>
+<li>(F) River Ivlis Crossroads</li>
+<li>(P) Luna River Crossroads</li>
+<li>(R) Raven River Crossroads</li>
+</ul>
+<p>Anything marked <code>(difficult)</code> is a less-travelled trail, and the party moves
+at half speed.</p>
+<h2><a class="header" href="#eastern-barovia" id="eastern-barovia">Eastern Barovia</a></h2>
+<table><thead><tr><th>Leg</th><th>Map Hexes</th><th>Distance</th><th>Time</th><th>Rolls</th><th>Fast Time</th><th>Fast Rolls</th></tr></thead><tbody>
+<tr><td>Barovia to Crossroads (F)</td><td>12</td><td>3</td><td>1 hour</td><td>2</td><td>45 mins</td><td>1</td></tr>
+<tr><td>Crossroads to Camp</td><td>7</td><td>1.75</td><td>35 mins</td><td>1</td><td>~26 mins</td><td>1</td></tr>
+<tr><td>Camp to Tser Falls</td><td>5</td><td>1.25</td><td>25 mins</td><td>1</td><td>~19 mins</td><td>0</td></tr>
+<tr><td>Crossroads to Tser Falls</td><td>23</td><td>5.75</td><td>~2 hours</td><td>4</td><td>~1.5 hours</td><td>3</td></tr>
+<tr><td>Tser Falls to Black Carriage</td><td>8</td><td>2</td><td>40 mins</td><td>1</td><td>30 mins</td><td>1</td></tr>
+<tr><td>Black Carriage to Gates of Ravenloft</td><td>8</td><td>2</td><td>40 mins</td><td>1</td><td>30 mins</td><td>1</td></tr>
+<tr><td>Black Carriage to Gates of Barovia</td><td>1</td><td>1/4</td><td>5 mins</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Gates to OBG Fork</td><td>9</td><td>2.25</td><td>45 mins</td><td>1</td><td>~34 mins</td><td>1</td></tr>
+<tr><td>OBG Fork to Vallaki</td><td>22</td><td>5.5</td><td>~1.8 hours</td><td>3</td><td>~1.4 hours</td><td>2</td></tr>
+<tr><td><strong>Barovia to Vallaki (short)</strong></td><td>64</td><td>16</td><td>5.3 hours</td><td>10</td><td>4 hours</td><td>8</td></tr>
+<tr><td><strong>Barovia to Vallaki (long)</strong></td><td>75</td><td>18.75</td><td>6.25 hours</td><td>12</td><td>4.7 hours</td><td>9</td></tr>
+</tbody></table>
+<h2><a class="header" href="#western-barovia" id="western-barovia">Western Barovia</a></h2>
+<table><thead><tr><th>Leg</th><th>Map Hexes</th><th>Distance</th><th>Time</th><th>Rolls</th><th>Fast Time</th><th>Fast Rolls</th></tr></thead><tbody>
+<tr><td>Vallaki to Lake Zarovich</td><td>2</td><td>1/2</td><td>10 mins</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Vallaki to Luna Crossroads (P)</td><td>4</td><td>1</td><td>20 mins</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Luna Crossroads to Berez (difficult)</td><td>14</td><td>3.5</td><td>~2.3 hours</td><td>4</td><td>1.75 hours</td><td>3</td></tr>
+<tr><td>Luna Crossroads to Lake Fork (difficult)</td><td>9</td><td>2.25</td><td>1.5 hours</td><td>3</td><td></td><td>2</td></tr>
+<tr><td>Lake Fork to Raven Crossroads</td><td>3</td><td>3/4</td><td>15 minutes</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Luna Crossroads to Arg Fork</td><td>8</td><td>2</td><td>40 mins</td><td>1</td><td>30 mins</td><td>1</td></tr>
+<tr><td>Arg Fork to Argynvostholt</td><td>8</td><td>2</td><td>40 mins</td><td>1</td><td>30 mins</td><td>1</td></tr>
+<tr><td><strong>Vallaki to Argynvostholt</strong></td><td>20</td><td>5</td><td>~1.7 hours</td><td>3</td><td>1.25 hours</td><td>2</td></tr>
+<tr><td>Arg Fork to Tsolenka Fork</td><td>5</td><td>1.25</td><td>25 mins</td><td>1</td><td>~19 mins</td><td>?</td></tr>
+<tr><td>Tsolenka Fork to Tsolenka Pass</td><td>N/A (35)</td><td>7</td><td>~2.3 hours</td><td>4</td><td>1.75 hours</td><td>3</td></tr>
+<tr><td>Tsolenka Pass to Amber Fork</td><td>13</td><td>3.25</td><td>~1 hour</td><td>2</td><td>~49 mins</td><td>1</td></tr>
+<tr><td>Amber Fork to Amber Temple</td><td>6</td><td>1.5</td><td>30 mins</td><td>1</td><td>~23 mins</td><td>0</td></tr>
+<tr><td>Tsolenka Fork to Raven Fork</td><td>1</td><td>1/4</td><td>5 mins</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Raven Fork to Krezk</td><td>9</td><td>2.25</td><td>45 mins</td><td>1</td><td>~34 mins</td><td>1</td></tr>
+<tr><td><strong>Vallaki to Krezk</strong></td><td>18</td><td>4.5</td><td>1.5 hours</td><td>3 rolls</td><td>~1.1 hours</td><td>2</td></tr>
+<tr><td>Raven Fork to Winery Fork</td><td>9</td><td>2.25</td><td>45 mins</td><td>1</td><td>~34 mins</td><td>1</td></tr>
+<tr><td>Winery Fork to Winery</td><td>3</td><td>3/4</td><td>15 minutes</td><td>0</td><td></td><td>0</td></tr>
+<tr><td>Winery Fork to Yesterhill (difficult)</td><td>10</td><td>2.5</td><td>1 2/3 hours</td><td>3</td><td>~1.3 hours</td><td>2</td></tr>
+<tr><td><strong>Vallaki to Winery</strong></td><td>30</td><td>7.5</td><td>2.5 hours</td><td>5</td><td>~1.9</td><td>3</td></tr>
+</tbody></table>
+<h2><a class="header" href="#music-1" id="music-1">Music</a></h2>
+<table><thead><tr><th>Location</th><th>Syrinscape Soundset</th></tr></thead><tbody>
+<tr><td>Death House</td><td>Deserted Desert House</td></tr>
+<tr><td>Village of Barovia</td><td>Elven Vale Night</td></tr>
+<tr><td>Barovian Countryside</td><td>Witchwood / Storm</td></tr>
+<tr><td>Tser Pool</td><td>In the Lair of the Siren</td></tr>
+<tr><td>Old Bonegrinder</td><td>?</td></tr>
+<tr><td>Vallaki</td><td>Brindol Town</td></tr>
+<tr><td>Blue Water Inn</td><td>Friendly Tavern</td></tr>
+<tr><td>Lake Zarovich</td><td>Stony Beach</td></tr>
+<tr><td>Krezk</td><td>Elven Vale Day</td></tr>
+<tr><td>Winery</td><td>?</td></tr>
+<tr><td>Van Richten's Tower</td><td>?</td></tr>
+<tr><td>Yester Hill</td><td>Storm</td></tr>
+<tr><td>Argynvostholt</td><td>?</td></tr>
+<tr><td>Tsolenka Pass</td><td>Icy Wasteland</td></tr>
+<tr><td>Berez</td><td>Swamp</td></tr>
+<tr><td>Amber Temple</td><td>?</td></tr>
+<tr><td>Castle Ravenloft</td><td>Dungeon Depths / Flooded Cavern</td></tr>
+</tbody></table>
+<h2><a class="header" href="#common-dcs" id="common-dcs">Common DCs</a></h2>
+<p><strong>Note:</strong> Barred/Reinforced doors get +5 to the STR DC.</p>
+<table><thead><tr><th>Object</th><th>DC</th></tr></thead><tbody>
+<tr><td>Glass/Amber Door</td><td>5 STR</td></tr>
+<tr><td>Wooden Door</td><td>10 STR</td></tr>
+<tr><td>Stone Door</td><td>15 STR</td></tr>
+<tr><td>Iron Door</td><td>20 STR</td></tr>
+<tr><td>Find Secret Door</td><td>15 Perception</td></tr>
+<tr><td>Pick Lock</td><td>15 DEX (with Thieves Tools)</td></tr>
+<tr><td>Smash Lock</td><td>20 STR</td></tr>
+</tbody></table>
+<h2><a class="header" href="#barovian-mist" id="barovian-mist">Barovian Mist</a></h2>
+<p><em>Original text on p. 23/24</em></p>
+<p>This refers to the mist that surrounds the boarders of Barovia, preventing
+escape.</p>
+<ul>
+<li>A creature that starts their turn in the mist must pass a <strong>DC 20 CON</strong>
+save. Failure gives 1 level of exhaustion.</li>
+<li>Creatures' vision is <strong>Heavily Obscured</strong> while in the mist.</li>
+</ul>
+<h2><a class="header" href="#weather" id="weather">Weather</a></h2>
+<p>Strahd is known to be able to control the weather. Perhaps his mood affects
+it too?</p>
+<p><strong>Temperature</strong></p>
+<p>These have been overridden to use Celsius temperatures.</p>
+<table><thead><tr><th>d20</th><th>Temperature</th></tr></thead><tbody>
+<tr><td>1 - 14</td><td>Normal for the region</td></tr>
+<tr><td>15 - 17</td><td>1d6 degrees celsius colder than normal</td></tr>
+<tr><td>18 - 20</td><td>1d6 degrees celsius hotter than normal</td></tr>
+</tbody></table>
+<p><strong>Wind</strong></p>
+<ul>
+<li><em>Strong Wind</em> imposes disadvantage on ranged attacks and Perception checks
+that rely on hearing.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Wind</th></tr></thead><tbody>
+<tr><td>1 - 12</td><td>None</td></tr>
+<tr><td>13 - 17</td><td>Light</td></tr>
+<tr><td>18 - 20</td><td>Strong</td></tr>
+</tbody></table>
+<p><strong>Precipitation</strong></p>
+<ul>
+<li><em>Heavy precipitation</em> imposes disadvantage on Perception checks that rely
+on sight.</li>
+<li><em>Heavy rain</em> does the same for hearing checks.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Precipitation</th></tr></thead><tbody>
+<tr><td>1 - 12</td><td>None</td></tr>
+<tr><td>13 - 17</td><td>Light rain/snow</td></tr>
+<tr><td>18 - 20</td><td>Heavy rain/snow</td></tr>
+</tbody></table>
+<p><strong>Custom: Mist Thickness</strong></p>
+<ul>
+<li><em>None:</em> A rare day in Barovia. The party can see across the valley.</li>
+<li><em>Light:</em> Limits visibility to 120 feet.</li>
+<li><em>Heavy:</em> Limits visibility to 60 feet.</li>
+<li><em>Choking:</em> Almost as thick as the mist wall around Barovia. Essentially 0
+visibility, all attacks based on sight are made with disadvantage.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Thickness</th></tr></thead><tbody>
+<tr><td>1</td><td>None</td></tr>
+<tr><td>2 - 14</td><td>Light</td></tr>
+<tr><td>15 - 19</td><td>Heavy</td></tr>
+<tr><td>20</td><td>Choking</td></tr>
+</tbody></table>
+<h2><a class="header" href="#exhaustion" id="exhaustion">Exhaustion</a></h2>
+<p>A long rest reduces exhaustion level by 1.</p>
+<table><thead><tr><th>Level</th><th>Effect</th></tr></thead><tbody>
+<tr><td>1</td><td>Disadvantage on ability checks</td></tr>
+<tr><td>2</td><td>Speed halved</td></tr>
+<tr><td>3</td><td>Disadvantage on attack rolls and saving throws</td></tr>
+<tr><td>4</td><td>HP maximum halved</td></tr>
+<tr><td>5</td><td>Speed reduced to 0</td></tr>
+<tr><td>6</td><td>Death</td></tr>
+</tbody></table>
+<h2><a class="header" href="#traps" id="traps">Traps</a></h2>
+<p><strong>Damage Severity</strong></p>
+<table><thead><tr><th>Character Level</th><th>Setback</th><th>Dangerous</th><th>Deadly</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>1d10</td><td>2d10</td><td>4d10</td></tr>
+<tr><td>5 - 10</td><td>2d20</td><td>4d10</td><td>10d10</td></tr>
+<tr><td>11 - 16</td><td>4d10</td><td>10d10</td><td>18d10</td></tr>
+<tr><td>17 - 20</td><td>10d10</td><td>18d10</td><td>24d10</td></tr>
+</tbody></table>
+<p><strong>Trap Danger</strong></p>
+<p><strong>Overridden</strong> to include a randomness mechanism.</p>
+<table><thead><tr><th>Trap Danger</th><th>Save DC</th><th>Attack Bonus</th></tr></thead><tbody>
+<tr><td>Setback</td><td>9 + 1d2</td><td>+3 to + 5</td></tr>
+<tr><td>Dangerous</td><td>11 + 1d4</td><td>+6 to +8</td></tr>
+<tr><td>Deadly</td><td>16 + 1d4</td><td>+9 to +12</td></tr>
+</tbody></table>
+<ul>
+<li>A <strong>Spiked Pit</strong> does <strong>2d10 piercing damage</strong>, plus any fall damage.</li>
+<li><strong>Poison Darts</strong> do four attacks, +8, 1d4 piercing + 2d10 poison on a
+failed <strong>DC 15 CON</strong> save.</li>
+</ul>
+<h2><a class="header" href="#occupants-of-barovian-houses" id="occupants-of-barovian-houses">Occupants of Barovian Houses</a></h2>
+<table><thead><tr><th>d20</th><th>Occupants</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>None</td></tr>
+<tr><td>4 - 8</td><td>2d4 <a href="./images/swarm-of-rats.png"><strong>Swarms of Rats</strong></a></td></tr>
+<tr><td>9 - 16</td><td>1d4 Barovian <a href="images/commoner.png">Villagers</a></td></tr>
+<tr><td>17 - 20</td><td>2d4 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#occupants-of-vallakian-houses" id="occupants-of-vallakian-houses">Occupants of Vallakian Houses</a></h2>
+<table><thead><tr><th>d20</th><th>Occupants</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>None</td></tr>
+<tr><td>4 - 5</td><td>2d4 <a href="./images/swarm-of-rats.png"><strong>Swarms of Rats</strong></a></td></tr>
+<tr><td>6 - 18</td><td>1d4 Vallakian <a href="images/commoner.png">Townsfolk</a></td></tr>
+<tr><td>19 - 20</td><td>2d4 Vallakian <a href="images/cultist.png">Cultists</a>, 1 <a href="images/cult-fanatic.png">Cult Fanatic</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-barovia-day" id="random-encounters-in-barovia-day">Random Encounters in Barovia (Day)</a></h2>
+<p>Roll for an encounter every 30 minutes the players are outside.
+Only allow two actual encounters per 12 hour period.</p>
+<ul>
+<li><strong>On the Roads:</strong> An encounter occurs between 18 and 20.</li>
+<li><strong>In the Woods:</strong> An encounter occurs between 15 and 20.</li>
+</ul>
+<p>Hiding creatures that are spotted and flee can be <strong>Chased</strong> (DMG 252).</p>
+<p><strong>Custom:</strong> The random <strong>Revenant</strong>'s name is Marek Targolov.</p>
+<p>TODO: How to deal with the Strahd's spies?</p>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>3d6 Barovian <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>3</td><td>1d6 Barovian <a href="images/scout.png">Scouts</a></td></tr>
+<tr><td>4</td><td>Hunting trap</td></tr>
+<tr><td>5</td><td>Grave</td></tr>
+<tr><td>6</td><td>False trail</td></tr>
+<tr><td>7</td><td>1d4 + 1 Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>8</td><td>Skeletal Rider</td></tr>
+<tr><td>9</td><td>Trinket</td></tr>
+<tr><td>10</td><td>Hidden Bundle</td></tr>
+<tr><td>11</td><td>50% of 1d4 <a href="images/swarm-of-ravens.png">Swarms of Ravens</a>, 50% 1 Wereraven</td></tr>
+<tr><td>12</td><td>1d6 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>13</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>14</td><td>1d4 <a href="./images/berserker.png"><strong>Berserkers</strong></a></td></tr>
+<tr><td>15</td><td>Corpse</td></tr>
+<tr><td>16</td><td>1d6 Human-form <a href="images/werewolf.png">Werewolves</a></td></tr>
+<tr><td>17</td><td>1 <a href="./images/druid.png"><strong>Druid</strong></a> with 2d6 <a href="./images/twig-blight.png"><strong>Twig Blights</strong></a></td></tr>
+<tr><td>18</td><td>2d4 Needle Blights</td></tr>
+<tr><td>19</td><td>1d6 Scarecrows</td></tr>
+<tr><td>20</td><td>1 <a href="./images/revenant.png"><strong>Revenant</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-barovia-night" id="random-encounters-in-barovia-night">Random Encounters in Barovia (Night)</a></h2>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>1 <a href="./images/ghost.png"><strong>Ghost</strong></a></td></tr>
+<tr><td>3</td><td>Hunting trap</td></tr>
+<tr><td>4</td><td>Grave</td></tr>
+<tr><td>5</td><td>Trinket</td></tr>
+<tr><td>6</td><td>Corpse</td></tr>
+<tr><td>7</td><td>Hidden Bundle</td></tr>
+<tr><td>8</td><td>Skeletal Rider</td></tr>
+<tr><td>9</td><td>1d8 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>10</td><td>1d6 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>11</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>12</td><td>1d4 <a href="./images/berserker.png"><strong>Berserkers</strong></a></td></tr>
+<tr><td>13</td><td>1 <a href="./images/druid.png"><strong>Druid</strong></a> with 2d6 <a href="./images/twig-blight.png"><strong>Twig Blights</strong></a></td></tr>
+<tr><td>14</td><td>2d4 Needle Blights</td></tr>
+<tr><td>15</td><td>1d6 Wolf-form <a href="images/werewolf.png">Werewolves</a></td></tr>
+<tr><td>16</td><td>3d6 <a href="./images/zombie.png"><strong>Zombies</strong></a></td></tr>
+<tr><td>17</td><td>1d6 Scarecrows</td></tr>
+<tr><td>18</td><td>1d8 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+<tr><td>19</td><td>1 <a href="images/will-o-wisp.png">Will-o-Wisp</a> (once)</td></tr>
+<tr><td>20</td><td>1 <a href="./images/revenant.png"><strong>Revenant</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-castle-ravenloft" id="random-encounters-in-castle-ravenloft">Random Encounters in Castle Ravenloft</a></h2>
+<p>The first time the party enters an area that isn't occupied, roll for an
+encounter.</p>
+<ul>
+<li><strong>Just the Party:</strong> An encounter occurs between 18 and 20.</li>
+<li><strong>With Angry Commoners:</strong> An encounter occurs between 9 and 20.</li>
+</ul>
+<p>Also check every 10 minutes the players spend resting.</p>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>Ezmerelda (once)</td></tr>
+<tr><td>3</td><td>Rahadin</td></tr>
+<tr><td>4</td><td>1 Black Cat (once if killed)</td></tr>
+<tr><td>5</td><td>1 <strong>Broom of Animated Attack</strong></td></tr>
+<tr><td>6</td><td>1d4 + 1 <a href="./images/flying-sword.png"><strong>Flying Swords</strong></a></td></tr>
+<tr><td>7</td><td>Blinsky Toy</td></tr>
+<tr><td>8</td><td>Unseen Servant</td></tr>
+<tr><td>9</td><td>1d4 Barovian <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>10</td><td>2d6 <a href="./images/crawling-claw.png"><strong>Crawling Claws</strong></a></td></tr>
+<tr><td>11</td><td>1d6 <a href="./images/shadow.png"><strong>Shadows</strong></a></td></tr>
+<tr><td>12</td><td>1d6 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>13</td><td>1 crawling <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombie</strong></a></td></tr>
+<tr><td>14</td><td>1d4 + 1 Vistani <a href="./images/thug.png"><strong>Thugs</strong></a></td></tr>
+<tr><td>15</td><td>1d4 <a href="./images/wight.png"><strong>Wights</strong></a></td></tr>
+<tr><td>16</td><td>Trinket</td></tr>
+<tr><td>17</td><td>Giant Spider Cocoon (reroll if resting)</td></tr>
+<tr><td>18</td><td>1 <strong>Barovian Witch</strong> (once)</td></tr>
+<tr><td>19</td><td>1d4 + 1 <a href="./images/vampire-spawn.png"><strong>Vampire Spawn</strong></a></td></tr>
+<tr><td>20</td><td>Strahd von Zarovich</td></tr>
+</tbody></table>
+<h2><a class="header" href="#strahds-minions" id="strahds-minions">Strahd's Minions</a></h2>
+<p>Roll for this whenever Strahd appears outside his castle.</p>
+<table><thead><tr><th>d20</th><th>Creatures</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>1d4 + 2 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>4 - 6</td><td>1d6 + 3 <a href="./images/ghoul.png"><strong>Ghouls</strong></a></td></tr>
+<tr><td>7 - 9</td><td>1d4 + 2 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+<tr><td>10 - 12</td><td>2d4 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>13 - 15</td><td>1d4 + 1 <a href="./images/vampire-spawn.png"><strong>Vampire Spawn</strong></a></td></tr>
+<tr><td>16 - 18</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>19 - 20</td><td>None</td></tr>
+</tbody></table>
+<h2><a class="header" href="#revenant-resurrection-locations" id="revenant-resurrection-locations">Revenant Resurrection Locations</a></h2>
+<table><thead><tr><th>d20</th><th>Corpse Location</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>Village of Barovia cemetary</td></tr>
+<tr><td>5 - 11</td><td>Vallaki church graveyard</td></tr>
+<tr><td>12</td><td>Argynvostholt</td></tr>
+<tr><td>13</td><td>Grave in Krezk</td></tr>
+<tr><td>14</td><td>Berez cemetary</td></tr>
+<tr><td>15 - 16</td><td>Grave in Svalich Woods</td></tr>
+<tr><td>17 - 20</td><td>Corpse of a dead party member or NPC</td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-books" id="random-books">Random Books</a></h2>
+<table><thead><tr><th>d12</th><th>Book theme</th></tr></thead><tbody>
+<tr><td>1</td><td>Alchemist's tome</td></tr>
+<tr><td>2</td><td>Bestiary of strange beasts</td></tr>
+<tr><td>3</td><td>Biography of a forgotten king or queen</td></tr>
+<tr><td>4</td><td>Book of exotic recipes</td></tr>
+<tr><td>5</td><td>Book of heraldry</td></tr>
+<tr><td>6</td><td>Book of military strategy</td></tr>
+<tr><td>7</td><td>Epic novel</td></tr>
+<tr><td>8</td><td>Guide to fine wines</td></tr>
+<tr><td>9</td><td>Heretical text</td></tr>
+<tr><td>10</td><td>Historical text</td></tr>
+<tr><td>11</td><td>Poetry anthology</td></tr>
+<tr><td>12</td><td>Theological text</td></tr>
+</tbody></table>
+<h2><a class="header" href="#blood-spear" id="blood-spear">Blood Spear</a></h2>
+<p><em>Only the chosen character gets +2</em></p>
+<p><strong>Area:</strong> Y2</p>
+<p><strong>Weapon:</strong> +2 Spear (1d6 piercing)</p>
+<p><strong>On Hit:</strong> If an attack drops an enemy to 0 hp, you gain <strong>2d6 temporary hp</strong>.</p>
+<h2><a class="header" href="#bloodhorns-pelt" id="bloodhorns-pelt">Bloodhorn's Pelt</a></h2>
+<p><strong>Area:</strong> Tsolenka Pass</p>
+<p><strong>Armour:</strong> Functions as a cape or robe, and can be worn over other armour.</p>
+<p><strong>Passive:</strong> Berserkers will not attack you or your party unless provoked.</p>
+<h2><a class="header" href="#gulthias-staff" id="gulthias-staff">Gulthias Staff</a></h2>
+<p><em>Requires attunement</em></p>
+<p><strong>Area:</strong> W16 (Loading Winch)</p>
+<p><strong>Weapon:</strong> Quarterstaff (1d6 bludgeoning). Has 10 charges, <strong>1d6 + 4</strong> of
+which recharge every dusk.</p>
+<p><strong>Passive:</strong> While attuned to the staff, all evil plants don't consider you
+hostile until you attack them.</p>
+<p><strong>On Hit:</strong> Spend a charge to regain hp equal to the damage dealt by the
+attack. Attacker must then succeed on a <strong>DC 12 WIS</strong> save or get short-term
+madness.</p>
+<p><strong>Action:</strong> Break the staff to kill all blights within 300 feet.</p>
+<h2><a class="header" href="#rebenaxt" id="rebenaxt">Rebenaxt</a></h2>
+<p><em>Custom name, axe is unnamed in source</em></p>
+<p><strong>Area:</strong> Y4 (Gulthias Tree)</p>
+<p><strong>Weapon:</strong> +0 Battleaxe (1d8 slashing). <code>+0</code> indicates the damage is
+magical, but there is no bonus.</p>
+<p><strong>On Hit:</strong> Rebenaxt deals an <strong>extra 1d8 slashing damage</strong> to any plant or
+plant creature. When used by anyone non-good, thorns sprout from the handle
+and deal 1 magic damage to the attacker.</p>
+<h2><a class="header" href="#saint-markovias-thighbone" id="saint-markovias-thighbone">Saint Markovia's Thighbone</a></h2>
+<p><em>Requires attunement</em></p>
+<p><strong>Area:</strong> K84, Crypt 6</p>
+<p><strong>Weapon:</strong> Mace (1d6)</p>
+<p><strong>Passive:</strong> When held, it sheds bright light for 20ft, and dim light for another 20ft.</p>
+<p><strong>On Hit:</strong> When you hit a fiend or undead, it takes an <strong>extra 2d6 radiant damage</strong>. If
+it has 25hp or less after this damage, it must succeed on a DC 15 WIS saving
+throw or be destroyed. On a save, it becomes <strong>Frightened</strong> of you until the
+end of your next turn.</p>
+<p>If you hit a vampire or vampire spawn during battle, this thighbone
+crumbles to dust after the encounter is over.</p>
+<h2><a class="header" href="#shield-of-the-order" id="shield-of-the-order">Shield of the Order</a></h2>
+<p><strong>Area:</strong> K41 (Treasury)</p>
+<p><strong>Armour:</strong> +2 Shield.</p>
+<p><strong>Passive:</strong> The bearer gains +2 to initiative if conscious.</p>
+<h2><a class="header" href="#statuette-of-saint-markovia" id="statuette-of-saint-markovia">Statuette of Saint Markovia</a></h2>
+<p><strong>Area:</strong> S15f (Singing and Dancing Mongrelfolk)</p>
+<p><strong>Passive:</strong> When held by a good creature, grants <strong>+1</strong> to all saving
+throws.</p>
+<h2><a class="header" href="#sunsword" id="sunsword">Sunsword</a></h2>
+<p><em>Requires attunement</em></p>
+<p><strong>Weapon:</strong> +2 Longsword (1d8 radiant). Has <strong>Finesse</strong>, and can be wielded with
+proficiency by anyone proficient with short or long swords.</p>
+<p><strong>Stats:</strong> INT 11, WIS 17, CHA 16. Can see and hear 60 feet.</p>
+<p><strong>Passive:</strong> When active, the blade emits 15ft of bright <strong>sunlight</strong>, and
+15ft of dim light past that.</p>
+<p><strong>Bonus Action:</strong> A blade of pure radiance erupts from the hilt, making it usable.</p>
+<p><strong>Action:</strong> Expand or reduce the light radius by 5 feet, to a max of 45 and min of 5.</p>
+<p><strong>On Hit:</strong> When you hit an undead, it takes an <strong>extra 1d8 radiant damage</strong>.</p>
+<h2><a class="header" href="#vindicta" id="vindicta">Vindicta</a></h2>
+<p><em>Custom name, sword is unnamed in source. Requires attunement (to lawful good
+creature, 1 min)</em></p>
+<p><strong>Area:</strong> K74H</p>
+<p><strong>Weapon:</strong> +1 Shortsword (1d6 piercing). It is sentient, and its purpose is
+to fight evil.</p>
+<p><strong>Stats:</strong> INT 11, WIS 13, CHA 13. Can see and hear 120 feet.</p>
+<p><strong>Passive:</strong> The sword always emits 15ft of bright light (not sunlight), and
+15ft of dim light past that.</p>
+<p><strong>Action (recharge 1/dawn):</strong> Cast <em>crusader's mantle</em> on yourself.</p>
+<h2><a class="header" href="#misc" id="misc">Misc.</a></h2>
+<table><thead><tr><th>Treasure</th><th>Location</th><th>Page</th></tr></thead><tbody>
+<tr><td>Alchemy Jug</td><td>K41 (Treasury)</td><td>DMG 150</td></tr>
+<tr><td>Bag of Tricks</td><td>N2h (Ravens' Loft)</td><td>DMG 154</td></tr>
+<tr><td>Deck of Illusions</td><td>K84, Crypt 9</td><td>DMG 161</td></tr>
+<tr><td>Doss Lute*</td><td>K36 (Dining Hall of the Count)</td><td>DMG 176</td></tr>
+<tr><td>+2 Greatsword</td><td>Q36 (Dragon's Audience Hall - Vladimir)</td><td>PHB 149</td></tr>
+<tr><td>Hat of Disguise</td><td>Rictavio</td><td>DMG 173</td></tr>
+<tr><td>Helm of Brilliance</td><td>K41 (Treasury)</td><td>DMG 173</td></tr>
+<tr><td>Icon of Ravenloft</td><td>K15 (Chapel)</td><td>CoS 222</td></tr>
+<tr><td>Luck Blade</td><td>K84, Crypt 29</td><td>DMG 179</td></tr>
+<tr><td>Mace of Terror</td><td>K15 (Chapel)</td><td>DMG 180</td></tr>
+<tr><td>Oil of Sharpness</td><td>U3 (Baba Lysaga's Hut)</td><td>DMG 184</td></tr>
+<tr><td>Pipes of Haunting</td><td>U3 (Baba Lysaga's Hut)</td><td>DMG 185</td></tr>
+<tr><td>+2 Plate Armour</td><td>K85 (Sergei's Tomb)</td><td>PHB 145</td></tr>
+<tr><td>Ring of Mind Shielding</td><td>Rictavio</td><td>DMG 191</td></tr>
+<tr><td>Ring of Regeneration</td><td>S7 (Abbey Graveyard)</td><td>DMG 191</td></tr>
+<tr><td>Ring of Warmth</td><td>N9a (Kasimir's Hovel - Kasimir)</td><td>DMG 193</td></tr>
+<tr><td>Robe of Useful Items</td><td>X5a (God of Secrets)</td><td>DMG 195</td></tr>
+<tr><td>+1 Rod of the Pact Keeper</td><td>K41 (Treasury)</td><td>DMG 197</td></tr>
+<tr><td>Staff of Frost</td><td>X17 (Upper West Hall)</td><td>DMG 202</td></tr>
+<tr><td>Staff of Power</td><td>K84, Crypt 15</td><td>DMG 202</td></tr>
+<tr><td>Stone of Good Luck</td><td>U3 (Baba Lysaga's Hut)</td><td>DMG 205</td></tr>
+<tr><td>Tasha's Holy Symbol*</td><td>K84, Crypt 11</td><td>CoS 87</td></tr>
+<tr><td>Tome of Understanding</td><td>X20 (Architect's Room)</td><td>DMG 209</td></tr>
+<tr><td>Wand of Secrets</td><td>X2b (Guard Room**</td><td>DMG 211</td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>If a bard in your party needs a power boost, consider the <em>Cli Lyre</em> or the
+<em>Canaith Mandolin</em> instead of the <em>Doss Lute</em>. Consider though that the <em>Doss
+Lute</em> offers a spell that grants protection from Fire, which Strahd can cast.</li>
+<li><em>Tasha's Holy Symbol</em> is not really a magic item, but is the hook for a small
+side-quest that leads to the <em>Ring of Regeneration</em> in the Abbey graveyard in
+Krezk.</li>
+</ul>
+<p>Renown is an optional system for tracking PC reputation within various
+organizations. Increased renown can confer benefits to the PCs. See page 22
+of the Dungeon Master's Guide for a full explanation.</p>
+<h2><a class="header" href="#denizens-of-barovia" id="denizens-of-barovia">Denizens of Barovia</a></h2>
+<p>The peasantfolk of the three towns. They wish life wasn't so hard.</p>
+<ul>
+<li>(+1) Bury the Burgomaster</li>
+<li>(+1) Help Scouts find a missing person (their corpse, actually)</li>
+<li>(+1) Rescue the kids from Old Bonegrinder</li>
+<li>(+1) Bring wine to Krezk / Vallaki</li>
+<li>(+1) Defeat Izek</li>
+<li>(+1) Clear out the Coffin shop</li>
+<li>(+1) Clear out the Abbey</li>
+<li>(+1) Free Gertruda from the Castle</li>
+<li>(-1) Kill an innocent Barovian (recurring)</li>
+<li>(-1) Cause panic in Vallaki</li>
+<li>(-1) Let Ireena die / become a vampire</li>
+</ul>
+<table><thead><tr><th>Renown</th><th>Perk</th></tr></thead><tbody>
+<tr><td>1</td><td>Get into Vallaki with a hassle</td></tr>
+<tr><td>2</td><td>Easy passage into Vallaki</td></tr>
+<tr><td>6</td><td>Regular prices at shops</td></tr>
+</tbody></table>
+<h2><a class="header" href="#vistani" id="vistani">Vistani</a></h2>
+<p>All the Vistani of Barovia, except Ezmerelda.</p>
+<ul>
+<li>(+1) Save Ratka</li>
+<li>(+2) Meet with Madam Eva</li>
+<li>(+2) Save Arabelle</li>
+<li>(+2) Bring wine to Vallaki Vistani camp</li>
+<li>(+2) Relinquish Ezmerelda to Arrigal (at Argynvostholt only)</li>
+<li>(+1) Save Savid from Argynvostholt</li>
+<li>(-1) Battle with Vistani</li>
+</ul>
+<table><thead><tr><th>Renown</th><th>Perk</th></tr></thead><tbody>
+<tr><td>3</td><td>Vistani will not assassinate nor scam the PCs</td></tr>
+<tr><td>5</td><td>Sleep at any Vistani camp as a friend</td></tr>
+<tr><td>6</td><td>Vistani will not attack PCs unless ordered by Strahd</td></tr>
+<tr><td>7</td><td><em>Raise Dead</em> once per day (Madam Eva)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#servants-of-the-morninglord" id="servants-of-the-morninglord">Servants of the Morninglord</a></h2>
+<p>These include Donavich of Barovia Village, Father Lucian Petrovich of
+Vallaki, his alter boy Yeska, the Abott of Krezk, and the spirit of St.
+Markovia.</p>
+<ul>
+<li>(+1) Bury the Burgomaster</li>
+<li>(+2) Restore the bones of St. Andral</li>
+<li>(+2) Help the Abbot</li>
+<li>(+1) Consecrate the OBG Monoliths</li>
+<li>(+1) Consecrate the Berez Monoliths</li>
+<li>(+2) Kill a vampire with <em>St. Markovia's Thighbone</em>.</li>
+</ul>
+<table><thead><tr><th>Renown</th><th>Perk</th></tr></thead><tbody>
+<tr><td>1</td><td>Sleep in any Church / Abbey</td></tr>
+<tr><td>5</td><td><em>Raise Dead</em> once per day (Abbot or Father Lucian), -1 Renown</td></tr>
+</tbody></table>
+<h2><a class="header" href="#vampire-hunters" id="vampire-hunters">Vampire Hunters</a></h2>
+<p>Ezmerelda D'Avenir and Rudolph van Richten (aka Rictavio). They are
+concerned with ridding Barovia of evil, especially vampires.</p>
+<ul>
+<li>(+1) Kill a vampire (recurring)</li>
+<li>(+2) Help Rictavio escape if his cover is blown</li>
+<li>(+1) Kill the Night Hags / the Abbot / Baba Lysaga / Rahadin / Wintersplinter</li>
+<li>(+1) Help Ezmerelda find her Wagon</li>
+<li>(+2) Help Ezmerelda find Van Richten</li>
+<li>(+2) Kill Exethanter the Lich</li>
+<li>(+2) Rescue Ezmerelda (a few places)</li>
+<li>(-1) Blow up Ezmerelda's wagon / Van Richten's Tower</li>
+<li>(-2) Relinquish Ezmerelda to Arrigal (at Argynvostholt only)</li>
+</ul>
+<table><thead><tr><th>Renown</th><th>Rank</th><th>Perk</th></tr></thead><tbody>
+<tr><td>1</td><td>Friend</td><td>Ezmerelda will join the party</td></tr>
+<tr><td>4</td><td>Monster Hunter</td><td>Van Richten will give up his <em>Scroll of Raise Dead</em></td></tr>
+<tr><td>7</td><td>Vampire Hunter</td><td>Silver all non-magic weapons</td></tr>
+<tr><td>12</td><td>Van Richten</td><td><strong>+3d6 weapon dmg</strong> to undead</td></tr>
+</tbody></table>
+<p><strong>Note:</strong> The perks for all ranks above &quot;Friend&quot; can only be conferred by
+Van Richten himself.</p>
+<h2><a class="header" href="#keepers-of-the-feather" id="keepers-of-the-feather">Keepers of the Feather</a></h2>
+<p>The Keepers are ever-watchful, and respect the PCs the more good they do for
+Barovia.</p>
+<ul>
+<li>(+1) Survive Death House</li>
+<li>(+1) Kill the Night Hags / the Abbot / Baba Lysaga / Rahadin</li>
+<li>(+2) Bring wine to the Blue Water Inn</li>
+<li>(+1) Save Arabelle</li>
+<li>(+1) Reunite Ireena and Sergei</li>
+<li>(+1) Clear out the Abbey</li>
+<li>(+1) Stop the cult in Vallaki</li>
+<li>(+2) Save the winery from the Druids</li>
+<li>(+2) Return a winery jewel</li>
+<li>(+2) Stop the Druid ritual <em>or</em> kill Wintersplinter</li>
+<li>(-1) Kill a wild raven</li>
+<li>(-All) Kill a Wereraven</li>
+</ul>
+<table><thead><tr><th>Renoun</th><th>Perk</th></tr></thead><tbody>
+<tr><td>1</td><td>Be watched over by helpful ravens</td></tr>
+<tr><td>3</td><td>1d4 Wereravens show up in a pinch</td></tr>
+<tr><td>6</td><td>Receive the Holy Symbol of Ravenkind</td></tr>
+<tr><td>12</td><td>Become a Wereraven</td></tr>
+</tbody></table>
+<h2><a class="header" href="#the-dark-powers" id="the-dark-powers">The Dark Powers</a></h2>
+<p>The Dark Powers like it when the PCs perform evil, or fail at good-aligned
+tasks.</p>
+<ul>
+<li>(+1) Kill an innocent Barovian (recurring)</li>
+<li>(+1) Let the OBG children be eaten</li>
+<li>(+1) Bring a child to the Night Hags (recurring)</li>
+<li>(+1) Let Arabelle drown</li>
+<li>(+1) Replace Baron Vallakovich with Fiona Wachter</li>
+<li>(+1) Let Anna Krezkova die</li>
+<li>(+1) Let the winery be destroyed</li>
+<li>(+1) Let Strahd attack Vallaki (St. Andral's Feast)</li>
+<li>(+1) Accept a Dark Gift</li>
+<li>(-1) Smash an Amber Sarcophagus</li>
+</ul>
+<table><thead><tr><th>Renoun</th><th>Perk</th></tr></thead><tbody>
+<tr><td>2</td><td>Hear whispers of the Amber Temple in PCs' dreams</td></tr>
+</tbody></table>
+<h1><a class="header" href="#key-characters" id="key-characters">Key Characters</a></h1>
+<h2><a class="header" href="#strahds-knowledge" id="strahds-knowledge">Strahd's Knowledge</a></h2>
+<p>What does he know at a given point in the adventure? The &quot;state&quot; of Strahd,
+if you will.</p>
+<ul>
+<li>Where is Ireena?</li>
+<li>The players are in Barovia.</li>
+<li>The players locations and/or heading.</li>
+<li>If the players found his Tome.</li>
+<li>If his horse is still alive.</li>
+<li>If the Argynvostholt beacon is lit.</li>
+<li>If he wishes to kill Ezmerelda.</li>
+</ul>
+<h2><a class="header" href="#things-to-reveal" id="things-to-reveal">Things to Reveal</a></h2>
+<p>The DM knows a lot about Strahd, but the players don't. It's easy to forget
+what would be surprising, namely that:</p>
+<ul>
+<li>Strahd is a vampire.</li>
+<li>Strahd appears to take no damage (Heart of Sorrow effect).</li>
+<li>Strahd can cast wizard spells.</li>
+<li>Strahd can take a legendary action between each of their turns (max 3 times).</li>
+<li>Strahd can go out during the day.</li>
+<li>A stake to the heart doesn't kill him.</li>
+<li>Barovia is his personal hell.</li>
+</ul>
+<h2><a class="header" href="#quotes" id="quotes">Quotes</a></h2>
+<blockquote>
+<p>Round and round the wheel turns... each spin brings the same cast playing
+new rolls. Except for me, and except for you.</p>
+</blockquote>
+<p>Strahd is refering to the fact that all souls are trapped in Barovia.</p>
+<h2><a class="header" href="#defeating-strahd" id="defeating-strahd">Defeating Strahd</a></h2>
+<p>There are a number of ways of defeating Strahd. Technically he can be killed
+at any time, like Lavos from Chrono Trigger. However, like that old classic,
+this isn't an easy task. Here are some possibilities:</p>
+<ul>
+<li>A grand battle within the castle (w/ Lair actions)</li>
+<li>At Yester Hill (in his defeated mist form, the castle is too far away)</li>
+<li>Breaking the <em>Staff of Power</em> near him</li>
+<li><em>Wish</em>ing away his vampirism with the <em>Luck Blade</em></li>
+</ul>
+<h2><a class="header" href="#stats" id="stats">Stats</a></h2>
+<p><strong>Override:</strong> Ezmerelda makes death saving throws if reduced to 0 hitpoints.</p>
+<p><img src="./images/ezmerelda.jpeg" alt="" /></p>
+<h2><a class="header" href="#meeting-krezk" id="meeting-krezk">Meeting: Krezk</a></h2>
+<h2><a class="header" href="#meeting-van-richtens-tower" id="meeting-van-richtens-tower">Meeting: Van Richten's Tower</a></h2>
+<h2><a class="header" href="#meeting-argynvostholt" id="meeting-argynvostholt">Meeting: Argynvostholt</a></h2>
+<h2><a class="header" href="#meeting-castle-ravenloft" id="meeting-castle-ravenloft">Meeting: Castle Ravenloft</a></h2>
+<h2><a class="header" href="#custom-quest-retrieve-the-wagon" id="custom-quest-retrieve-the-wagon">Custom Quest: Retrieve the Wagon</a></h2>
+<p>This quest occurs if the players met Ezmerelda in a place other than Van
+Richten's Tower, and her wagon remains intact there.</p>
+<p>Ezmerelda will suggest they pick up her wagon so that they can travel faster
+over the roads. If the players retrieve the wagon, Ezmerelda teaches them
+how to get in and what the command words are.</p>
+<p><strong>Reward:</strong> Flamboyant Vistani Wagon, +1 Renown.</p>
+<ul>
+<li>When riding the Wagon, the players move at a <strong>Fast</strong> pace (4mph) with no
+penalty.</li>
+<li>The Wagon cannot be taken into the Barovian woods, as the trees grow too
+close together and the ground is too rough.</li>
+<li>The Wagon can be slept in, and all party members fit.</li>
+<li>The wagon's wheels can get stuck near Berez. It takes <strong>1d4</strong> hours to get
+it free.</li>
+</ul>
+<h2><a class="header" href="#custom-quest-free-ezmerelda-from-strahd" id="custom-quest-free-ezmerelda-from-strahd">Custom Quest: Free Ezmerelda from Strahd</a></h2>
+<p>If Strahd wants to kill her, he will capture her once and torture her at Castle
+Ravenloft (K74d). Each midnight after her capture, she suffers <strong>one level of
+Exhaustion</strong>. If the players free her, Stradh won't pursue her again.</p>
+<p>If found alive, she has 1hp, her accumulated exhaustion, no equipment (or
+clothing?) and is missing her prosthetic leg (it has been tossed in the corner
+of the nearby Torture Chamber, under water).</p>
+<p>If found &quot;dead&quot;, she has become a vampire spawn. Strahd intends to parade her in
+front of Van Richten, before finally destroying them both.</p>
+<p><strong>Reward:</strong> +2 Renown to Vampire Hunters, -1 to Dark Powers</p>
+<h2><a class="header" href="#custom-quest-free-ezmerelda-from-the-vistani" id="custom-quest-free-ezmerelda-from-the-vistani">Custom Quest: Free Ezmerelda from the Vistani</a></h2>
+<p>This is only possible if the PCs relinquished Ezmerelda to Arrigal at
+Argynvostholt. The Vistani intend to whip her the day she is captured, then cut
+off a hand as punishment for horse theft the day after.</p>
+<p><strong>Reward:</strong> +2 Renown to Vampire Hunters, -1 to Vistani</p>
+<h2><a class="header" href="#custom-quest-find-her-master" id="custom-quest-find-her-master">Custom Quest: Find her Master</a></h2>
+<p>Ezmerelda petitions the players to help her find her master, Rudolph van
+Richten. If they do, he is happy (or not) to see his old pupil, but will urge
+them to leave him be. His cover blown, he will flee afterward to his tower, if
+it's intact.</p>
+<p><strong>Reward:</strong> +2 Renown to Vampire Hunters</p>
+<h2><a class="header" href="#stats-1" id="stats-1">Stats</a></h2>
+<p><strong>Override:</strong> Ireena has 14hp.</p>
+<p><strong>Custom Override:</strong> She speaks Common and Elvish. When gauging encounter
+difficulty, Ireena can be considered Level 2. She makes death saving throws
+if reduced to 0 hitpoints.</p>
+<p><img src="./images/noble.png" alt="" /></p>
+<h2><a class="header" href="#meeting-village-of-barovia" id="meeting-village-of-barovia">Meeting: Village of Barovia</a></h2>
+<p>She won't open the door unless she's convinced the players aren't in line
+with Strahd. She'll let them in if:</p>
+<ul>
+<li>The players RP well</li>
+<li>A player succeeds at a <strong>DC 15 Deception/Persuasion</strong> check</li>
+<li>Ismark is with the party</li>
+</ul>
+<p>Ireena should be described as being the most beautiful women the party has
+ever seen.</p>
+<p>Make it known that Strahd has visited her, but don't make it clear that she
+has been bitten.</p>
+<h2><a class="header" href="#custom-quest-handle-the-body" id="custom-quest-handle-the-body">Custom Quest: Handle the Body</a></h2>
+<p>This quest triggers if Ireena dies.</p>
+<ul>
+<li>If the players resurrect her, her vampirism is cured.</li>
+<li>If they burn her body, her soul is trapped in Barovia until reborn.</li>
+<li>If they bury her body with a stake through the heart, she will stay dead.</li>
+<li>If she is buried normally, or if the players transport her body, she
+becomes a <a href="./images/vampire-spawn.png">Vampire Spawn</a> the night she dies.
+She brings herself to Castle Ravenloft to be by Strahd's side. If she is
+killed again and resurrected, her vampirism is cured.</li>
+</ul>
+<p>Upon her death, Ismark returns to the Village of Barovia a broken man.</p>
+<h2><a class="header" href="#event-captured-by-izek" id="event-captured-by-izek">Event: Captured by Izek</a></h2>
+<p>If Izek sees Ireena, he will try to take her by force back to the
+burgomaster's mansion. If immediately pursued, the players begin a <strong>Chase</strong>
+with Izek.</p>
+<p><strong>Custom Development</strong></p>
+<p>He brings her to his room, and when she resists his advances, he ties her up. <strong>1d4 hours later</strong>
+he gets Victor to cast <em>Geas</em> on her. She falls in love with Izek, but this <em>Geas</em> is flawed.
+It wears off after 7 days instead of 30, and when it does, Ireena is inflicted with the
+<em>Indefinite Madness</em> flaw:</p>
+<blockquote>
+<p><em>I've discovered that I really like killing people.</em></p>
+</blockquote>
+<p>On the 8th day, she has killed a maid and is shackled in <strong>N3m</strong>. Izek
+guards the door. Her madness can be cured by <em>Greater Restoration</em>.</p>
+<h2><a class="header" href="#custom-event-creature-of-the-night" id="custom-event-creature-of-the-night">Custom Event: Creature of the Night</a></h2>
+<p>If the players keep Ireena alive, she will gradually succumb to vampirism.</p>
+<p>Over the course of their days travelling together, Ireena will:</p>
+<ul>
+<li>Turn paler</li>
+<li>Feel exhausted during the day</li>
+<li>Feel rejuvinated at night</li>
+<li>Stop eating</li>
+<li>Stop sleeping at night entirely</li>
+<li>Attempt to seduce a male party member or NPC, and bite them if she can</li>
+<li>Become a vampire and flee the party</li>
+</ul>
+<p>Her nascent vampirism can be cured at any time with <em>greater restoration</em>.</p>
+<h1><a class="header" href="#locations" id="locations">Locations</a></h1>
+<p>It is recommended to start your PCs at Level 2. From a pacing/story perspective,
+it doesn't make sense for them to level up when the find the basement stairs,
+especially given that:</p>
+<ul>
+<li>You might be in the middle of a session when they find the stairs</li>
+<li>They <em>need</em> to be Level 2 to handle the basement</li>
+<li>Level 2 often causes a significant evolution of the PCs (paths/domains/etc.)</li>
+</ul>
+<h2><a class="header" href="#encounters" id="encounters">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 2 characters. Creature
+numbers may need to be adjusted for the size of your party. See: <a href="http://www.starwalkerstudios.com/blog/deathhouse">Balancing
+Death House</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A (1/4)</td><td>14</td><td>50</td><td>Broom of Animated Attack (CoS p. 226)</td></tr>
+<tr><td>N/A (1/2)</td><td>23D</td><td>100</td><td><a href="images/swarm-of-insects.png">Swarm of Insects</a></td></tr>
+<tr><td>Easy (1)</td><td>11</td><td>200</td><td><a href="images/animated-armour.png">Animated Armour</a></td></tr>
+<tr><td>Easy (1)</td><td>15/18</td><td>200</td><td>Nursemaid's <a href="images/specter.png">Specter</a></td></tr>
+<tr><td>Medium (2)</td><td>28</td><td>450</td><td>1x <a href="images/grick.png">Grick</a></td></tr>
+<tr><td>Medium (2)</td><td>33</td><td>450</td><td><a href="images/mimic.png">Mimic</a></td></tr>
+<tr><td>Medium (2)</td><td>34</td><td>450</td><td><a href="images/ghast.png">Ghast</a></td></tr>
+<tr><td>Hard</td><td>31</td><td>300</td><td>3x <a href="images/shadow.png">Shadows</a></td></tr>
+<tr><td>Hard</td><td>29</td><td>400</td><td>2x <a href="images/ghoul.png">Ghouls</a></td></tr>
+<tr><td>Deadly</td><td>N/A</td><td>800</td><td>Escape Death House</td></tr>
+<tr><td>2x Deadly</td><td>20</td><td>1,400</td><td>2x Child <a href="images/ghost.png">Ghosts</a> w/ 35hp (Small, LG)</td></tr>
+<tr><td>2x Deadly</td><td>38</td><td>1,800</td><td><a href="images/shambling-mound.png">Shambling Mound</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The Nursemaid's specter will only attack if the players open the door to
+the nursery.</li>
+<li>Custom: The Shadows in 31 shouldn't follow the PCs out of the room. They
+disappear if the orb is returned.</li>
+<li>The PCs gain the 800 EXP for escaping whether the House is angered or not.</li>
+</ul>
+<h2><a class="header" href="#quest-rest-in-peace" id="quest-rest-in-peace">Quest: Rest in Peace</a></h2>
+<p><em>Original Text: p. 217</em></p>
+<p>Place the children's bones in their crypts, and their spirits will be at
+rest. Each PCs gains Inspiration.</p>
+<h2><a class="header" href="#custom-event-ratkas-fate" id="custom-event-ratkas-fate">Custom Event: Ratka's Fate</a></h2>
+<p><em>This is an overhaul of the event that occurs in Area 38 (Ritual Chamber).</em></p>
+<p>From area 30 (Stairs Down), a faint screaming can be heard drifting up the
+stairway. Any PC with a Passive Perception of 12 or more can hear it.</p>
+<p>From area 35 (Reliquary), the screaming is clearly audible and is quite
+histerical. The screaming is coming from Ratka (CN <a href="images/bandit-captain.png">Bandit
+Captain</a>), the Vistana who drove the PCs'
+carriage until he was lured into Death House. He has 30hp remaining.</p>
+<p>Ratka is latched to an odd contraption; his arms and legs are bound with
+leather and chains, and are slowly being twisted out of their sockets by
+gears under the floor. When the PCs arrive, his right elbow is already
+dislocated. He also wears a metal collar around his neck, attached to a
+chain hanging from the ceiling.</p>
+<p>Ratka can be freed by either:</p>
+<ul>
+<li>Breaking all four chains (<strong>DC 20 STR</strong>)</li>
+<li>Picking all four locks (<strong>DC 15 DEX</strong>)</li>
+<li>Cutting off his limbs above the leather</li>
+</ul>
+<p>The players have <strong>4 rounds</strong> to release Ratka, or his limbs will burst from
+their sockets. His torso then hangs by the neck until he dies. 4 rounds
+gives about 50% chance of success, party depending.</p>
+<p>Freeing Ratka will awaken the <a href="images/shambling-mound.png">Shambling Mound</a>.
+His death will otherwise please Death House, and allow the PCs to leave
+safely.</p>
+<p><strong>Development</strong></p>
+<p>If Ratka is saved, he will be eternally grateful and very apologetic. Once
+taken outside of Death House, he explains to the PCs that they were abducted
+in order to introduce them to Madam Eva. He offers to lead them to her.</p>
+<p>If Ratka is dead, his father and sister will be deeply saddened if they find
+out. If the PCs explain the situation, the Vistani will blaim them for not
+saving him, equating it to murder. Damia becomes particularly hostile,
+cursing one of the PCs (<strong>DC 13 WIS</strong> save. On fail target gains
+vulnerability to slashing damage). Stanimir stops her from doing more,
+urging the PCs to see Madam Eva at once.</p>
+<h2><a class="header" href="#event-escaping-death-house" id="event-escaping-death-house">Event: Escaping Death House</a></h2>
+<p>If a creature dies on the Dais in area 38, the House is pleased and the PCs
+can leave freely.</p>
+<p>Otherwise, they must escape as described on p. 220. For reference:</p>
+<table><thead><tr><th>Action</th><th>Check</th><th>On Failure</th></tr></thead><tbody>
+<tr><td>Dodge a door-scythe</td><td>DC 15 Acrobatics</td><td><strong>2d10 slashing</strong> damage</td></tr>
+<tr><td>Study a door-scythe</td><td>DC 15 INT</td><td><strong>2d10 slashing</strong> damage</td></tr>
+<tr><td>Start turn in smokey room</td><td>DC 10 CON</td><td><strong>1d10 poison</strong> damage</td></tr>
+</tbody></table>
+<p>Rooms with smoke:</p>
+<table><thead><tr><th>Location</th><th>Name</th></tr></thead><tbody>
+<tr><td>2A</td><td>Main Hall</td></tr>
+<tr><td>3</td><td>Den of Wolves</td></tr>
+<tr><td>4A</td><td>Kitchen</td></tr>
+<tr><td>5</td><td>Dining Room</td></tr>
+<tr><td>6</td><td>Upper Hall</td></tr>
+<tr><td>8</td><td>Library</td></tr>
+<tr><td>10</td><td>Conservatory</td></tr>
+<tr><td>12A</td><td>Master Suite</td></tr>
+<tr><td>13</td><td>Bathroom</td></tr>
+<tr><td>15A</td><td>Nursemaid's Suite</td></tr>
+<tr><td>17</td><td>Spare Bedroom</td></tr>
+<tr><td>18</td><td>Storage Room</td></tr>
+<tr><td>19</td><td>Spare Bedroom</td></tr>
+</tbody></table>
+<p>Optimal escape route: 18 - 16 - 11 - 6 - 2A - 1B - 1A</p>
+<p>During which there are 3 smoke rooms and 5 scythe doors.</p>
+<h2><a class="header" href="#event-arson" id="event-arson">Event: Arson</a></h2>
+<p><em>Original Text: p. 212</em></p>
+<p>Once escaping from Death House, the PCs may choose to burn it down. It
+begins to repair itself <strong>1d10 days</strong> later, completing its resurrection
+<strong>2d6 hours</strong> after it begins.</p>
+<h2><a class="header" href="#calendar" id="calendar">Calendar</a></h2>
+<p>Assuming the Barovian lunar cycle to be <strong>28 days</strong>.</p>
+<ul>
+<li><code>b - ~1yr</code> Doru rebels against Strahd, but fails and becomes a vampire spawn.</li>
+<li><code>b - 54</code> (New moon) Strahd bites Ireena the first time.</li>
+<li><code>b - 26</code> (New moon) Strahd bites Ireena for the second time.</li>
+<li><code>b - ~14</code> Wolves start attacking the Burgomaster's house nightly.</li>
+<li><code>b - 7</code> Gertruda goes missing from Mad Mary's house.</li>
+<li><code>b - 3</code> The Burgomaster dies, and the attacks on their house stop.</li>
+<li><code>b - 1</code> The players enter Death house. Strahd knows that someone has gone
+in, but he doesn't know who.</li>
+<li><code>b</code> The PCs' first morning/day in the Village of Barovia.</li>
+<li><code>b + 1</code> Escher visits Ireena's home. If she is there, he takes her to Strahd
+to be bitten a final time. She then becomes a vampire. Otherwise, Escher reports
+his failure to Strahd and is punished.</li>
+</ul>
+<h2><a class="header" href="#encounters-1" id="encounters-1">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 3 characters. See also
+<a href="rolls/#occupants-of-barovian-houses">Occupants of Barovian Houses</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>Deadly (5)</td><td>E4</td><td>1,800</td><td>Escher the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Deadly (5)</td><td>E5G</td><td>1,800</td><td>Doru the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Deadly (5)</td><td>Village streets</td><td>1,800</td><td>Morgantha the <a href="images/night-hag.png">Night Hag</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Donavich will try to prevent the PCs from killing his son, and will be
+overcome with despair if he dies.</li>
+<li>Custom: Escher only visits if the players decide to stay in the Village
+another night after burying the burgomaster. He flees if reduced to half health.</li>
+<li>Custom: There is a bottle of Holy Water on the mantlepiece of the first
+floor of the Burgomaster's house. Ismark will tell a PC to throw it at
+Escher (<strong>2d6 radiant</strong> on hit).</li>
+</ul>
+<h2><a class="header" href="#npc-ismark-kolyanovich" id="npc-ismark-kolyanovich">NPC: Ismark Kolyanovich</a></h2>
+<p>Ireena's brother and son of the dead burgomaster. Dies if reduced to 0
+hitpoints.</p>
+<p><img src="./images/veteran.png" alt="" /></p>
+<h2><a class="header" href="#npc-parriwimple" id="npc-parriwimple">NPC: Parriwimple</a></h2>
+<p>Nephew of Bildrath the shopkeep.</p>
+<p><strong>Override:</strong> He has 6 INT and doesn't have a shield (total AC 14).</p>
+<p><img src="./images/gladiator.png" alt="" /></p>
+<h2><a class="header" href="#npc-donavich-the-priest" id="npc-donavich-the-priest">NPC: Donavich the Priest</a></h2>
+<p>Town priest and father of Doru.</p>
+<p><img src="images/acolyte.png" alt="" /></p>
+<h2><a class="header" href="#quest-bury-the-burgomaster" id="quest-bury-the-burgomaster">Quest: Bury the Burgomaster</a></h2>
+<p><em>Original Text: p. 47</em></p>
+<p>Donavich speaks the following prayer during the burial:</p>
+<blockquote>
+<p>The sun rises as a life sets. Morninglord, we bask in your glow and are
+humbled. Protect us always from evil, as we cannot protect ourselves. Please,
+deliver your son from this hell, O Lord.</p>
+</blockquote>
+<p>The funeral and burial take <strong>1d4 + 1 hours</strong>.</p>
+<p>Afterwards, Donavich speaks to the players privately. He suggests they take
+Ireena as far from the castle as possible. Either the Abbey in Krezk, or Vallaki
+as a last resort.</p>
+<p><strong>Custom Development</strong></p>
+<p>Assuming the PCs have agreed to escort Ireena, they then need to decide when to
+leave. If they leave immediately, they will evade Escher's attack. However,
+night may fall while they're on the road. See <a href="bonegrinder/#custom-event-night-at-old-bonegrinder">Night at Old
+Bonegrinder</a>.</p>
+<p>Otherwise, Ireena offers their home for the night. However, this is the end of
+the second lunar cycle since Strahd first bit Ireena, and he intends to fully
+turn her tonight. Strahd himself waits atop a hill in the forest, meditating
+over what this night will mean for him. He sends Escher to fetch Ireena in his
+stead.</p>
+<p>In the middle of the night, Ireena wakes up with a scream. When found in her room,
+she is sweating and hyperventilating. She says, panicked:</p>
+<blockquote>
+<p>&quot;It's here.&quot;</p>
+</blockquote>
+<p>Ismark tells her to stay in her room while he takes the PCs downstairs to challenge
+&quot;Strahd&quot;. He warms them:</p>
+<ul>
+<li>Don't look him in eyes.</li>
+<li>Don't invite him in.</li>
+</ul>
+<p>The sound of wolves howling fills the town. When the PCs open the front door,
+read:</p>
+<blockquote>
+<p>A handsome young man with dusty blonde hair stands in the doorway. He wears a
+fine purple suit, several rings, and has piercings in his ears. He peers into
+the room with confidence.</p>
+</blockquote>
+<p>Ismark is terrified and says nothing. After an opportunity for RPing by the
+players, they notice Ireena standing behind them in a trance. Her mouth is agape
+and her eyes are wide. Escher says:</p>
+<blockquote>
+<p>&quot;It's time. Madam, may I come in?&quot;</p>
+</blockquote>
+<p>Ireena says &quot;yes&quot; if not immediately stopped by the PCs. Escher then attacks,
+trying to capture Ireena (although he should fail at this). Afterward, Ismark
+admits to the PCs that &quot;that wasn't him&quot;. Morning comes soon after.</p>
+<h2><a class="header" href="#custom-quest-escape-barovia" id="custom-quest-escape-barovia">Custom Quest: Escape Barovia</a></h2>
+<p>The players may want nothing to do with Barovia and its troubles. If they ask an
+acquaintance how to leave, they will be told not to attempt the mist themselves.
+The Vistani can leave freely, and sell potions to help travellers do the same.</p>
+<h2><a class="header" href="#quest-escort-ireena" id="quest-escort-ireena">Quest: Escort Ireena</a></h2>
+<p>If the characters meet Ismark the Lesser, he will offer them drinks and ask them
+to help escort his sister to Vallaki.</p>
+<p><strong>Custom Development</strong></p>
+<p>If Ismark and Ireena are both alive when you arrive at Vallaki, they leave the
+party and stay at the Blue Water Inn. <strong>2 days later</strong>, Ismark is crippled by
+Izek, and Ireena is captured. However, Izek doesn't try to <em>Geas</em> her until the
+night the players return to Vallaki and discover Ismark's injury/death.</p>
+<p>If Ismark dies before you reach Vallaki, Ireena refuses to stay there alone.</p>
+<p><strong>Development</strong></p>
+<p><em>Original Text: p. 156</em></p>
+<p>If Ireena is brought to the blessed pool (S4) in Krezk, she can reunite with
+Sergei and be taken to safety. <strong>Custom:</strong> The PCs receive 2,000 EXP for saving
+Ireena in this way.</p>
+<p><strong>Custom Development</strong></p>
+<p>If the players take Ireena to the abbey (and don't interact with the Shrine in
+Krezk, or fail its interaction) and they allow the Abbot to meet her, he will
+recognize her as Tatyana's reincarnation. He will calmly offer to bring her to
+Castle Ravenloft to be with Strahd, and give a rational explanation to the PCs
+about how (he believes) doing so will save Barovia.</p>
+<p>If the PCs resist, the Abbot will magically transform her clothes into a wedding
+dress (ignoring continuity with the dress fetch-quest) and attempt to capture
+her, claiming it is for Barovia's salvation. If the players resist him, he will
+grapple Ireena on his turn and then attempt escape. If he gets outside, he will
+fly her to Castle Ravenloft and present her to Strahd. Strahd marries her and
+turns her into a <a href="./images/vampire-spawn.png">Vampire Spawn</a>.</p>
+<p>The players can stop the wedding, if they hurry. Strahd plans to marry her at
+midnight in Ravenloft's Chapel (K15). The castle is 58 hexes away from Krezk. If
+they arrive at the Chapel in time, the Abbot is there to oversee &quot;Barovia's
+salvation&quot;, and will try to prevent the players from interfering. To consummate
+their marriage, Strahd will drink Ireena's blood for the duration of the fight
+(1 minute), after which she will die.</p>
+<ul>
+<li>If the Abbot defeats the characters, Strahd gets his good ending.</li>
+<li>If the Abbot is defeated, Strahd will stop drinking Ireena's blood and engage
+the characters. If the players manage to escape with Ireena, she will die that
+night from blood loss. See <a href="ireena/#custom-quest-handle-the-body">Handling the Body</a>.</li>
+</ul>
+<h2><a class="header" href="#encounters-2" id="encounters-2">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 3 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>G</td><td>200</td><td><a href="images/spy.png">Damia</a>, daughter of Stanimir</td></tr>
+<tr><td>Deadly</td><td>G</td><td>2,300</td><td><a href="images/mage.png">Stanimir</a> the Mage</td></tr>
+<tr><td>3x Deadly</td><td>G</td><td>5,900</td><td>Madam Eva (CoS p. 233)</td></tr>
+<tr><td>4x Deadly</td><td>G</td><td>1,650</td><td>12x Drunk Vistani <a href="images/bandit.png">Bandits</a>, 3x <a href="images/bandit-captain.png">Bandit Captains</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The Vistani here work for Strahd, but are non-hostile.</li>
+<li>The drunk Vistani have disadvantage on attack rolls and ability checks.</li>
+<li>Stanimir has different spells, see page 20.</li>
+<li>All Vistani have the ability to curse opponents and cast <em>Evil Eye</em> (see p.28).</li>
+</ul>
+<h2><a class="header" href="#tarokka-reading" id="tarokka-reading">Tarokka Reading</a></h2>
+<p><em>Original text: p. 11</em></p>
+<p>We suggest that the DM (mostly) rig the Tarokka deck reading in order to
+balance pacing, story-telling, and magic item distribution across Barovia.
+If PCs get a reading from Madam Eva or Ezmerelda, you will need to
+physically rig the deck to produce the desired results. Even if you know the
+results ahead of time, still flip through the book as if you don't to maintain
+the illusion of randomness.</p>
+<p>For further explanations, see the Appendix pages <a href="tarokka">On the Tarokka Deck</a>
+and <a href="werewolves">Cutting the Werewolf Den</a>.</p>
+<table><thead><tr><th>Target</th><th>Rigged Location</th><th>Tarokka Card</th><th>Normal Card</th></tr></thead><tbody>
+<tr><td>Tome of Strahd</td><td>Marina's Monument (U5)</td><td>3 of Stars (Enchanter)</td><td>3 of Clubs</td></tr>
+<tr><td>Holy Symbol of Ravenkind</td><td>Blue Water Inn (N2q)</td><td>Master of Coins (Rogue)</td><td>10 of Diamonds</td></tr>
+<tr><td>The Sunsword</td><td>Beacon of Argynvostholt (Q53)</td><td>4 of Stars (Abjurer)</td><td>4 of Clubs</td></tr>
+<tr><td>Strahd's Enemy</td><td>Any</td><td></td><td></td></tr>
+<tr><td>Strahd</td><td>Any</td><td></td><td></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li><strong>Custom:</strong> The hilt of the Sunsword was found by Argynvost and hidden in
+his keep before he died. It remains in the Beacon room, encased by a giant,
+impervious crystal. Returning Argynvost's skull to the keep will release the
+blade. Guarding the sword is another duty of the Revenants, who take
+pleasure in Strahd's inability to reclaim it.</li>
+</ul>
+<p><strong>Reward:</strong> +2 Renoun to Vistani</p>
+<p>If the players run into Old Bonegrinder at level 4 with guns blazing, they
+will most likely die to the combined power of the hag coven. This section
+adds more content, to allow the players to interact with OBG in a meaningful
+way, while hopefully learning that it's a deathtrap.</p>
+<h2><a class="header" href="#encounters-3" id="encounters-3">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 4 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>Hard (5)</td><td>Anywhere</td><td>1,800</td><td>1x <a href="images/night-hag.png">Night Hag</a></td></tr>
+<tr><td>Deadly</td><td>O1</td><td>1,800 + N*50</td><td><a href="images/night-hag.png">Morgantha</a>, Nx <a href="images/dretch.png">Dretches</a></td></tr>
+<tr><td>2x Deadly</td><td>Anywhere</td><td>3,600</td><td>2x <a href="images/night-hag.png">Night Hag</a></td></tr>
+<tr><td>8x Deadly</td><td>Anywhere</td><td>8,700</td><td>3x <a href="images/night-hag.png">Night Hag</a> (as a Coven)</td></tr>
+</tbody></table>
+<p>Notes:</p>
+<ul>
+<li>If the players refuse to leave the Mill, Morgantha will revert to her Hag
+form and attack.</li>
+<li>The Coven breaks if one of the Hags dies, making the encounter
+significantly easier.</li>
+<li>If Morgantha is on the first floor, she will summon Dretches to help her.</li>
+<li>Custom: She calls her daughters as a bonus action on her first turn. If
+they are only one room apart, they arrive in one turn. Otherwise, they
+arrive <strong>1d4 + 1</strong> rounds later.</li>
+<li>Custom: If the PCs get in trouble, call in <strong>1d4 + 1</strong> <a href="images/swarm-of-ravens.png">Swarms of
+Ravens</a>.</li>
+</ul>
+<h2><a class="header" href="#custom-the-hags-schedule" id="custom-the-hags-schedule">Custom: The Hags' Schedule</a></h2>
+<p>If ran by-the-book, provoking the hags would cause them to form a coven and
+annihilate the PCs. Without magic/silver weapons, there isn't much that
+low-level PCs can do. The chart here allows DMs to randomize the state of
+Old Bonegrinder every time the PCs visit, potentially making it easier to
+clear.</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The first time the players visit OBG, Morgantha should be there regardless
+of roll, unless she's already dead.</li>
+<li>Occasionally, Bella and Offalia leave OBG to visit witches who live in the woods.</li>
+<li>At night, all three hags are inside the mill.</li>
+<li>Otherwise, there is only a ~19% chance that all three hags are inside during the
+day.</li>
+</ul>
+<p><strong>Morgantha</strong></p>
+<table><thead><tr><th>d12</th><th>Location</th></tr></thead><tbody>
+<tr><td>1 - 2</td><td>Selling pastries in the Village of Barovia</td></tr>
+<tr><td>3 - 4</td><td>Selling pastries in Vallaki</td></tr>
+<tr><td>5 - 12</td><td>O2</td></tr>
+</tbody></table>
+<p><strong>Bella Sunbane</strong></p>
+<table><thead><tr><th>d12</th><th>Location</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>Svalich Woods (herb picking)</td></tr>
+<tr><td>4 - 11</td><td>O3</td></tr>
+<tr><td>12</td><td>Communing with Barovian Witches</td></tr>
+</tbody></table>
+<p><strong>Offalia Wormwiggle</strong></p>
+<table><thead><tr><th>d12</th><th>Location</th></tr></thead><tbody>
+<tr><td>1 - 6</td><td>Tending the garden</td></tr>
+<tr><td>7 - 11</td><td>O3</td></tr>
+<tr><td>12</td><td>Communing with Barovian Witches</td></tr>
+</tbody></table>
+<h2><a class="header" href="#custom-resurrection-services" id="custom-resurrection-services">Custom: Resurrection Services</a></h2>
+<p>If the PCs learn of the hags' true nature and think to ask, the hags will
+offer to resurrect a dead PC in exchange for a Barovian child who has a
+soul. If the characters bring a child, the hags will cast the Druid spell
+<em>Reincarnate</em> (PHB p. 271), which will most likely change the PC's race.</p>
+<p><strong>Reward:</strong> -1 Renown to Denizens of Barovia</p>
+<h2><a class="header" href="#custom-event-night-at-old-bonegrinder" id="custom-event-night-at-old-bonegrinder">Custom Event: Night at Old Bonegrinder</a></h2>
+<p>It's around 2 hours from the OBG Fork to the gates of Vallaki. If the sun is
+setting when the party is near OBG, they can petition the hags to let them
+sleep there for the night.</p>
+<p>Morgantha will accept, provided these conditions:</p>
+<ul>
+<li>They buy some Dream Pastries</li>
+<li>They stay outside in a rotting stable</li>
+<li>They don't &quot;disturb her family's slumber&quot;</li>
+</ul>
+<p>During the night, the players can perceive:</p>
+<ul>
+<li>Flocks of bats flying overhead</li>
+<li>Howls of wolves from the nearby forest</li>
+<li>A group of skeletons dancing in the Megalith circle</li>
+<li>Cries/screams of young children coming from the upper floors of the mill</li>
+</ul>
+<p>If the players try to enter the Mill at night, a raven will warm them away.
+&quot;Leave well enough alone.&quot;</p>
+<p>Otherwise, the players won't be attacked.</p>
+<h2><a class="header" href="#custom-quest-claim-the-mill" id="custom-quest-claim-the-mill">Custom Quest: Claim the Mill</a></h2>
+<p>If the players found the <strong>Deed to the Mill</strong> in Death House, they can
+attempt to convince the Hags to leave on legal grounds.</p>
+<p>If one player succeeds at a <strong>DC 20 Persuasion/Intimidation</strong> check, the
+Hags will leave peacefully. They will take all their belongings, including
+the children, with them. If a Fortune of Ravenloft is hidden here, it
+remains.</p>
+<p>Failing diplomacy, the players can attack. Either way, the players now own
+Old Bonegrinder.</p>
+<h2><a class="header" href="#quest-rescue-the-kids" id="quest-rescue-the-kids">Quest: Rescue the Kids</a></h2>
+<p><em>Original Text: p. 128</em></p>
+<p>Their names are Freek and Myrtle, and it is possible to rescue them without
+triggering an encounter. The PCs succeed if at least 1 child is saved and
+brought to a secure location.</p>
+<p><strong>Reward:</strong> +1 Renown to Denizens of Barovia</p>
+<h2><a class="header" href="#custom-event-consecrate-the-megaliths" id="custom-event-consecrate-the-megaliths">Custom Event: Consecrate the Megaliths</a></h2>
+<p><strong>Prerequisite:</strong> Reclaim Old Bonegrinder</p>
+<p>Clearing away the children's teeth from the stone circle will break the
+connection to Ceithlenn, and naturally reconsecrate the area over a period
+of 3 days. Casting a <em>Hallow</em> spell will restore the stones instantly.</p>
+<p><strong>Reward:</strong> +1 Renown to Servants of the Morninglord</p>
+<h2><a class="header" href="#notes" id="notes">NOTES</a></h2>
+<blockquote>
+<p>[The PCs] quickly realize that there is no happiness here, only false hope</p>
+<ul>
+<li>which Strahd himself cultivates.</li>
+</ul>
+</blockquote>
+<p>How?</p>
+<blockquote>
+<p>[Nikolai and Karl] would rather ... hear about how the characters plan to free
+Vallaki from the Burgomaster's madness.</p>
+</blockquote>
+<p>The Baron is Neutral Evil for some reason.</p>
+<blockquote>
+<p>... trapped as [Nikolai and Karl] are within the walls of Vallaki under
+the control of Strahd and his puppet, the baron.</p>
+</blockquote>
+<h2><a class="header" href="#calendar-1" id="calendar-1">Calendar</a></h2>
+<ul>
+<li><code>v - 30+</code> - Father Lucian casually mentions the existance of St. Andral's bones to Yeska.</li>
+<li><code>v - &quot;a few&quot;</code> - Milivoj steals the bones of St. Andral.</li>
+<li><code>v</code> - The day the PCs first arrive in Vallaki. Guards on watch for &quot;malcontents&quot;.</li>
+<li><code>v + 1</code> - <strong>Lady Wachter's Wish.</strong></li>
+<li><code>v + 3</code> - <strong>Festival of the Blazing Sun.</strong> Rictavio's tiger escapes.</li>
+<li><code>v + 4</code> - <strong>St. Andral's Feast.</strong> Strahd attacks the church.</li>
+<li><code>v + 5</code> - Vallaki is locked to outsiders. That night, Father Lucian, if dead, rises as a Vampire Spawn.</li>
+<li><code>v + 6</code> - Townsfolk overthrow the Burgomaster.</li>
+</ul>
+<h2><a class="header" href="#encounters-vallaki" id="encounters-vallaki">Encounters: Vallaki</a></h2>
+<p>Challenge below is based on a 4-player party of level 4 characters. See also
+<a href="rolls/#occupants-of-vallakian-houses">Occupants of Vallakian Houses</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N1</td><td>10</td><td><a href="images/commoner.png">Milijov</a> w/ 15 STR, +4 atk, 1d4+2 dmg</td></tr>
+<tr><td>N/A (2)</td><td>N1</td><td>450</td><td><a href="images/priest.png">Father Lucian Petrovich</a> (LG)</td></tr>
+<tr><td>Easy</td><td>?</td><td>300</td><td>Arresting Party of 12x <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Medium</td><td>?</td><td>300</td><td>Lynching Party of 30x <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>Deadly</td><td>?</td><td>600</td><td>Routing Party of 24x <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Hard</td><td>?</td><td>1,800</td><td>Izek Strazni (CoS p. 232)</td></tr>
+<tr><td>10x Deadly</td><td>N6f</td><td>10,800</td><td>6x <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>The <em>Arresting Party</em> will only appear if the PCs get on the Baron's bad side.</li>
+<li>The <em>Lynching Party</em> will only appear if the <em>Arresting Party</em> is defeated.</li>
+<li>The <em>Routing Party</em> will only appear if the PCs free prisoners from the stocks.</li>
+</ul>
+<h2><a class="header" href="#encounters-burgomasters-mansion" id="encounters-burgomasters-mansion">Encounters: Burgomaster's Mansion</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N3c</td><td>10</td><td><a href="images/commoner.png">Lydia Petrovna</a>, the Baron's wife (LG)</td></tr>
+<tr><td>N/A</td><td>N3e/N3l</td><td>75</td><td><a href="images/noble.png">The Baron</a> (NE), 2x <a href="images/mastiff.png">Mastiffs</a></td></tr>
+<tr><td>Hard</td><td>N3j</td><td>1,800</td><td>Izek Strazni (CoS p. 232)</td></tr>
+<tr><td>Deadly</td><td>N3p</td><td>3,900</td><td>Spirit <a href="images/assassin.png">Assassin</a></td></tr>
+<tr><td>2x Deadly</td><td>N3t</td><td>2,360</td><td><a href="images/mage.png">Victor Vallakovich</a> (NE), 6x <a href="images/cat.png">Skeletal Cats</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Izek is only here at night, sleeping.</li>
+</ul>
+<h2><a class="header" href="#encounters-wachterhaus" id="encounters-wachterhaus">Encounters: Wachterhaus</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N4n</td><td>10</td><td><a href="images/commoner.png">Stella Wachter</a> (CG)</td></tr>
+<tr><td>N/A</td><td>N4p</td><td>80</td><td>8x <a href="images/cat.png">Cats</a></td></tr>
+<tr><td>N/A</td><td>N4k</td><td>200</td><td><a href="images/spy.png">Ernst Larkan</a> (LE)</td></tr>
+<tr><td>N/A</td><td>N4i</td><td>450</td><td><a href="images/priest.png">Fiona Wachter</a> (LE) w/ AC 10 (CoS p. 110)</td></tr>
+<tr><td>Medium</td><td>N4s</td><td>400</td><td>8x <a href="images/skeleton.png">Skeletons</a></td></tr>
+<tr><td>Deadly</td><td>N4t</td><td>1,800</td><td>4x <a href="images/cult-fanatic.png">Cult Fanatics</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-vistani-camp" id="encounters-vistani-camp">Encounters: Vistani Camp</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N9c</td><td>150</td><td>6x Drunk, sleeping Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>Easy</td><td>N9</td><td>225</td><td>9x Dusk Elf <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Easy</td><td>N9g</td><td>225</td><td>9x Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>Easy</td><td>N9</td><td>300</td><td>12x Vistani <a href="images/bandit.png">Bandits</a>*</td></tr>
+<tr><td>Deadly</td><td>N9a</td><td>2,300</td><td><a href="images/mage.png">Kasimir Velikov</a> (CoS p. 232)</td></tr>
+<tr><td>3x Deadly</td><td>N9c</td><td>4,350</td><td><a href="images/bandit-captain.png">Luvash</a> and <a href="images/assassin.png">Arrigal</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Luvash is drunk, and has disadvantage on attack / ability rolls.</li>
+<li>The 12 Bandits are off searching for Arabelle and don't return until she
+is found or dies.</li>
+</ul>
+<h2><a class="header" href="#the-blue-water-inn" id="the-blue-water-inn">The Blue Water Inn</a></h2>
+<p>Describe the door as being unusually heavy. This is because of its
+reenforcements for when attacks occur.</p>
+<p>The Martikov sons, Brom and Bray, affectionately refer to their father as
+ворон (read &quot;voron&quot;), which means &quot;raven&quot; in Russian.</p>
+<table><thead><tr><th>Item</th><th>Cost</th></tr></thead><tbody>
+<tr><td>Bed for the night</td><td>1 ep</td></tr>
+<tr><td>Wolf steak</td><td>1 ep</td></tr>
+<tr><td>Pint of Purple Grapemash</td><td>3 cp</td></tr>
+<tr><td>Pint of Red Dragon Crush</td><td>1 sp</td></tr>
+</tbody></table>
+<p><strong>Rictavio</strong></p>
+<p>From noon to dusk.</p>
+<table><thead><tr><th>d10</th><th>Location</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>His private room.</td></tr>
+<tr><td>5 - 10</td><td>The taproom.</td></tr>
+</tbody></table>
+<h2><a class="header" href="#quest-recover-the-bones-of-st-andral" id="quest-recover-the-bones-of-st-andral">Quest: Recover the Bones of St. Andral</a></h2>
+<p><strong>Reward:</strong> The church is <em>Hallowed</em>. +2 Renown to Servants of the Morninglord.</p>
+<h2><a class="header" href="#quest-rescue-arabelle" id="quest-rescue-arabelle">Quest: Rescue Arabelle</a></h2>
+<p>The counter for her being missing starts the day they discover her gone,
+presumably by hearing so from Luvash. If she is not found the same day the
+PCs learn of her disappearance, she drowns.</p>
+<p>If the players also head to Lake Zarovich directly without meeting Luvash,
+Arabelle will be there as described on page 38.</p>
+<h2><a class="header" href="#custom-quest-new-leadership" id="custom-quest-new-leadership">Custom Quest: New Leadership</a></h2>
+<p>Either stop Lady Wachter's cult, overthrow the Baron with Wachter's help, or
+do away with them both to leave Vallaki in anarchy.</p>
+<h2><a class="header" href="#custom-event-morganthas-return" id="custom-event-morganthas-return">Custom Event: Morgantha's Return</a></h2>
+<p>If the PCs fled (or missed) Old Bonegrinder without killing Morgantha, she
+can appear in Vallaki hawking her pastries.</p>
+<h2><a class="header" href="#custom-event-defend-the-inn" id="custom-event-defend-the-inn">Custom Event: Defend the Inn</a></h2>
+<p>This occurs if the players flee during Strahd's attack on the church, and
+take refuge in the Inn.</p>
+<h2><a class="header" href="#calendar-2" id="calendar-2">Calendar</a></h2>
+<ul>
+<li><code>k - 4</code> - Ilya Krezkov dies of illness at age 14.</li>
+<li><code>k</code> - The day the PCs first arrive at the gates of Krezk, whether they get
+in or not.</li>
+</ul>
+<h2><a class="header" href="#encounters-4" id="encounters-4">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 5 characters. There
+are no random household encounters here like in Vallaki or the Village of
+Barovia.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>50</td><td>1x Misc. Mongrelfolk (CoS p. 234)</td></tr>
+<tr><td>N/A</td><td>S17</td><td>50</td><td>Clovin Belview the Mongrelfolk</td></tr>
+<tr><td>N/A</td><td>S12a</td><td>50</td><td>Mishka</td></tr>
+<tr><td>N/A</td><td>S6</td><td>100</td><td>Otto and Zygfrek</td></tr>
+<tr><td>N/A</td><td>S15h</td><td>100</td><td>2x Mongrelfolk*</td></tr>
+<tr><td>N/A</td><td>S15a</td><td>150</td><td>3x Mongrelfolk</td></tr>
+<tr><td>N/A</td><td>S15g</td><td>150</td><td>3x Mongrelfolk (and 7x babies)</td></tr>
+<tr><td>N/A</td><td>S15b</td><td>250</td><td>5x Mongrelfolk</td></tr>
+<tr><td>N/A</td><td>S15c</td><td>350</td><td>7x Mongrelfolk</td></tr>
+<tr><td>Easy</td><td>S15f</td><td>400</td><td>8x Mongrelfolk</td></tr>
+<tr><td>Easy</td><td>S15d</td><td>450</td><td>9x Mongrelfolk</td></tr>
+<tr><td>Hard</td><td>S15e</td><td>800</td><td>16x Mongrelfolk</td></tr>
+<tr><td>Easy</td><td>S13</td><td>1,800</td><td>Vasilka the <a href="images/flesh-golem.png">Flesh Golem</a></td></tr>
+<tr><td>Easy</td><td>S15</td><td>1,800</td><td><a href="images/flesh-golem.png">Flesh Golem</a></td></tr>
+<tr><td>Deadly (10)</td><td>S13</td><td>5,900</td><td><a href="images/deva.png">The Abbot</a></td></tr>
+<tr><td>2x Deadly</td><td>S9</td><td>4,900</td><td>7x <a href="images/wight.png">Wights</a>*</td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The <em>Wights</em> only attack if a <em>Fortune of Ravenloft</em> is found here.</li>
+<li>The 2 Mongrelfolk in S15h have 3/4 cover when hidden in their fort.</li>
+</ul>
+<h2><a class="header" href="#the-abbot" id="the-abbot">The Abbot</a></h2>
+<p><strong>Custom Development</strong></p>
+<p>The Abbot is actually Lander Windriver, a Light Domain Cleric from a
+previous adventure, the events of which occured hundreds of years in the
+past. Upon his original mortal death he was made into a
+<a href="./images/deva.png">Deva</a>, and for the past century has been the keeper of
+the Abbey of St. Markovia.</p>
+<p>The only evidence of the Abbot's connection to his past is a <strong>Stone Carving
+of a Walrus</strong> that he keeps as a momento of his mortal life. The carving can
+be found during a search of <strong>S17</strong>, along with:</p>
+<ul>
+<li>Empty wine bottles</li>
+<li>Scraps of food</li>
+<li>Some surgical equipment</li>
+<li>Soiled monk's robes</li>
+<li>A <strong>Manual of Flesh Golems</strong> (DMG p. 180)</li>
+</ul>
+<p>The <strong>Manual</strong> can't be used by the party (they don't have enough magical
+power), and an attempt to read it will deal <strong>6d6 psychic damage</strong>.</p>
+<h2><a class="header" href="#calendar-3" id="calendar-3">Calendar</a></h2>
+<ul>
+<li><code>w - 10 years</code> - The first gem was stolen.</li>
+<li><code>w - 3 weeks</code> - Baba Lysaga's scarecrows stole the second gem.</li>
+<li><code>w - 5 days</code> - The druids stole the third gem.</li>
+<li><code>w - 2 days</code> - The druids drove the Wereravens from the Winery.</li>
+<li><code>w</code> - The day the PCs arrive at the Winery.</li>
+</ul>
+<h2><a class="header" href="#encounters-5" id="encounters-5">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 5 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>W16</td><td>450</td><td>1x <a href="images/druid.png">Druid</a> w/ <em>Gulthias Staff</em></td></tr>
+<tr><td>Easy</td><td>W20</td><td>650</td><td>2x Vine Blights, 1x <a href="images/druid.png">Druid</a></td></tr>
+<tr><td>Easy</td><td>W14</td><td>700</td><td>5x Needle Blights, 1x <a href="images/druid.png">Druid</a></td></tr>
+<tr><td>Hard</td><td>W9</td><td>1,050</td><td>24x Twig Blights, 1x <a href="images/druid.png">Druid</a>*</td></tr>
+<tr><td>Deadly</td><td>W</td><td>1,500</td><td>30x Needle Blights (MM p. 32)</td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>There are four <em>Swarms of Ravens</em> in W9 who kill one Twig Blight each per
+round.</li>
+</ul>
+<h2><a class="header" href="#quest-reclaim-the-winery" id="quest-reclaim-the-winery">Quest: Reclaim the Winery</a></h2>
+<p>Kill all the Druids and their Blights to free the Winery. This can be done
+in three ways:</p>
+<ul>
+<li>A melee outside the Winery, as described on page 174.</li>
+<li>Barricade the Winery doors, picking off each Druid group separately.</li>
+<li>Break / burn the <em>Gulthias Staff</em>.</li>
+</ul>
+<p><strong>Reward:</strong> <em>Gulthias Staff</em> (CoS p. 221), +2 Renown to Keepers of the Feather</p>
+<h2><a class="header" href="#quest-deliver-the-wine" id="quest-deliver-the-wine">Quest: Deliver the Wine</a></h2>
+<p>Davian will send his sons Adrian and Elvir to drive the wagon and deliver
+the wine to whichever location the PCs choose. The Wereravens will be pleased,
+based on the delivery location:</p>
+<ul>
+<li>Vallaki Vistani: 0 renown (only Vistani are happy)</li>
+<li>Krezk: 1 renown (Davian is happy)</li>
+<li>Blue Water Inn: 2 renown (Davian and Urwin are happy)</li>
+</ul>
+<p><strong>Note:</strong> Rolls for random encounters are to occur once per mile, since the
+wagon travels slowly. It is 7.5 miles from the Winery to Vallaki, so make
+<strong>7 rolls</strong>. The trip takes <strong>3 hours</strong> to complete.</p>
+<p><strong>Reward:</strong> +0 / +1 / +2 Renown to Keepers of the Feather</p>
+<h2><a class="header" href="#quest-recover-the-stolen-gems" id="quest-recover-the-stolen-gems">Quest: Recover the Stolen Gems</a></h2>
+<p>The Druids have one and have embedded it in their Strahd statue. Baba Lysaga
+has another, and keeps it in her hut.</p>
+<p><strong>Custom:</strong> Each <strong>Magic Gem</strong> is a <em>Cone of Regeneration</em> that has 1 charge.
+As an action, a player may spend a charge to cast <em>Regeneration</em> as written
+on page 271 of the Player's Handbook. The Gem recharges 1 charge every day
+at dawn.</p>
+<p><strong>Reward:</strong> +2 Renown to Keepers of the Feather for each Gem returned.</p>
+<h2><a class="header" href="#custom-quest-recover-the-lost-gem" id="custom-quest-recover-the-lost-gem">Custom Quest: Recover the Lost Gem</a></h2>
+<p>Personally I think it better if the location of the original lost gem
+remains a mystery. If you don't agree, here are suggestions for where the
+gem could've gone.</p>
+<p>Urwin indeed did not steal the gem the night it went missing, nor was he off
+shirking his duties by visiting Danika. The gem was stolen by a group of
+three Vistani brothers, who snuck in unseen via Invisibility Potions. Urwin
+admits, if asked, that he saw Vistani on the trails nearby the Winery that
+day. He also points out that despite the gem being stolen, its boon (namely,
+the champagne) has not appeared anywhere since then. He thinks the three
+Vistani must have died in the woods the very night they stole the gem.</p>
+<p>This would be an excuse to get the PCs to trek into the Svalich Woods and
+face its dangers. Where the gem is, or further events surrounding its
+recovery would be up to you.</p>
+<h2><a class="header" href="#encounters-6" id="encounters-6">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 6 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A (1)</td><td>V7</td><td>200</td><td>1x <a href="images/animated-armour.png">Animated Armour</a></td></tr>
+<tr><td>Hard (8)</td><td>V1</td><td>3,900</td><td>Ezmerelda d'Avenir (CoS p. 231)</td></tr>
+<tr><td>Hard (9)</td><td>V2</td><td>5,000</td><td>1x <a href="images/young-blue-dragon.png">Young Blue Dragon</a></td></tr>
+<tr><td>7x Deadly</td><td>V4</td><td>20,000</td><td>4x <a href="images/clay-golem.png">Clay Golems</a>*</td></tr>
+</tbody></table>
+<ul>
+<li>The <em>Clay Golems</em> will not attack unless attacked. Only an attacked unit
+will activate. Killing any one unit disables the elevator.</li>
+</ul>
+<h2><a class="header" href="#event-ezmereldas-retreat" id="event-ezmereldas-retreat">Event: Ezmerelda's Retreat</a></h2>
+<p><em>Original Text: p. 172</em></p>
+<p>It is important to note that Ezmerelda has a low chance of staying with the
+PCs here if they've destroyed the Tower. She will have to be met again
+elsewhere if the PCs want her help.</p>
+<h2><a class="header" href="#custom-khazans-phylactery" id="custom-khazans-phylactery">Custom: Khazan's Phylactery</a></h2>
+<p>Page 89 describes Khazan as a powerful mage who became a Lich, but failed to
+ascend to demilichdom. In this custom variant, he did not fail.</p>
+<p>His phylactery is here, in the secret compartment behind the suit of armour.
+It can be destroyed by a strike from Khazan's <em>Staff of Power</em>, hidden in
+Castle Ravenloft.</p>
+<h3><a class="header" href="#encounters-7" id="encounters-7">Encounters</a></h3>
+<p>Challenge below is based on a 4-player party of level 6 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>Y3</td><td>N/A</td><td>Strahd Statue (AC 10, 50hp)</td></tr>
+<tr><td>N/A</td><td>Y4</td><td>1,500</td><td>Gulthias Tree (AC 15, 250hp) (CoS p. 198)</td></tr>
+<tr><td>Medium (7)</td><td>Y4</td><td>2,900</td><td>Wintersplinter (CoS p. 230)*</td></tr>
+<tr><td>Hard</td><td>Y4</td><td>900</td><td>3x Vine Blights, 6x Needle Blights, 12x Twig Blights*</td></tr>
+<tr><td>3x Deadly</td><td>Y3</td><td>5,400</td><td>6x <a href="images/druid.png">Druids</a>, 6x <a href="images/berserker.png">Berserkers</a>*</td></tr>
+<tr><td>3x Deadly</td><td>Y3</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<ul>
+<li>The buried enemies only appear if they are discovered, or if the PCs approach
+or attack the statue.</li>
+<li>The blights only attack if the Gulthias Tree is attacked.</li>
+<li><strong>Custom:</strong> Wintersplinter can be killed like any other Blight if the <em>Gulthias Staff</em>
+is broken near it.</li>
+</ul>
+<h2><a class="header" href="#encounters-8" id="encounters-8">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 7 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>Q11</td><td>100</td><td>Savid the Dusk Elf Scout</td></tr>
+<tr><td>Easy</td><td>Q52</td><td>1,400</td><td>2x Phantom Warrior (one in each turret) (CoS p. 142)</td></tr>
+<tr><td>Hard</td><td>Q4</td><td>1,800</td><td>9x Giant Spiders</td></tr>
+<tr><td>Deadly</td><td>Q1</td><td>4,350</td><td>Arrigal, 2x Bandits, 2x Dire Wolves</td></tr>
+<tr><td>Deadly</td><td>Q13</td><td>5,400</td><td>3x Revenants</td></tr>
+<tr><td>2x Deadly</td><td>Q25</td><td>4,900</td><td>7x Phantom Warriors (CoS p. 235)</td></tr>
+<tr><td>2x Deadly</td><td>Q36</td><td>7,100</td><td>6x Phantom Warriors, Vladimir Horngaard (CoS p. 242)</td></tr>
+<tr><td>2x Deadly</td><td>Q37</td><td>9,500</td><td>4x Revenants, Sir Godfrey Gwilym (CoS p. 139)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-9" id="encounters-9">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 8 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>U3 (Chest)</td><td>40</td><td>4x Crawling Claws</td></tr>
+<tr><td>N/A</td><td></td><td>1d4 * 100</td><td>1d4 Swarms of Wasps</td></tr>
+<tr><td>N/A</td><td>U2 (Garden)</td><td>200</td><td>4x Giant Poisonous Snakes</td></tr>
+<tr><td>N/A</td><td>U6</td><td>450</td><td>Muriel Vinshaw the Wereraven (CoS p. 242)</td></tr>
+<tr><td>N/A</td><td>U2</td><td>1,100</td><td><a href="images/ghost.png">Ghost</a> of Lazlo Ulrich</td></tr>
+<tr><td>Easy</td><td>Berez</td><td>1,400</td><td>7x Scarecrows</td></tr>
+<tr><td>Hard</td><td>U5</td><td>3,220</td><td>7x <a href="images/commoner.png">Corpses</a>, 7x Swarms of Poisonous Snakes</td></tr>
+<tr><td>Hard (11)</td><td>U3</td><td>7,200</td><td>Baba Lysaga (CoS p. 228)</td></tr>
+<tr><td>2x Deadly</td><td>U3</td><td>14,400</td><td>Baba Lysaga and her Creeping Hut (CoS p. 226)</td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Baba Lysaga dies quickly if she fails to bathe in blood on the night
+of a new moon.</li>
+<li>Baba Lysaga's hut is rendered inanimate if PCs can extract the gem
+that powers it. Attempting to do so while the hut is animated is
+not easy - see CoS p. 226.</li>
+</ul>
+<h2><a class="header" href="#encounters-10" id="encounters-10">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 9 characters.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>X38</td><td>200</td><td>1x <a href="images/specter.png">Specter</a></td></tr>
+<tr><td>N/A</td><td>X32</td><td>450</td><td>3x Barovian Witches, 3x Brooms of Animated Attack</td></tr>
+<tr><td>N/A</td><td>X39</td><td>800</td><td>4x <a href="images/specter.png">Specters</a></td></tr>
+<tr><td>Easy</td><td>X22</td><td>1,400</td><td>7x <a href="images/specter.png">Specters</a></td></tr>
+<tr><td>Easy</td><td>X33d</td><td>1,800</td><td>4x <a href="images/nothic.png">Nothics</a></td></tr>
+<tr><td>Easy</td><td>X9</td><td>2,500</td><td>Vilnius the <a href="images/mage.png">Mage</a> and his <a href="images/quasit.png">Quasit</a></td></tr>
+<tr><td>Medium (10)</td><td>X10</td><td>5,900</td><td>Damaged <a href="images/stone-golem.png">Amber Golem</a> w/ 145hp</td></tr>
+<tr><td>Medium (10)</td><td>X27</td><td>5,900</td><td>Weakened <a href="images/lich.png">Exethanter</a> w/ 99hp</td></tr>
+<tr><td>Medium (10)</td><td>X33e</td><td>5,900</td><td>Death Slaad</td></tr>
+<tr><td>Medium (10)</td><td>X40</td><td>5,900</td><td><a href="images/stone-golem.png">Amber Golem</a></td></tr>
+<tr><td>Medium (10)</td><td>X5</td><td>5,900</td><td>Rahadin (CoS p. 237)</td></tr>
+<tr><td>Hard</td><td>X33c</td><td>3,150</td><td>7x <a href="images/ghast.png">Ghasts</a></td></tr>
+<tr><td>Hard</td><td>X17</td><td>3,300</td><td>3x <a href="images/flameskull.png">Flameskulls</a></td></tr>
+<tr><td>Hard</td><td>X6 / X33a</td><td>3,300</td><td>3x <a href="images/flameskull.png">Flameskulls</a></td></tr>
+<tr><td>Hard (12)</td><td>X5a</td><td>8,400</td><td>Neferon the Arcanaloth</td></tr>
+<tr><td>Deadly</td><td>X15</td><td>4,250</td><td>Helwa the <a href="images/gladiator.png">Gladiator</a>, 5x <a href="images/berserker.png">Berserkers</a>, 1x <a href="images/dire-wolf.png">Dire Wolf</a></td></tr>
+<tr><td>2x Deadly</td><td>X42</td><td>10,800</td><td>6x <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>2x Deadly</td><td>X5</td><td>11,700</td><td>3x <a href="images/flameskull.png">Flameskulls</a> + Arcanaloth</td></tr>
+<tr><td>4x Deadly (22)</td><td>X27</td><td>41,000</td><td>Exethanter the <a href="images/lich.png">Lich</a> (in lair)</td></tr>
+</tbody></table>
+<p>Notes:</p>
+<ul>
+<li>Neferon carries a <em>Robe of Useful Items</em>.</li>
+<li>Vilnius carries a Shield Guardian command amulet.</li>
+<li>The <strong>2x Deadly</strong> encounter variation in X5 is essentially unwinnable. The
+flameskulls have 3/4 cover (+5 AC), and the Arcanaloth can't be targeted from
+behind its magical darkness. If the players dispel the darkness, the Arcanaloth
+still has 3/4 cover.</li>
+<li>The Arcanaloth can see the X4 balcony, and can target creatures there with its
+<em>Fireball</em> and <em>Chain Lightning</em> spells.</li>
+<li><strong>Custom:</strong> In his weakened state, it is stated that Exethanter has forgotten
+his spells, but still knows his cantrips. To justify his Challenge Rating of 10,
+it should be assumed that his <strong>Legendary Resistance</strong>, <strong>Paralyzing Touch</strong>,
+and <strong>Legendary Actions</strong> are still available to him. His <strong>Lair Actions</strong> only
+return if his mind is restored.</li>
+</ul>
+<h2><a class="header" href="#neferons-hunt" id="neferons-hunt">Neferon's Hunt</a></h2>
+<p>CoS Page 184 describes how the Neferon the Arcanaloth should behave while the
+PCs are in the temple. In particular, it is stated that:</p>
+<blockquote>
+<p>If the arcanaloth loses more than half its hit points, it teleports to the
+temple floor, turns invisible, and flees by the safest route, attacking the
+characters again when it's safe to do so.</p>
+</blockquote>
+<p>Page 311 and 313 of the Monster Manual describe Arcanaloths. Notice that
+Arcanaloths:</p>
+<ul>
+<li>Speak all languages and are telepathic.</li>
+<li>Have true sight.</li>
+<li>Can fly freely as their movement.</li>
+<li>Are resistant to many damage types.</li>
+<li>Can turn invisible &quot;at will&quot;.</li>
+<li>Can teleport as an action.</li>
+<li>Can protect themselves via <em>Counterspell</em>, <em>Banishment</em>, and <em>Mind Blank</em>.</li>
+<li>Can cause harm via <em>Fireball</em>, <em>Chain Lightning</em>, and <em>Finger of Death</em>.</li>
+</ul>
+<p>We can assume that Neferon is very protective of the Amber Temple, and that he
+and Exethanter have &quot;an understanding&quot;.</p>
+<p>Should the PCs corner Neferon, he tries to fool them via <em>Alter Self</em> as
+described on Page 184. If instead they force him to flee the statue, he will
+pursue them about the temple. Conditions:</p>
+<ul>
+<li>Neferon will not face the PCs in open combat.</li>
+<li>He is always invisible while pursuing the PCs, but this guise is momentarily
+lost when he attacks.</li>
+<li>If the PCs take a long rest within the temple, Neferon gains back his HP and
+spell slots.</li>
+<li>He will not attack if the PCs are interacting normally with an NPC or Exethanter.</li>
+<li>He will not attack if the PCs are engaged in a serious encounter.</li>
+<li>If not otherwise barred from entering the room the PCs are in, Neferon will
+cast <em>Fear</em> or <em>Fireball</em> on the PCs if they attempt to take a short/long
+rest.</li>
+<li>Neferon will specifically target PCs who turn invisible, since he can see them.</li>
+</ul>
+<h2><a class="header" href="#the-amber-sarcophagi" id="the-amber-sarcophagi">The Amber Sarcophagi</a></h2>
+<p>It should be made clear to the players that accepting gifts can permanently
+alter their characters (i.e. becoming evil). The gifts themselves have a
+strange range of negative side-effects, while having <em>very</em> nice positive
+effects.</p>
+<p>Here are some suggestions for handling these effects, contrary to how they
+are originally written:</p>
+<ul>
+<li>Spell gifts can be cast once per long rest, and never disappear.</li>
+<li>Time-based gifts don't fade over time (or at least during the adventure).</li>
+<li>A character <em>could</em> become a vampire, but not a Lich.</li>
+<li>Zhudun's gift (perfect resurrection) lasts once as written.</li>
+</ul>
+<p><strong>Custom Development</strong></p>
+<p>Smashing all the Sarcophagi will prevent Strahd's return if he is killed.
+This fact should be insinuated by Exethanter if his memory is restored.</p>
+<p>Castle Ravenloft can be visited at any point in the adventure, even multiple
+times. For lower-level parties, staying here for long poses a significant
+threat.</p>
+<p>All encounters assume a 4-player party of level 4 or 9 characters, for contrast.
+See also <a href="rolls/#random-encounters-in-castle-ravenloft">Random Encounters in Castle
+Ravenloft</a>. Unless stated
+otherwise, Strahd encounters listed here only occur if Strahd is to appear there
+according to your party's Tarokka reading.</p>
+<h2><a class="header" href="#castle-music" id="castle-music">Castle Music</a></h2>
+<table><thead><tr><th>Area</th><th><em>Tabletop Audio</em> Track</th></tr></thead><tbody>
+<tr><td>Dungeon (K73)</td><td>Sewers / Castle Jail</td></tr>
+<tr><td>Catacombs</td><td>The Underdark</td></tr>
+<tr><td>Larders of Ill Omen</td><td>Alchemist's Lab</td></tr>
+<tr><td>Main Floor</td><td>Graveyard?</td></tr>
+<tr><td>Chapel (K15)</td><td>Cathedral</td></tr>
+<tr><td>Walls of Ravenloft</td><td>Graveyard</td></tr>
+<tr><td>Court of the Count</td><td>Dungeon 1</td></tr>
+<tr><td>Rooms of Weeping</td><td>Catacombs</td></tr>
+<tr><td>Strahd's Study (K37)</td><td>Antiquarian Study</td></tr>
+<tr><td>Spires of Ravenloft / Towers</td><td>Graveyard</td></tr>
+<tr><td>Heart of Sorrow tower (K20)</td><td>Floating Ice Castle</td></tr>
+</tbody></table>
+<h2><a class="header" href="#entering-the-castle" id="entering-the-castle">Entering the Castle</a></h2>
+<table><thead><tr><th>Entrance</th><th>Index</th><th>Note</th></tr></thead><tbody>
+<tr><td>Entry</td><td>K7</td><td>Follow events of K8</td></tr>
+<tr><td>Servant's Entrance</td><td>K23</td><td>Break through the swollen door</td></tr>
+<tr><td>Chapel</td><td>K15</td><td>Break through windows</td></tr>
+<tr><td>Tomb of King and Queen</td><td>K88</td><td>Climb/fly down from K6, break windows</td></tr>
+<tr><td>Audience Hall</td><td>K25</td><td>Climb up and break large window</td></tr>
+<tr><td>Heart of Sorrow</td><td>K20</td><td>Through Parapets (K46)</td></tr>
+<tr><td>King's Bedchamber</td><td>K42</td><td>Break window from Parapets (K46)</td></tr>
+<tr><td>Lounge</td><td>K49</td><td>Climb/fly up and break window</td></tr>
+<tr><td>Smokestack</td><td>K52</td><td>Slide down to Study (K37)</td></tr>
+<tr><td>Bridge</td><td>K58</td><td>Open to K20 and K57</td></tr>
+<tr><td>North Tower Peak Rooftop</td><td>K60a</td><td>Trapdoor to North Tower Peak (K60)</td></tr>
+<tr><td>High Tower Peak</td><td>K59</td><td>Part of the roof is caved in</td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Entering through the Smokestack causes fire damage.</li>
+<li>Players who enter K88 and pass through K87 <em>cannot exit this way</em> unless they
+are Lawful Good.</li>
+<li>While it does not function as an entrance, the players can <strong>leave</strong> through
+the teleportation Brazier in K78.</li>
+<li>Falling from the Overlook (K6) results in instant death, regardless of the
+rules of Fall Damage.</li>
+</ul>
+<h2><a class="header" href="#encounters-walls-of-ravenloft" id="encounters-walls-of-ravenloft">Encounters: Walls of Ravenloft</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K6</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-main-floor" id="encounters-main-floor">Encounters: Main Floor</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>3x Deadly</td><td>Medium</td><td>K8</td><td>5,900</td><td>Rahadin (CoS p. 237)</td></tr>
+<tr><td>4x Deadly</td><td>Hard</td><td>K8</td><td>3,600</td><td>8x <a href="images/gargoyle.png">Gargoyles</a></td></tr>
+<tr><td>4x Deadly</td><td>Hard</td><td>K7</td><td>4,400</td><td>4x <a href="images/red-dragon-wyrmling.png">Red Dragon Wyrmlings</a></td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K15</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The dragons won't pursue PCs out of K7.</li>
+<li>The Gargoyles only attack if players return to K8 after leaving it once.</li>
+<li>When the Gargoyles attack, the turbulence of their wings put out all the wall
+torches, but not held ones.</li>
+</ul>
+<h2><a class="header" href="#encounters-court-of-the-count" id="encounters-court-of-the-count">Encounters: Court of the Count</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>K30</td><td>10</td><td><a href="images/commoner.png">Lief Lipsiege</a></td></tr>
+<tr><td>Easy</td><td>N/A</td><td>K28</td><td>200</td><td>2x Strahd Zombies (CoS p. 241)</td></tr>
+<tr><td>Hard</td><td>N/A</td><td>K32</td><td>1,800</td><td>Helga Ruvak the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K25</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-rooms-of-weeping" id="encounters-rooms-of-weeping">Encounters: Rooms of Weeping</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>K42</td><td>10</td><td><a href="images/commoner.png">Gertruda</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>K35</td><td>200</td><td>4x <a href="images/swarm-of-rats.png">Swarms of Rats</a></td></tr>
+<tr><td>Medium</td><td>N/A</td><td>K36</td><td>1,100</td><td><a href="images/ghost.png">Ghost</a> of Pidlwick</td></tr>
+<tr><td>Deadly</td><td>N/A</td><td>K40</td><td>1,000</td><td>5x <a href="images/giant-spider.png">Giant Spiders</a></td></tr>
+<tr><td>Deadly</td><td>Easy</td><td>K36*</td><td>2,300</td><td>1x <a href="images/invisible-stalker.png">Invisible Stalker</a></td></tr>
+<tr><td>Deadly</td><td>Easy</td><td>K46</td><td>2,300</td><td>Strahd's Animated Armor (CoS p. 227)</td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K37/K41</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The Invisible Stalker originates from K36, but it can attack the players
+anywhere. It only appears if the PCs take the groom figurine out of the room.</li>
+</ul>
+<h2><a class="header" href="#encounters-the-spires-of-ravenloft" id="encounters-the-spires-of-ravenloft">Encounters: The Spires of Ravenloft</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>K54</td><td>30</td><td>3x <a href="images/cat.png">Cats</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>K59</td><td>50</td><td>Pidlwick II (CoS p. 236)</td></tr>
+<tr><td>Easy</td><td>N/A</td><td>K47</td><td>650</td><td>1x <a href="images/rug-of-smothering.png">Rug of Smothering</a>, 1x Guardian Portrait (CoS p. 227)</td></tr>
+<tr><td>Medium</td><td>N/A</td><td>K60a</td><td>500</td><td>10x <a href="images/swarm-of-bats.png">Swarms of Bats</a></td></tr>
+<tr><td>Hard</td><td>N/A</td><td>K56</td><td>700</td><td>7x Barovian Witches (CoS p. 229)</td></tr>
+<tr><td>Hard</td><td>N/A</td><td>K49</td><td>1,800</td><td>Escher the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Hard</td><td>N/A</td><td>K49/K55</td><td>1,800</td><td>1x Wandering <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K60</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+<tr><td>?</td><td>?</td><td>K20*</td><td>1,500</td><td>Heart of Sorrow (CoS p. 59)</td></tr>
+<tr><td>11x Deadly</td><td>2x Deadly</td><td>K20*</td><td>7,700</td><td>10x <a href="images/flying-sword.png">Flying Halberds</a> w/ 1d10+1 dmg and 15 AC, 4x <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The Rug and Portrait won't attack unless disturbed.</li>
+<li>The Wandering Vampire Spawn are different for each location.</li>
+<li>The Heart of Sorrow and the minions who protect it are high up the shaft, near K58.
+The Heart itself floats ~210 feet from the base of the tower, making ranged
+attacks difficult.</li>
+<li>If the Heart takes damage from anywhere, four <strong>Vampire Spawn</strong> arrive three rounds
+later to counterattack.</li>
+</ul>
+<h2><a class="header" href="#encounters-larders-of-ill-omen" id="encounters-larders-of-ill-omen">Encounters: Larders of Ill Omen</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>K62/K65</td><td>50</td><td>Cyrus Belview the Mongrelfolk (CoS p. 234)</td></tr>
+<tr><td>N/A</td><td>N/A</td><td>K65</td><td>150</td><td>3x <a href="images/zombie.png">Zombies</a></td></tr>
+<tr><td>Medium</td><td>N/A</td><td>K69</td><td>500</td><td>10x <a href="images/skeleton.png">Skeletons</a></td></tr>
+<tr><td>Medium</td><td>N/A</td><td>K63</td><td>1,100</td><td>1x <a href="images/black-pudding.png">Black Pudding</a></td></tr>
+<tr><td>5x Deadly</td><td>Deadly</td><td>K72</td><td>7,000</td><td>1x <a href="images/shadow-demon.png">Shadow Demon</a>, Rahadin (CoS p. 237)</td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K67</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-dungeon-and-catacombs" id="encounters-dungeon-and-catacombs">Encounters: Dungeon and Catacombs</a></h2>
+<table><thead><tr><th>Challenge (L4)</th><th>Challenge (L9)</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N/A</td><td>K74g</td><td>100</td><td>1x <a href="images/gray-ooze.png">Gray Ooze</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>Crypt 7</td><td>450</td><td>2x <a href="images/gargoyle.png">Gargoyles</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>Crypt 27</td><td>150</td><td>3x <a href="images/giant-wolf-spider.png">Giant Wolf Spiders</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>Crypt 34</td><td>200</td><td>1x invisible <a href="images/imp.png">Imp</a></td></tr>
+<tr><td>N/A</td><td>N/A</td><td>K85</td><td>25</td><td><a href="images/noble.png">Sergei von Zarovich</a></td></tr>
+<tr><td>Easy</td><td>N/A</td><td>K75a</td><td>700</td><td>Emil Toranescu the <a href="images/werewolf.png">Werewolf</a></td></tr>
+<tr><td>Easy</td><td>N/A</td><td>Crypt 39</td><td>700</td><td>Beucephalus the <a href="images/nightmare.png">Nightmare</a> w/ 104hp</td></tr>
+<tr><td>Easy</td><td>N/A</td><td>K84</td><td>2d4x 50</td><td>2d4 <a href="images/swarm-of-bats.png">Swarms of Bats</a></td></tr>
+<tr><td>Easy</td><td>N/A</td><td>Crypt 14</td><td>2d6x 50</td><td>2d6 <a href="images/skeleton.png">Skeletons</a></td></tr>
+<tr><td>Easy</td><td>N/A</td><td>Crypt 33</td><td>700</td><td>Sir Klutz the Phantom Warrior (CoS p. 235)</td></tr>
+<tr><td>Medium</td><td>N/A</td><td>Crypt 4</td><td>1,100</td><td><a href="images/ghost.png">Ghost</a> of Prince Ariel</td></tr>
+<tr><td>Medium</td><td>N/A</td><td>Crypt 21</td><td>1,100</td><td>Patrina Velikovna the <a href="images/banshee.png">Banshee</a></td></tr>
+<tr><td>?</td><td>?</td><td>Crypt 14</td><td>Nx 700</td><td>Nx <a href="images/wight.png">Wights</a></td></tr>
+<tr><td>Hard</td><td>N/A</td><td>Crypt 20</td><td>1,800</td><td>Sasha Ivliskova the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Deadly</td><td>Easy</td><td>K76</td><td>1,200</td><td>6x Strahd Zombies (CoS p. 241)</td></tr>
+<tr><td>Deadly</td><td>Easy</td><td>Crypt 35</td><td>1,200</td><td>6x <a href="images/ghoul.png">Ghouls</a></td></tr>
+<tr><td>3x Deadly</td><td>Hard</td><td>Crypt 38</td><td>3,900</td><td>3x <a href="images/hell-hound.png">Hellhounds</a>, 1x <a href="images/wraith.png">Wraith</a></td></tr>
+<tr><td>4x Deadly</td><td>Hard</td><td>Crypt 21</td><td>8,400</td><td>Patrina Velikovna the <a href="images/archmage.png">Archmage</a></td></tr>
+<tr><td>5x Deadly</td><td>Deadly</td><td>K86</td><td>5,400</td><td>3x Strahd's <a href="images/vampire-spawn.png">Vampire Brides</a></td></tr>
+<tr><td>6x Deadly</td><td>Deadly</td><td>K85/K86/K88</td><td>13,000</td><td>Strahd (CoS p. 240)</td></tr>
+<tr><td>16x Deadly</td><td>3x Deadly</td><td>Crypt 15</td><td>33,000</td><td>Khazan the Demilich (MM p. 48)</td></tr>
+<tr><td>22x Deadly</td><td>4x Deadly</td><td>K78</td><td>30,000</td><td>2x <a href="images/iron-golem.png">Iron Golems</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#custom-khazan-the-demilich" id="custom-khazan-the-demilich">Custom: Khazan the Demilich</a></h2>
+<p>Khazan is an Acererak-like Demilich. This means he is not the degenerative form
+of Demilich, but the ascended form. His only remains are his skull in Crypt 15
+of K84. The Crypt is not considered his layer, so his Challenge Rating is 21
+(33,000 EXP). Change the text of this crypt to read:</p>
+<blockquote>
+<p>A single skull sits atop a marble slab in the center of the crypt. It has
+black opals set in its eye sockets and shards of amber where its teeth should
+be. The floor below the slab is scattered with weapons and other adventuring
+equipment.</p>
+</blockquote>
+<p>The equipment is from adventurers who were absorbed into Khazan's opals. Their
+souls were transferred to Khazan's phylactery, which remains in his Tower.</p>
+<p>As a Demilich, Khazan managed to comprehend and subvert the elaborate spatial
+warping magic that entraps Barovia, projecting his mind to other planes of
+existance. He is the only creature to have done so, and Strahd is unaware of
+this.</p>
+<p>While usually thirsty for souls, Khazan &quot;isn't home&quot; when the players arrive.</p>
+<p><strong>Custom Development</strong></p>
+<p>If your party contains a Warlock, consider the following:</p>
+<p>Touching the skull or taking the <em>Staff of Power</em> summons Khazan back to
+Barovia, whereupon he interacts with your Warlock, offering to become its new
+patron. Perhaps this involves a combat encounter with the old patron, or some
+other puzzle.</p>
+<h2><a class="header" href="#custom-reviving-sergei" id="custom-reviving-sergei">Custom: Reviving Sergei</a></h2>
+<p>This can be done either with the last <em>Wish</em> charge of the Luck Blade, or via
+the <em>Resurrection</em> Dark Gift.</p>
+<h1><a class="header" href="#appendix" id="appendix">Appendix</a></h1>
+<p>Vampires are described on pages 295 through 298 of the Monster Manual.
+Strahd himself is described all over the <em>Curse of Strahd</em> book, but his
+stats are on pages 239 and 240.</p>
+<p>Here are some notes about vampires that may not have been clear upon first
+reading of the above sections.</p>
+<h3><a class="header" href="#in-general" id="in-general">In General</a></h3>
+<p>Vampires are undead, and thus can be targeted with <em>Turn Undead</em> and
+similar effects.</p>
+<p>A stake to the heart while in their resting place will kill a vampire
+spawn outright, but only paralyzes a true vampire (Strahd included).</p>
+<p>Any vampire or spawn can be restored to life and have their alignment
+returned from <strong>Evil</strong> if they are killed and brought back to life,
+or if <em>Wish</em> is cast on them.</p>
+<h3><a class="header" href="#strahd" id="strahd">Strahd</a></h3>
+<p>Strahd differs from normal vampires in the following ways:</p>
+<ul>
+<li>he doesn't need to rest during the day</li>
+<li>he has higher Skill statistics</li>
+<li>he can cast spells</li>
+<li>he has Lair Actions</li>
+<li>he has the Heart of Sorrow</li>
+<li>he is almost always accompanied by minions (CoS p. 239)</li>
+</ul>
+<p>Ravenloft is Strahd's <em>Lair</em>, so it would have the regional effects described
+on page 296 of the Monster Manual.</p>
+<h3><a class="header" href="#vampire-spawn" id="vampire-spawn">Vampire Spawn</a></h3>
+<p>A spawn who drinks its master's blood becomes its own, free vampire.</p>
+<p>A spawn's bite cannot create new vampires.</p>
+<h2><a class="header" href="#errors" id="errors">Errors</a></h2>
+<p><strong>Page 20, top-right.</strong></p>
+<blockquote>
+<p>Stanimir is joined by his daughter, Damia (CN male human spy), ...</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>Stanimir is joined by his daughter, Damia (CN <strong>female</strong> human spy), ...</p>
+</blockquote>
+<p><strong>Page 28, top-right, second bullet.</strong></p>
+<blockquote>
+<p>When this curse ends, the Vistana it takes 1d6 psychic damage.</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>When this curse ends, the Vistana takes 1d6 psychic damage.</p>
+</blockquote>
+<p><strong>Page 44, in the flavour text of the Burgomaster's Mansion:</strong></p>
+<blockquote>
+<p>... Heavy claw markings have stripped the once-beautiful finish of the walls.</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>... Heavy claw markings have stripped the once-beautiful finish <strong>off</strong> the walls.</p>
+</blockquote>
+<p><strong>Page 47</strong>, there is a <em>Fortunes of Ravenloft</em> section in the church
+Undercroft, but no corresponding Tarokka card that can be drawn to select
+this location.</p>
+<p><strong>Page 61, bottom-left.</strong></p>
+<blockquote>
+<p>Directly across from the window stand a set of double doors in the east wall.</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>Directly across from the window <strong>stands</strong> a set of double doors in the east wall.</p>
+</blockquote>
+<p><strong>Page 62, &quot;King's Accountant&quot; flavour text.&quot;</strong></p>
+<blockquote>
+<p>... around four heavy wooden chests fitted with study iron locks.</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>... around four heavy wooden chests fitted with <strong>sturdy</strong> iron locks.</p>
+</blockquote>
+<p><strong>Page 100, top-left.</strong></p>
+<blockquote>
+<p>Danika Martikov usually tends bar while ...</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>Danika <strong>Dorakova</strong> usually tends bar while ...</p>
+</blockquote>
+<p>since she is named as such on page 98.</p>
+<p><strong>Page 133, Q12 description, third paragraph.</strong></p>
+<blockquote>
+<p>... The doors in the northeast corner hang open. ...</p>
+</blockquote>
+<p>shoud read</p>
+<blockquote>
+<p>... The doors in the <strong>northwest</strong> corner hang open. ...</p>
+</blockquote>
+<p><strong>Page 133, bottom right.</strong></p>
+<blockquote>
+<p>A <em>continual light</em> spell was cast...</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>A <em>continual flame</em> spell was cast...</p>
+</blockquote>
+<p>as there is no spell named <em>continual light</em>.</p>
+<p><strong>Page 138, Q36 description.</strong></p>
+<blockquote>
+<p>The west wall of this fifty-foot long, ...</p>
+</blockquote>
+<p>should read</p>
+<blockquote>
+<p>The <strong>east</strong> wall of this fifty-foot long, ...</p>
+</blockquote>
+<p>as the east wall is shown on the map as being crumbled, and Vladimir is
+described as looking out windows in the opposite west wall.</p>
+<h2><a class="header" href="#clarifications" id="clarifications">Clarifications</a></h2>
+<p>Page 196, it is stated that Rahadin rides a <em>Phantom Steed</em> to the Amber
+Temple. This mount is the result of the <em>Phantom Steed</em> spell, not a
+creature listed in the Monster Manual.</p>
+<p>A quote on Tarokka:</p>
+<blockquote>
+<p>In the adventure, it is suggested that the DM do one reading before the
+game, and then another if the heroes go to Eva's. This way, if the heroes
+never meet Eva, you have determined where the items are and etc. Be aware
+that if you do the reading at the table with your players, you might get
+results that you don't like.</p>
+</blockquote>
+<p>My own thought is that the DM should rig the Magic Item locations. From the
+numbers below we can see a comparitively high chance that at least one of
+the items will appear in Castle Ravenloft. Reviewing the <a href="./magic-items.html">Magic
+Items</a> page, however, shows that the Castle is already
+packed with other magic items. A pacing argument can also be made: do you
+want your players to find the Sunsword at the Ivlis River Crossroads, the
+first time they pass it?</p>
+<ul>
+<li><strong>Sunsword:</strong> Q53 - Beacon of Argynvostholt. Instead of resting</li>
+</ul>
+<h2><a class="header" href="#item-distributions" id="item-distributions">Item Distributions</a></h2>
+<p>There are 40 locations that the special magic items can appear.</p>
+<p>Argynvostholt (14.62% chance of at least one):</p>
+<ul>
+<li>Vladimir</li>
+<li>Beacon room</li>
+</ul>
+<p>Castle Ravenloft (76.7% chance of at least one):</p>
+<ul>
+<li>Audience Hall</li>
+<li>Chapel</li>
+<li>Crypt 05</li>
+<li>Crypt 07</li>
+<li>Crypt 31</li>
+<li>Crypt 37</li>
+<li>Crypt 38</li>
+<li>Hall of Bones</li>
+<li>North Tower peak</li>
+<li>Sergei's tomb</li>
+<li>Strahd's Tomb</li>
+<li>Strahd's parents' tomb</li>
+<li>Strahd's study</li>
+<li>Treasury</li>
+<li>Wine cellar</li>
+</ul>
+<p>Tsolenka Pass + Amber Temple (27.73% chance of at least one)</p>
+<ul>
+<li>Head of Giant statue</li>
+<li>Ravenloft model</li>
+<li>Rooftop of Pass guard tower</li>
+<li>Sealed Treasury</li>
+</ul>
+<p>Werewolf Den (7.5% chance of at least one)</p>
+<ul>
+<li>The Shrine</li>
+</ul>
+<p>Vallaki (39.43% chance of at least one)</p>
+<ul>
+<li>Blue Water Inn attic</li>
+<li>Burgomaster's attic</li>
+<li>Kasimir's hovel</li>
+<li>Master bedroom of Wachterhaus</li>
+<li>Rictavio's wagon</li>
+<li>Vistani wagon</li>
+</ul>
+<p>Village of Barovia (14.62% chance of at least one):</p>
+<ul>
+<li>Madam Eva's cart</li>
+<li>Ivlis River crossroads</li>
+</ul>
+<p>Berez (14.62% chance of at least one):</p>
+<ul>
+<li>Baba Lysaga's hut</li>
+<li>Marina's monument</li>
+</ul>
+<p>Van Richten's Tower (7.5% chance of at least one)</p>
+<ul>
+<li>Top floor</li>
+</ul>
+<p>Krezk (27.73% chance of at least one)</p>
+<ul>
+<li>Abbey main hall</li>
+<li>Abbey nursery</li>
+<li>Abbey scarecrows</li>
+<li>Under gazebo</li>
+</ul>
+<p>Winery (7.5% chance of at least one)</p>
+<ul>
+<li>Glassblower's workshop</li>
+</ul>
+<p>Yester Hill (7.5% chance of at least one)</p>
+<ul>
+<li>Beneath Gulthas tree</li>
+</ul>
+<p>Old Bonegrinder (7.5% chance of at least one)</p>
+<ul>
+<li>Attic</li>
+</ul>
+<p>This section justifies the choice to cut the Werewolf Den from Curse of
+Strahd. My three main reasons are:</p>
+<ul>
+<li>Unless you're using the initial Werewolf hook, visiting the Den doesn't advance the story</li>
+<li>There is a low chance of the players needing to visit it via Tarokka</li>
+<li>There are already other sub-groups whose home base is left a mystery</li>
+</ul>
+<h2><a class="header" href="#sunny-with-low-chance-of-werewolves" id="sunny-with-low-chance-of-werewolves">Sunny with Low Chance of Werewolves</a></h2>
+<p>Out of 40 possible magic item locations, only 1 involves the Den (<em>5 of
+Swords</em>). Out of 21 possible Strahd enemies, only Zuleika Toranescu is a
+werewolf (<em>Beast / Jack of Diamonds</em>).</p>
+<p>Here is some runnable-as-is Haskell code that demonstrates the chance of
+drawing any Werewolf involvement from an ideally random Tarokka reading:</p>
+<pre><code class="language-haskell">import           Data.Ratio
+import qualified Data.Set as S
+
+-- | Naive-ish &quot;choice&quot; implementation.
+choose :: Int -&gt; Int -&gt; Int
+choose a b = product numer `div` product (S.fromList [b, b - 1 .. 1])
+  where numer = S.fromList [a, a - 1 .. 1] `S.difference` S.fromList [a - b, a - b - 1 .. 1]
+
+-- | Ways to pick magic item locations.
+configs :: Int
+configs = 40 `choose` 3  -- 9880
+
+-- | Ways to pick an arrangement that involves the Werewolf Den.
+withWWs :: Int
+withWWs = 39 `choose` 2  -- 741
+
+-- | Chance of needing to visit the Den for an item.
+toTheDen :: Ratio Int
+toTheDen = withWWs % configs  -- 0.075 or 7.5%
+
+-- | Chance that Zuleika is the Chosen Enemy of Strahd.
+enemyIsZuleika :: Ratio Int
+enemyIsZuleika = 1 % (21 `choose` 1)  -- 0.047 or ~5%
+
+-- | Chance of having anything to do with Werewolves. Around 12%.
+wwInvolvement :: Ratio Int
+wwInvolvement = sum [ toTheDen * (1 - enemyIsZuleika)  -- Item in Den, Zuleika is not enemy
+                    , toTheDen * enemyIsZuleika        -- Item in Den, Zuleika is enemy
+                    , (1 - toTheDen) * enemyIsZuleika  -- Item not in Den, Zuleikea is enemy
+                    ]
+</code></pre>
+<p>The <code>wwInvolvement</code> function gives us the answer. In any particular Tarokka
+drawing, there is only a 12% chance that the players have an explicit
+directive to visit the Den.</p>
+<p><strong>&quot;But Yester Hill!&quot;</strong> Yes, well, there is also only a 7.5% chance of
+needing to go to Yester Hill for an item, but other factors can draw the
+players there, namely restoring the Winery, settling the score with druids,
+or interaction with Strahd.</p>
+<h2><a class="header" href="#tarokka-replacements" id="tarokka-replacements">Tarokka Replacements</a></h2>
+<ul>
+<li>Enemy: Replace Zuleika with Sergei von Zarovich. Let his text read:</li>
+</ul>
+<blockquote>
+<p>I see a ghost once betrayed, the seed of evil's power.</p>
+</blockquote>
+<ul>
+<li>Item: Replace Den with <strong>E5g (Undercroft)</strong>. Maybe? They're almost guaranteed to
+go here, and the chest is written as being &quot;unlocked and untrapped&quot;. Seems
+too easy.</li>
+</ul>
+<h2><a class="header" href="#cons" id="cons">Cons</a></h2>
+<p>There is no road that leads to the Den. Cutting this section of the
+adventure would deprive the players their only legitimate reason to
+bush-whack.</p>
+<p>Speed running is usually the act of completing a video game as fast as
+possible, using a variety of tricks not known to the average player.
+Speed running <em>Curse of Strahd</em> is also possible if the DM colludes
+with the players.</p>
+<p>Given the scenario:</p>
+<ul>
+<li>the PCs are all Level 3</li>
+<li>the PCs begin in the Village of Barovia (as if Death House were complete)</li>
+<li>the DM has told the players where the Magic Items are</li>
+</ul>
+<p><strong>How fast can Curse of Strahd be completed?</strong></p>
+<p>Suggested route:</p>
+<ul>
+<li><em>Sunsword</em> is in Tser Pool Encampment</li>
+<li>Travel immediately to Castle Ravenloft</li>
+<li>Attune someone to the <em>Sunsword</em> (1 hour)</li>
+<li>Get <em>Staff of Power</em> from Khazan's crypt</li>
+<li>Strahd is in Sergei's tomb</li>
+<li>Break the <em>Staff of Power</em> beside Strahd while he is in sunlight (160 dmg)</li>
+<li>Victory</li>
+</ul>
+<h2><a class="header" href="#the-deadliest-paragraph" id="the-deadliest-paragraph">The Deadliest Paragraph</a></h2>
+<p>The <strong>Development</strong> section of <strong>K78</strong> (CoS p. 84) describes an encounter with
+two <strong>Iron Golems</strong>, should the PCs attack them or the Warp Brazier kept here.
+Specifically it states:</p>
+<blockquote>
+<p>... the doors of the room magically slam shut and lock ... On the first round,
+the golems fill the room with their poison breath ... Each creature in the
+room must make two savings throws.</p>
+</blockquote>
+<p>A single <strong>Iron Golem</strong> has a Challenge Rating of 16. Their <em>Poison Breath</em>
+action does 45 damage on average on a failed save, meaning that you can expect
+the PCs to have taken 90 damage each before the battle even begins. And when it
+does, the Golems are immune or resistant to many of the PCs' potential attacks.</p>
+<p><strong>If the encounter is triggered:</strong></p>
+<ul>
+<li>The doors in this room can be forced open (DC 25 Strength Check) or smashed
+(25 HP).</li>
+<li>Provided that the neither the Brazier (25 HP) nor the Hourglass (20 HP) have
+been destroyed, the PCs can warp out of this room using the mechanism
+described on Page 84.</li>
+</ul>
+<p>Otherwise, your players will surely die here, the deadliest room in Barovia.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

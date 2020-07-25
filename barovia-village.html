@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Village of Barovia - Curse of Strahd: Master Quest</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html" class="active"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#calendar" id="calendar">Calendar</a></h2>
+<p>Assuming the Barovian lunar cycle to be <strong>28 days</strong>.</p>
+<ul>
+<li><code>b - ~1yr</code> Doru rebels against Strahd, but fails and becomes a vampire spawn.</li>
+<li><code>b - 54</code> (New moon) Strahd bites Ireena the first time.</li>
+<li><code>b - 26</code> (New moon) Strahd bites Ireena for the second time.</li>
+<li><code>b - ~14</code> Wolves start attacking the Burgomaster's house nightly.</li>
+<li><code>b - 7</code> Gertruda goes missing from Mad Mary's house.</li>
+<li><code>b - 3</code> The Burgomaster dies, and the attacks on their house stop.</li>
+<li><code>b - 1</code> The players enter Death house. Strahd knows that someone has gone
+in, but he doesn't know who.</li>
+<li><code>b</code> The PCs' first morning/day in the Village of Barovia.</li>
+<li><code>b + 1</code> Escher visits Ireena's home. If she is there, he takes her to Strahd
+to be bitten a final time. She then becomes a vampire. Otherwise, Escher reports
+his failure to Strahd and is punished.</li>
+</ul>
+<h2><a class="header" href="#encounters" id="encounters">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 3 characters. See also
+<a href="rolls/#occupants-of-barovian-houses">Occupants of Barovian Houses</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>Deadly (5)</td><td>E4</td><td>1,800</td><td>Escher the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Deadly (5)</td><td>E5G</td><td>1,800</td><td>Doru the <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+<tr><td>Deadly (5)</td><td>Village streets</td><td>1,800</td><td>Morgantha the <a href="images/night-hag.png">Night Hag</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Donavich will try to prevent the PCs from killing his son, and will be
+overcome with despair if he dies.</li>
+<li>Custom: Escher only visits if the players decide to stay in the Village
+another night after burying the burgomaster. He flees if reduced to half health.</li>
+<li>Custom: There is a bottle of Holy Water on the mantlepiece of the first
+floor of the Burgomaster's house. Ismark will tell a PC to throw it at
+Escher (<strong>2d6 radiant</strong> on hit).</li>
+</ul>
+<h2><a class="header" href="#npc-ismark-kolyanovich" id="npc-ismark-kolyanovich">NPC: Ismark Kolyanovich</a></h2>
+<p>Ireena's brother and son of the dead burgomaster. Dies if reduced to 0
+hitpoints.</p>
+<p><img src="./images/veteran.png" alt="" /></p>
+<h2><a class="header" href="#npc-parriwimple" id="npc-parriwimple">NPC: Parriwimple</a></h2>
+<p>Nephew of Bildrath the shopkeep.</p>
+<p><strong>Override:</strong> He has 6 INT and doesn't have a shield (total AC 14).</p>
+<p><img src="./images/gladiator.png" alt="" /></p>
+<h2><a class="header" href="#npc-donavich-the-priest" id="npc-donavich-the-priest">NPC: Donavich the Priest</a></h2>
+<p>Town priest and father of Doru.</p>
+<p><img src="images/acolyte.png" alt="" /></p>
+<h2><a class="header" href="#quest-bury-the-burgomaster" id="quest-bury-the-burgomaster">Quest: Bury the Burgomaster</a></h2>
+<p><em>Original Text: p. 47</em></p>
+<p>Donavich speaks the following prayer during the burial:</p>
+<blockquote>
+<p>The sun rises as a life sets. Morninglord, we bask in your glow and are
+humbled. Protect us always from evil, as we cannot protect ourselves. Please,
+deliver your son from this hell, O Lord.</p>
+</blockquote>
+<p>The funeral and burial take <strong>1d4 + 1 hours</strong>.</p>
+<p>Afterwards, Donavich speaks to the players privately. He suggests they take
+Ireena as far from the castle as possible. Either the Abbey in Krezk, or Vallaki
+as a last resort.</p>
+<p><strong>Custom Development</strong></p>
+<p>Assuming the PCs have agreed to escort Ireena, they then need to decide when to
+leave. If they leave immediately, they will evade Escher's attack. However,
+night may fall while they're on the road. See <a href="bonegrinder/#custom-event-night-at-old-bonegrinder">Night at Old
+Bonegrinder</a>.</p>
+<p>Otherwise, Ireena offers their home for the night. However, this is the end of
+the second lunar cycle since Strahd first bit Ireena, and he intends to fully
+turn her tonight. Strahd himself waits atop a hill in the forest, meditating
+over what this night will mean for him. He sends Escher to fetch Ireena in his
+stead.</p>
+<p>In the middle of the night, Ireena wakes up with a scream. When found in her room,
+she is sweating and hyperventilating. She says, panicked:</p>
+<blockquote>
+<p>&quot;It's here.&quot;</p>
+</blockquote>
+<p>Ismark tells her to stay in her room while he takes the PCs downstairs to challenge
+&quot;Strahd&quot;. He warms them:</p>
+<ul>
+<li>Don't look him in eyes.</li>
+<li>Don't invite him in.</li>
+</ul>
+<p>The sound of wolves howling fills the town. When the PCs open the front door,
+read:</p>
+<blockquote>
+<p>A handsome young man with dusty blonde hair stands in the doorway. He wears a
+fine purple suit, several rings, and has piercings in his ears. He peers into
+the room with confidence.</p>
+</blockquote>
+<p>Ismark is terrified and says nothing. After an opportunity for RPing by the
+players, they notice Ireena standing behind them in a trance. Her mouth is agape
+and her eyes are wide. Escher says:</p>
+<blockquote>
+<p>&quot;It's time. Madam, may I come in?&quot;</p>
+</blockquote>
+<p>Ireena says &quot;yes&quot; if not immediately stopped by the PCs. Escher then attacks,
+trying to capture Ireena (although he should fail at this). Afterward, Ismark
+admits to the PCs that &quot;that wasn't him&quot;. Morning comes soon after.</p>
+<h2><a class="header" href="#custom-quest-escape-barovia" id="custom-quest-escape-barovia">Custom Quest: Escape Barovia</a></h2>
+<p>The players may want nothing to do with Barovia and its troubles. If they ask an
+acquaintance how to leave, they will be told not to attempt the mist themselves.
+The Vistani can leave freely, and sell potions to help travellers do the same.</p>
+<h2><a class="header" href="#quest-escort-ireena" id="quest-escort-ireena">Quest: Escort Ireena</a></h2>
+<p>If the characters meet Ismark the Lesser, he will offer them drinks and ask them
+to help escort his sister to Vallaki.</p>
+<p><strong>Custom Development</strong></p>
+<p>If Ismark and Ireena are both alive when you arrive at Vallaki, they leave the
+party and stay at the Blue Water Inn. <strong>2 days later</strong>, Ismark is crippled by
+Izek, and Ireena is captured. However, Izek doesn't try to <em>Geas</em> her until the
+night the players return to Vallaki and discover Ismark's injury/death.</p>
+<p>If Ismark dies before you reach Vallaki, Ireena refuses to stay there alone.</p>
+<p><strong>Development</strong></p>
+<p><em>Original Text: p. 156</em></p>
+<p>If Ireena is brought to the blessed pool (S4) in Krezk, she can reunite with
+Sergei and be taken to safety. <strong>Custom:</strong> The PCs receive 2,000 EXP for saving
+Ireena in this way.</p>
+<p><strong>Custom Development</strong></p>
+<p>If the players take Ireena to the abbey (and don't interact with the Shrine in
+Krezk, or fail its interaction) and they allow the Abbot to meet her, he will
+recognize her as Tatyana's reincarnation. He will calmly offer to bring her to
+Castle Ravenloft to be with Strahd, and give a rational explanation to the PCs
+about how (he believes) doing so will save Barovia.</p>
+<p>If the PCs resist, the Abbot will magically transform her clothes into a wedding
+dress (ignoring continuity with the dress fetch-quest) and attempt to capture
+her, claiming it is for Barovia's salvation. If the players resist him, he will
+grapple Ireena on his turn and then attempt escape. If he gets outside, he will
+fly her to Castle Ravenloft and present her to Strahd. Strahd marries her and
+turns her into a <a href="./images/vampire-spawn.png">Vampire Spawn</a>.</p>
+<p>The players can stop the wedding, if they hurry. Strahd plans to marry her at
+midnight in Ravenloft's Chapel (K15). The castle is 58 hexes away from Krezk. If
+they arrive at the Chapel in time, the Abbot is there to oversee &quot;Barovia's
+salvation&quot;, and will try to prevent the players from interfering. To consummate
+their marriage, Strahd will drink Ireena's blood for the duration of the fight
+(1 minute), after which she will die.</p>
+<ul>
+<li>If the Abbot defeats the characters, Strahd gets his good ending.</li>
+<li>If the Abbot is defeated, Strahd will stop drinking Ireena's blood and engage
+the characters. If the players manage to escape with Ireena, she will die that
+night from blood loss. See <a href="ireena/#custom-quest-handle-the-body">Handling the Body</a>.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="death-house.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="tser-pool.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="death-house.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="tser-pool.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

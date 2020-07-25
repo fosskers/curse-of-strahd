@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Vallaki - Curse of Strahd: Master Quest</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html" class="active"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#notes" id="notes">NOTES</a></h2>
+<blockquote>
+<p>[The PCs] quickly realize that there is no happiness here, only false hope</p>
+<ul>
+<li>which Strahd himself cultivates.</li>
+</ul>
+</blockquote>
+<p>How?</p>
+<blockquote>
+<p>[Nikolai and Karl] would rather ... hear about how the characters plan to free
+Vallaki from the Burgomaster's madness.</p>
+</blockquote>
+<p>The Baron is Neutral Evil for some reason.</p>
+<blockquote>
+<p>... trapped as [Nikolai and Karl] are within the walls of Vallaki under
+the control of Strahd and his puppet, the baron.</p>
+</blockquote>
+<h2><a class="header" href="#calendar" id="calendar">Calendar</a></h2>
+<ul>
+<li><code>v - 30+</code> - Father Lucian casually mentions the existance of St. Andral's bones to Yeska.</li>
+<li><code>v - &quot;a few&quot;</code> - Milivoj steals the bones of St. Andral.</li>
+<li><code>v</code> - The day the PCs first arrive in Vallaki. Guards on watch for &quot;malcontents&quot;.</li>
+<li><code>v + 1</code> - <strong>Lady Wachter's Wish.</strong></li>
+<li><code>v + 3</code> - <strong>Festival of the Blazing Sun.</strong> Rictavio's tiger escapes.</li>
+<li><code>v + 4</code> - <strong>St. Andral's Feast.</strong> Strahd attacks the church.</li>
+<li><code>v + 5</code> - Vallaki is locked to outsiders. That night, Father Lucian, if dead, rises as a Vampire Spawn.</li>
+<li><code>v + 6</code> - Townsfolk overthrow the Burgomaster.</li>
+</ul>
+<h2><a class="header" href="#encounters-vallaki" id="encounters-vallaki">Encounters: Vallaki</a></h2>
+<p>Challenge below is based on a 4-player party of level 4 characters. See also
+<a href="rolls/#occupants-of-vallakian-houses">Occupants of Vallakian Houses</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N1</td><td>10</td><td><a href="images/commoner.png">Milijov</a> w/ 15 STR, +4 atk, 1d4+2 dmg</td></tr>
+<tr><td>N/A (2)</td><td>N1</td><td>450</td><td><a href="images/priest.png">Father Lucian Petrovich</a> (LG)</td></tr>
+<tr><td>Easy</td><td>?</td><td>300</td><td>Arresting Party of 12x <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Medium</td><td>?</td><td>300</td><td>Lynching Party of 30x <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>Deadly</td><td>?</td><td>600</td><td>Routing Party of 24x <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Hard</td><td>?</td><td>1,800</td><td>Izek Strazni (CoS p. 232)</td></tr>
+<tr><td>10x Deadly</td><td>N6f</td><td>10,800</td><td>6x <a href="images/vampire-spawn.png">Vampire Spawn</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>The <em>Arresting Party</em> will only appear if the PCs get on the Baron's bad side.</li>
+<li>The <em>Lynching Party</em> will only appear if the <em>Arresting Party</em> is defeated.</li>
+<li>The <em>Routing Party</em> will only appear if the PCs free prisoners from the stocks.</li>
+</ul>
+<h2><a class="header" href="#encounters-burgomasters-mansion" id="encounters-burgomasters-mansion">Encounters: Burgomaster's Mansion</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N3c</td><td>10</td><td><a href="images/commoner.png">Lydia Petrovna</a>, the Baron's wife (LG)</td></tr>
+<tr><td>N/A</td><td>N3e/N3l</td><td>75</td><td><a href="images/noble.png">The Baron</a> (NE), 2x <a href="images/mastiff.png">Mastiffs</a></td></tr>
+<tr><td>Hard</td><td>N3j</td><td>1,800</td><td>Izek Strazni (CoS p. 232)</td></tr>
+<tr><td>Deadly</td><td>N3p</td><td>3,900</td><td>Spirit <a href="images/assassin.png">Assassin</a></td></tr>
+<tr><td>2x Deadly</td><td>N3t</td><td>2,360</td><td><a href="images/mage.png">Victor Vallakovich</a> (NE), 6x <a href="images/cat.png">Skeletal Cats</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Izek is only here at night, sleeping.</li>
+</ul>
+<h2><a class="header" href="#encounters-wachterhaus" id="encounters-wachterhaus">Encounters: Wachterhaus</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N4n</td><td>10</td><td><a href="images/commoner.png">Stella Wachter</a> (CG)</td></tr>
+<tr><td>N/A</td><td>N4p</td><td>80</td><td>8x <a href="images/cat.png">Cats</a></td></tr>
+<tr><td>N/A</td><td>N4k</td><td>200</td><td><a href="images/spy.png">Ernst Larkan</a> (LE)</td></tr>
+<tr><td>N/A</td><td>N4i</td><td>450</td><td><a href="images/priest.png">Fiona Wachter</a> (LE) w/ AC 10 (CoS p. 110)</td></tr>
+<tr><td>Medium</td><td>N4s</td><td>400</td><td>8x <a href="images/skeleton.png">Skeletons</a></td></tr>
+<tr><td>Deadly</td><td>N4t</td><td>1,800</td><td>4x <a href="images/cult-fanatic.png">Cult Fanatics</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#encounters-vistani-camp" id="encounters-vistani-camp">Encounters: Vistani Camp</a></h2>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A</td><td>N9c</td><td>150</td><td>6x Drunk, sleeping Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>Easy</td><td>N9</td><td>225</td><td>9x Dusk Elf <a href="images/guard.png">Guards</a></td></tr>
+<tr><td>Easy</td><td>N9g</td><td>225</td><td>9x Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>Easy</td><td>N9</td><td>300</td><td>12x Vistani <a href="images/bandit.png">Bandits</a>*</td></tr>
+<tr><td>Deadly</td><td>N9a</td><td>2,300</td><td><a href="images/mage.png">Kasimir Velikov</a> (CoS p. 232)</td></tr>
+<tr><td>3x Deadly</td><td>N9c</td><td>4,350</td><td><a href="images/bandit-captain.png">Luvash</a> and <a href="images/assassin.png">Arrigal</a></td></tr>
+</tbody></table>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Luvash is drunk, and has disadvantage on attack / ability rolls.</li>
+<li>The 12 Bandits are off searching for Arabelle and don't return until she
+is found or dies.</li>
+</ul>
+<h2><a class="header" href="#the-blue-water-inn" id="the-blue-water-inn">The Blue Water Inn</a></h2>
+<p>Describe the door as being unusually heavy. This is because of its
+reenforcements for when attacks occur.</p>
+<p>The Martikov sons, Brom and Bray, affectionately refer to their father as
+ворон (read &quot;voron&quot;), which means &quot;raven&quot; in Russian.</p>
+<table><thead><tr><th>Item</th><th>Cost</th></tr></thead><tbody>
+<tr><td>Bed for the night</td><td>1 ep</td></tr>
+<tr><td>Wolf steak</td><td>1 ep</td></tr>
+<tr><td>Pint of Purple Grapemash</td><td>3 cp</td></tr>
+<tr><td>Pint of Red Dragon Crush</td><td>1 sp</td></tr>
+</tbody></table>
+<p><strong>Rictavio</strong></p>
+<p>From noon to dusk.</p>
+<table><thead><tr><th>d10</th><th>Location</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>His private room.</td></tr>
+<tr><td>5 - 10</td><td>The taproom.</td></tr>
+</tbody></table>
+<h2><a class="header" href="#quest-recover-the-bones-of-st-andral" id="quest-recover-the-bones-of-st-andral">Quest: Recover the Bones of St. Andral</a></h2>
+<p><strong>Reward:</strong> The church is <em>Hallowed</em>. +2 Renown to Servants of the Morninglord.</p>
+<h2><a class="header" href="#quest-rescue-arabelle" id="quest-rescue-arabelle">Quest: Rescue Arabelle</a></h2>
+<p>The counter for her being missing starts the day they discover her gone,
+presumably by hearing so from Luvash. If she is not found the same day the
+PCs learn of her disappearance, she drowns.</p>
+<p>If the players also head to Lake Zarovich directly without meeting Luvash,
+Arabelle will be there as described on page 38.</p>
+<h2><a class="header" href="#custom-quest-new-leadership" id="custom-quest-new-leadership">Custom Quest: New Leadership</a></h2>
+<p>Either stop Lady Wachter's cult, overthrow the Baron with Wachter's help, or
+do away with them both to leave Vallaki in anarchy.</p>
+<h2><a class="header" href="#custom-event-morganthas-return" id="custom-event-morganthas-return">Custom Event: Morgantha's Return</a></h2>
+<p>If the PCs fled (or missed) Old Bonegrinder without killing Morgantha, she
+can appear in Vallaki hawking her pastries.</p>
+<h2><a class="header" href="#custom-event-defend-the-inn" id="custom-event-defend-the-inn">Custom Event: Defend the Inn</a></h2>
+<p>This occurs if the players flee during Strahd's attack on the church, and
+take refuge in the Inn.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="bonegrinder.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="krezk.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="bonegrinder.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="krezk.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

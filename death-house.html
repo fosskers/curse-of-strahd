@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Death House - Curse of Strahd: Master Quest</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html" class="active"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>It is recommended to start your PCs at Level 2. From a pacing/story perspective,
+it doesn't make sense for them to level up when the find the basement stairs,
+especially given that:</p>
+<ul>
+<li>You might be in the middle of a session when they find the stairs</li>
+<li>They <em>need</em> to be Level 2 to handle the basement</li>
+<li>Level 2 often causes a significant evolution of the PCs (paths/domains/etc.)</li>
+</ul>
+<h2><a class="header" href="#encounters" id="encounters">Encounters</a></h2>
+<p>Challenge below is based on a 4-player party of level 2 characters. Creature
+numbers may need to be adjusted for the size of your party. See: <a href="http://www.starwalkerstudios.com/blog/deathhouse">Balancing
+Death House</a>.</p>
+<table><thead><tr><th>Challenge</th><th>Location</th><th>EXP</th><th>Enemy</th></tr></thead><tbody>
+<tr><td>N/A (1/4)</td><td>14</td><td>50</td><td>Broom of Animated Attack (CoS p. 226)</td></tr>
+<tr><td>N/A (1/2)</td><td>23D</td><td>100</td><td><a href="images/swarm-of-insects.png">Swarm of Insects</a></td></tr>
+<tr><td>Easy (1)</td><td>11</td><td>200</td><td><a href="images/animated-armour.png">Animated Armour</a></td></tr>
+<tr><td>Easy (1)</td><td>15/18</td><td>200</td><td>Nursemaid's <a href="images/specter.png">Specter</a></td></tr>
+<tr><td>Medium (2)</td><td>28</td><td>450</td><td>1x <a href="images/grick.png">Grick</a></td></tr>
+<tr><td>Medium (2)</td><td>33</td><td>450</td><td><a href="images/mimic.png">Mimic</a></td></tr>
+<tr><td>Medium (2)</td><td>34</td><td>450</td><td><a href="images/ghast.png">Ghast</a></td></tr>
+<tr><td>Hard</td><td>31</td><td>300</td><td>3x <a href="images/shadow.png">Shadows</a></td></tr>
+<tr><td>Hard</td><td>29</td><td>400</td><td>2x <a href="images/ghoul.png">Ghouls</a></td></tr>
+<tr><td>Deadly</td><td>N/A</td><td>800</td><td>Escape Death House</td></tr>
+<tr><td>2x Deadly</td><td>20</td><td>1,400</td><td>2x Child <a href="images/ghost.png">Ghosts</a> w/ 35hp (Small, LG)</td></tr>
+<tr><td>2x Deadly</td><td>38</td><td>1,800</td><td><a href="images/shambling-mound.png">Shambling Mound</a></td></tr>
+</tbody></table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>The Nursemaid's specter will only attack if the players open the door to
+the nursery.</li>
+<li>Custom: The Shadows in 31 shouldn't follow the PCs out of the room. They
+disappear if the orb is returned.</li>
+<li>The PCs gain the 800 EXP for escaping whether the House is angered or not.</li>
+</ul>
+<h2><a class="header" href="#quest-rest-in-peace" id="quest-rest-in-peace">Quest: Rest in Peace</a></h2>
+<p><em>Original Text: p. 217</em></p>
+<p>Place the children's bones in their crypts, and their spirits will be at
+rest. Each PCs gains Inspiration.</p>
+<h2><a class="header" href="#custom-event-ratkas-fate" id="custom-event-ratkas-fate">Custom Event: Ratka's Fate</a></h2>
+<p><em>This is an overhaul of the event that occurs in Area 38 (Ritual Chamber).</em></p>
+<p>From area 30 (Stairs Down), a faint screaming can be heard drifting up the
+stairway. Any PC with a Passive Perception of 12 or more can hear it.</p>
+<p>From area 35 (Reliquary), the screaming is clearly audible and is quite
+histerical. The screaming is coming from Ratka (CN <a href="images/bandit-captain.png">Bandit
+Captain</a>), the Vistana who drove the PCs'
+carriage until he was lured into Death House. He has 30hp remaining.</p>
+<p>Ratka is latched to an odd contraption; his arms and legs are bound with
+leather and chains, and are slowly being twisted out of their sockets by
+gears under the floor. When the PCs arrive, his right elbow is already
+dislocated. He also wears a metal collar around his neck, attached to a
+chain hanging from the ceiling.</p>
+<p>Ratka can be freed by either:</p>
+<ul>
+<li>Breaking all four chains (<strong>DC 20 STR</strong>)</li>
+<li>Picking all four locks (<strong>DC 15 DEX</strong>)</li>
+<li>Cutting off his limbs above the leather</li>
+</ul>
+<p>The players have <strong>4 rounds</strong> to release Ratka, or his limbs will burst from
+their sockets. His torso then hangs by the neck until he dies. 4 rounds
+gives about 50% chance of success, party depending.</p>
+<p>Freeing Ratka will awaken the <a href="images/shambling-mound.png">Shambling Mound</a>.
+His death will otherwise please Death House, and allow the PCs to leave
+safely.</p>
+<p><strong>Development</strong></p>
+<p>If Ratka is saved, he will be eternally grateful and very apologetic. Once
+taken outside of Death House, he explains to the PCs that they were abducted
+in order to introduce them to Madam Eva. He offers to lead them to her.</p>
+<p>If Ratka is dead, his father and sister will be deeply saddened if they find
+out. If the PCs explain the situation, the Vistani will blaim them for not
+saving him, equating it to murder. Damia becomes particularly hostile,
+cursing one of the PCs (<strong>DC 13 WIS</strong> save. On fail target gains
+vulnerability to slashing damage). Stanimir stops her from doing more,
+urging the PCs to see Madam Eva at once.</p>
+<h2><a class="header" href="#event-escaping-death-house" id="event-escaping-death-house">Event: Escaping Death House</a></h2>
+<p>If a creature dies on the Dais in area 38, the House is pleased and the PCs
+can leave freely.</p>
+<p>Otherwise, they must escape as described on p. 220. For reference:</p>
+<table><thead><tr><th>Action</th><th>Check</th><th>On Failure</th></tr></thead><tbody>
+<tr><td>Dodge a door-scythe</td><td>DC 15 Acrobatics</td><td><strong>2d10 slashing</strong> damage</td></tr>
+<tr><td>Study a door-scythe</td><td>DC 15 INT</td><td><strong>2d10 slashing</strong> damage</td></tr>
+<tr><td>Start turn in smokey room</td><td>DC 10 CON</td><td><strong>1d10 poison</strong> damage</td></tr>
+</tbody></table>
+<p>Rooms with smoke:</p>
+<table><thead><tr><th>Location</th><th>Name</th></tr></thead><tbody>
+<tr><td>2A</td><td>Main Hall</td></tr>
+<tr><td>3</td><td>Den of Wolves</td></tr>
+<tr><td>4A</td><td>Kitchen</td></tr>
+<tr><td>5</td><td>Dining Room</td></tr>
+<tr><td>6</td><td>Upper Hall</td></tr>
+<tr><td>8</td><td>Library</td></tr>
+<tr><td>10</td><td>Conservatory</td></tr>
+<tr><td>12A</td><td>Master Suite</td></tr>
+<tr><td>13</td><td>Bathroom</td></tr>
+<tr><td>15A</td><td>Nursemaid's Suite</td></tr>
+<tr><td>17</td><td>Spare Bedroom</td></tr>
+<tr><td>18</td><td>Storage Room</td></tr>
+<tr><td>19</td><td>Spare Bedroom</td></tr>
+</tbody></table>
+<p>Optimal escape route: 18 - 16 - 11 - 6 - 2A - 1B - 1A</p>
+<p>During which there are 3 smoke rooms and 5 scythe doors.</p>
+<h2><a class="header" href="#event-arson" id="event-arson">Event: Arson</a></h2>
+<p><em>Original Text: p. 212</em></p>
+<p>Once escaping from Death House, the PCs may choose to burn it down. It
+begins to repair itself <strong>1d10 days</strong> later, completing its resurrection
+<strong>2d6 hours</strong> after it begins.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="locations.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="barovia-village.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="locations.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="barovia-village.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

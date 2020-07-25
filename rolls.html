@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Rolls and Charts - Curse of Strahd: Master Quest</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Notes and extended content for the D&amp;D 5E adventure: Curse of Strahd">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hook.html"><strong aria-hidden="true">2.</strong> The Hook</a></li><li class="chapter-item expanded "><a href="travel.html"><strong aria-hidden="true">3.</strong> Travel</a></li><li class="chapter-item expanded "><a href="rolls.html" class="active"><strong aria-hidden="true">4.</strong> Rolls and Charts</a></li><li class="chapter-item expanded "><a href="magic-items.html"><strong aria-hidden="true">5.</strong> Magic Items</a></li><li class="chapter-item expanded "><a href="renown.html"><strong aria-hidden="true">6.</strong> Renown</a></li><li class="chapter-item expanded "><a href="characters.html"><strong aria-hidden="true">7.</strong> Key Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="strahd.html"><strong aria-hidden="true">7.1.</strong> Strahd von Zarovich</a></li><li class="chapter-item expanded "><a href="ezmerelda.html"><strong aria-hidden="true">7.2.</strong> Ezmerelda d'Avenir</a></li><li class="chapter-item expanded "><a href="ireena.html"><strong aria-hidden="true">7.3.</strong> Ireena Kolyana</a></li></ol></li><li class="chapter-item expanded "><a href="locations.html"><strong aria-hidden="true">8.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="death-house.html"><strong aria-hidden="true">8.1.</strong> Death House</a></li><li class="chapter-item expanded "><a href="barovia-village.html"><strong aria-hidden="true">8.2.</strong> Village of Barovia</a></li><li class="chapter-item expanded "><a href="tser-pool.html"><strong aria-hidden="true">8.3.</strong> Tser Pool Encampment</a></li><li class="chapter-item expanded "><a href="bonegrinder.html"><strong aria-hidden="true">8.4.</strong> Old Bonegrinder</a></li><li class="chapter-item expanded "><a href="vallaki.html"><strong aria-hidden="true">8.5.</strong> Vallaki</a></li><li class="chapter-item expanded "><a href="krezk.html"><strong aria-hidden="true">8.6.</strong> Krezk</a></li><li class="chapter-item expanded "><a href="winery.html"><strong aria-hidden="true">8.7.</strong> Wizard of Wines</a></li><li class="chapter-item expanded "><a href="van-richten-tower.html"><strong aria-hidden="true">8.8.</strong> Van Richten's Tower</a></li><li class="chapter-item expanded "><a href="yesterhill.html"><strong aria-hidden="true">8.9.</strong> Yester Hill</a></li><li class="chapter-item expanded "><a href="argynvostholt.html"><strong aria-hidden="true">8.10.</strong> Argynvostholt</a></li><li class="chapter-item expanded "><a href="berez.html"><strong aria-hidden="true">8.11.</strong> Ruins of Berez</a></li><li class="chapter-item expanded "><a href="amber-temple.html"><strong aria-hidden="true">8.12.</strong> Amber Temple</a></li><li class="chapter-item expanded "><a href="ravenloft.html"><strong aria-hidden="true">8.13.</strong> Castle Ravenloft</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html"><strong aria-hidden="true">9.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vampires.html"><strong aria-hidden="true">9.1.</strong> Vampires</a></li><li class="chapter-item expanded "><a href="errata.html"><strong aria-hidden="true">9.2.</strong> Text Errata</a></li><li class="chapter-item expanded "><a href="tarokka.html"><strong aria-hidden="true">9.3.</strong> On the Tarokka Deck</a></li><li class="chapter-item expanded "><a href="werewolves.html"><strong aria-hidden="true">9.4.</strong> Cutting the Werewolf Den</a></li><li class="chapter-item expanded "><a href="speedrun.html"><strong aria-hidden="true">9.5.</strong> Speed Running</a></li><li class="chapter-item expanded "><a href="trivia.html"><strong aria-hidden="true">9.6.</strong> Trivia</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Curse of Strahd: Master Quest</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#music" id="music">Music</a></h2>
+<table><thead><tr><th>Location</th><th>Syrinscape Soundset</th></tr></thead><tbody>
+<tr><td>Death House</td><td>Deserted Desert House</td></tr>
+<tr><td>Village of Barovia</td><td>Elven Vale Night</td></tr>
+<tr><td>Barovian Countryside</td><td>Witchwood / Storm</td></tr>
+<tr><td>Tser Pool</td><td>In the Lair of the Siren</td></tr>
+<tr><td>Old Bonegrinder</td><td>?</td></tr>
+<tr><td>Vallaki</td><td>Brindol Town</td></tr>
+<tr><td>Blue Water Inn</td><td>Friendly Tavern</td></tr>
+<tr><td>Lake Zarovich</td><td>Stony Beach</td></tr>
+<tr><td>Krezk</td><td>Elven Vale Day</td></tr>
+<tr><td>Winery</td><td>?</td></tr>
+<tr><td>Van Richten's Tower</td><td>?</td></tr>
+<tr><td>Yester Hill</td><td>Storm</td></tr>
+<tr><td>Argynvostholt</td><td>?</td></tr>
+<tr><td>Tsolenka Pass</td><td>Icy Wasteland</td></tr>
+<tr><td>Berez</td><td>Swamp</td></tr>
+<tr><td>Amber Temple</td><td>?</td></tr>
+<tr><td>Castle Ravenloft</td><td>Dungeon Depths / Flooded Cavern</td></tr>
+</tbody></table>
+<h2><a class="header" href="#common-dcs" id="common-dcs">Common DCs</a></h2>
+<p><strong>Note:</strong> Barred/Reinforced doors get +5 to the STR DC.</p>
+<table><thead><tr><th>Object</th><th>DC</th></tr></thead><tbody>
+<tr><td>Glass/Amber Door</td><td>5 STR</td></tr>
+<tr><td>Wooden Door</td><td>10 STR</td></tr>
+<tr><td>Stone Door</td><td>15 STR</td></tr>
+<tr><td>Iron Door</td><td>20 STR</td></tr>
+<tr><td>Find Secret Door</td><td>15 Perception</td></tr>
+<tr><td>Pick Lock</td><td>15 DEX (with Thieves Tools)</td></tr>
+<tr><td>Smash Lock</td><td>20 STR</td></tr>
+</tbody></table>
+<h2><a class="header" href="#barovian-mist" id="barovian-mist">Barovian Mist</a></h2>
+<p><em>Original text on p. 23/24</em></p>
+<p>This refers to the mist that surrounds the boarders of Barovia, preventing
+escape.</p>
+<ul>
+<li>A creature that starts their turn in the mist must pass a <strong>DC 20 CON</strong>
+save. Failure gives 1 level of exhaustion.</li>
+<li>Creatures' vision is <strong>Heavily Obscured</strong> while in the mist.</li>
+</ul>
+<h2><a class="header" href="#weather" id="weather">Weather</a></h2>
+<p>Strahd is known to be able to control the weather. Perhaps his mood affects
+it too?</p>
+<p><strong>Temperature</strong></p>
+<p>These have been overridden to use Celsius temperatures.</p>
+<table><thead><tr><th>d20</th><th>Temperature</th></tr></thead><tbody>
+<tr><td>1 - 14</td><td>Normal for the region</td></tr>
+<tr><td>15 - 17</td><td>1d6 degrees celsius colder than normal</td></tr>
+<tr><td>18 - 20</td><td>1d6 degrees celsius hotter than normal</td></tr>
+</tbody></table>
+<p><strong>Wind</strong></p>
+<ul>
+<li><em>Strong Wind</em> imposes disadvantage on ranged attacks and Perception checks
+that rely on hearing.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Wind</th></tr></thead><tbody>
+<tr><td>1 - 12</td><td>None</td></tr>
+<tr><td>13 - 17</td><td>Light</td></tr>
+<tr><td>18 - 20</td><td>Strong</td></tr>
+</tbody></table>
+<p><strong>Precipitation</strong></p>
+<ul>
+<li><em>Heavy precipitation</em> imposes disadvantage on Perception checks that rely
+on sight.</li>
+<li><em>Heavy rain</em> does the same for hearing checks.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Precipitation</th></tr></thead><tbody>
+<tr><td>1 - 12</td><td>None</td></tr>
+<tr><td>13 - 17</td><td>Light rain/snow</td></tr>
+<tr><td>18 - 20</td><td>Heavy rain/snow</td></tr>
+</tbody></table>
+<p><strong>Custom: Mist Thickness</strong></p>
+<ul>
+<li><em>None:</em> A rare day in Barovia. The party can see across the valley.</li>
+<li><em>Light:</em> Limits visibility to 120 feet.</li>
+<li><em>Heavy:</em> Limits visibility to 60 feet.</li>
+<li><em>Choking:</em> Almost as thick as the mist wall around Barovia. Essentially 0
+visibility, all attacks based on sight are made with disadvantage.</li>
+</ul>
+<table><thead><tr><th>d20</th><th>Thickness</th></tr></thead><tbody>
+<tr><td>1</td><td>None</td></tr>
+<tr><td>2 - 14</td><td>Light</td></tr>
+<tr><td>15 - 19</td><td>Heavy</td></tr>
+<tr><td>20</td><td>Choking</td></tr>
+</tbody></table>
+<h2><a class="header" href="#exhaustion" id="exhaustion">Exhaustion</a></h2>
+<p>A long rest reduces exhaustion level by 1.</p>
+<table><thead><tr><th>Level</th><th>Effect</th></tr></thead><tbody>
+<tr><td>1</td><td>Disadvantage on ability checks</td></tr>
+<tr><td>2</td><td>Speed halved</td></tr>
+<tr><td>3</td><td>Disadvantage on attack rolls and saving throws</td></tr>
+<tr><td>4</td><td>HP maximum halved</td></tr>
+<tr><td>5</td><td>Speed reduced to 0</td></tr>
+<tr><td>6</td><td>Death</td></tr>
+</tbody></table>
+<h2><a class="header" href="#traps" id="traps">Traps</a></h2>
+<p><strong>Damage Severity</strong></p>
+<table><thead><tr><th>Character Level</th><th>Setback</th><th>Dangerous</th><th>Deadly</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>1d10</td><td>2d10</td><td>4d10</td></tr>
+<tr><td>5 - 10</td><td>2d20</td><td>4d10</td><td>10d10</td></tr>
+<tr><td>11 - 16</td><td>4d10</td><td>10d10</td><td>18d10</td></tr>
+<tr><td>17 - 20</td><td>10d10</td><td>18d10</td><td>24d10</td></tr>
+</tbody></table>
+<p><strong>Trap Danger</strong></p>
+<p><strong>Overridden</strong> to include a randomness mechanism.</p>
+<table><thead><tr><th>Trap Danger</th><th>Save DC</th><th>Attack Bonus</th></tr></thead><tbody>
+<tr><td>Setback</td><td>9 + 1d2</td><td>+3 to + 5</td></tr>
+<tr><td>Dangerous</td><td>11 + 1d4</td><td>+6 to +8</td></tr>
+<tr><td>Deadly</td><td>16 + 1d4</td><td>+9 to +12</td></tr>
+</tbody></table>
+<ul>
+<li>A <strong>Spiked Pit</strong> does <strong>2d10 piercing damage</strong>, plus any fall damage.</li>
+<li><strong>Poison Darts</strong> do four attacks, +8, 1d4 piercing + 2d10 poison on a
+failed <strong>DC 15 CON</strong> save.</li>
+</ul>
+<h2><a class="header" href="#occupants-of-barovian-houses" id="occupants-of-barovian-houses">Occupants of Barovian Houses</a></h2>
+<table><thead><tr><th>d20</th><th>Occupants</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>None</td></tr>
+<tr><td>4 - 8</td><td>2d4 <a href="./images/swarm-of-rats.png"><strong>Swarms of Rats</strong></a></td></tr>
+<tr><td>9 - 16</td><td>1d4 Barovian <a href="images/commoner.png">Villagers</a></td></tr>
+<tr><td>17 - 20</td><td>2d4 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#occupants-of-vallakian-houses" id="occupants-of-vallakian-houses">Occupants of Vallakian Houses</a></h2>
+<table><thead><tr><th>d20</th><th>Occupants</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>None</td></tr>
+<tr><td>4 - 5</td><td>2d4 <a href="./images/swarm-of-rats.png"><strong>Swarms of Rats</strong></a></td></tr>
+<tr><td>6 - 18</td><td>1d4 Vallakian <a href="images/commoner.png">Townsfolk</a></td></tr>
+<tr><td>19 - 20</td><td>2d4 Vallakian <a href="images/cultist.png">Cultists</a>, 1 <a href="images/cult-fanatic.png">Cult Fanatic</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-barovia-day" id="random-encounters-in-barovia-day">Random Encounters in Barovia (Day)</a></h2>
+<p>Roll for an encounter every 30 minutes the players are outside.
+Only allow two actual encounters per 12 hour period.</p>
+<ul>
+<li><strong>On the Roads:</strong> An encounter occurs between 18 and 20.</li>
+<li><strong>In the Woods:</strong> An encounter occurs between 15 and 20.</li>
+</ul>
+<p>Hiding creatures that are spotted and flee can be <strong>Chased</strong> (DMG 252).</p>
+<p><strong>Custom:</strong> The random <strong>Revenant</strong>'s name is Marek Targolov.</p>
+<p>TODO: How to deal with the Strahd's spies?</p>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>3d6 Barovian <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>3</td><td>1d6 Barovian <a href="images/scout.png">Scouts</a></td></tr>
+<tr><td>4</td><td>Hunting trap</td></tr>
+<tr><td>5</td><td>Grave</td></tr>
+<tr><td>6</td><td>False trail</td></tr>
+<tr><td>7</td><td>1d4 + 1 Vistani <a href="images/bandit.png">Bandits</a></td></tr>
+<tr><td>8</td><td>Skeletal Rider</td></tr>
+<tr><td>9</td><td>Trinket</td></tr>
+<tr><td>10</td><td>Hidden Bundle</td></tr>
+<tr><td>11</td><td>50% of 1d4 <a href="images/swarm-of-ravens.png">Swarms of Ravens</a>, 50% 1 Wereraven</td></tr>
+<tr><td>12</td><td>1d6 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>13</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>14</td><td>1d4 <a href="./images/berserker.png"><strong>Berserkers</strong></a></td></tr>
+<tr><td>15</td><td>Corpse</td></tr>
+<tr><td>16</td><td>1d6 Human-form <a href="images/werewolf.png">Werewolves</a></td></tr>
+<tr><td>17</td><td>1 <a href="./images/druid.png"><strong>Druid</strong></a> with 2d6 <a href="./images/twig-blight.png"><strong>Twig Blights</strong></a></td></tr>
+<tr><td>18</td><td>2d4 Needle Blights</td></tr>
+<tr><td>19</td><td>1d6 Scarecrows</td></tr>
+<tr><td>20</td><td>1 <a href="./images/revenant.png"><strong>Revenant</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-barovia-night" id="random-encounters-in-barovia-night">Random Encounters in Barovia (Night)</a></h2>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>1 <a href="./images/ghost.png"><strong>Ghost</strong></a></td></tr>
+<tr><td>3</td><td>Hunting trap</td></tr>
+<tr><td>4</td><td>Grave</td></tr>
+<tr><td>5</td><td>Trinket</td></tr>
+<tr><td>6</td><td>Corpse</td></tr>
+<tr><td>7</td><td>Hidden Bundle</td></tr>
+<tr><td>8</td><td>Skeletal Rider</td></tr>
+<tr><td>9</td><td>1d8 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>10</td><td>1d6 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>11</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>12</td><td>1d4 <a href="./images/berserker.png"><strong>Berserkers</strong></a></td></tr>
+<tr><td>13</td><td>1 <a href="./images/druid.png"><strong>Druid</strong></a> with 2d6 <a href="./images/twig-blight.png"><strong>Twig Blights</strong></a></td></tr>
+<tr><td>14</td><td>2d4 Needle Blights</td></tr>
+<tr><td>15</td><td>1d6 Wolf-form <a href="images/werewolf.png">Werewolves</a></td></tr>
+<tr><td>16</td><td>3d6 <a href="./images/zombie.png"><strong>Zombies</strong></a></td></tr>
+<tr><td>17</td><td>1d6 Scarecrows</td></tr>
+<tr><td>18</td><td>1d8 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+<tr><td>19</td><td>1 <a href="images/will-o-wisp.png">Will-o-Wisp</a> (once)</td></tr>
+<tr><td>20</td><td>1 <a href="./images/revenant.png"><strong>Revenant</strong></a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-encounters-in-castle-ravenloft" id="random-encounters-in-castle-ravenloft">Random Encounters in Castle Ravenloft</a></h2>
+<p>The first time the party enters an area that isn't occupied, roll for an
+encounter.</p>
+<ul>
+<li><strong>Just the Party:</strong> An encounter occurs between 18 and 20.</li>
+<li><strong>With Angry Commoners:</strong> An encounter occurs between 9 and 20.</li>
+</ul>
+<p>Also check every 10 minutes the players spend resting.</p>
+<table><thead><tr><th>d12 + d8</th><th>Encounter</th></tr></thead><tbody>
+<tr><td>2</td><td>Ezmerelda (once)</td></tr>
+<tr><td>3</td><td>Rahadin</td></tr>
+<tr><td>4</td><td>1 Black Cat (once if killed)</td></tr>
+<tr><td>5</td><td>1 <strong>Broom of Animated Attack</strong></td></tr>
+<tr><td>6</td><td>1d4 + 1 <a href="./images/flying-sword.png"><strong>Flying Swords</strong></a></td></tr>
+<tr><td>7</td><td>Blinsky Toy</td></tr>
+<tr><td>8</td><td>Unseen Servant</td></tr>
+<tr><td>9</td><td>1d4 Barovian <a href="images/commoner.png">Commoners</a></td></tr>
+<tr><td>10</td><td>2d6 <a href="./images/crawling-claw.png"><strong>Crawling Claws</strong></a></td></tr>
+<tr><td>11</td><td>1d6 <a href="./images/shadow.png"><strong>Shadows</strong></a></td></tr>
+<tr><td>12</td><td>1d6 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>13</td><td>1 crawling <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombie</strong></a></td></tr>
+<tr><td>14</td><td>1d4 + 1 Vistani <a href="./images/thug.png"><strong>Thugs</strong></a></td></tr>
+<tr><td>15</td><td>1d4 <a href="./images/wight.png"><strong>Wights</strong></a></td></tr>
+<tr><td>16</td><td>Trinket</td></tr>
+<tr><td>17</td><td>Giant Spider Cocoon (reroll if resting)</td></tr>
+<tr><td>18</td><td>1 <strong>Barovian Witch</strong> (once)</td></tr>
+<tr><td>19</td><td>1d4 + 1 <a href="./images/vampire-spawn.png"><strong>Vampire Spawn</strong></a></td></tr>
+<tr><td>20</td><td>Strahd von Zarovich</td></tr>
+</tbody></table>
+<h2><a class="header" href="#strahds-minions" id="strahds-minions">Strahd's Minions</a></h2>
+<p>Roll for this whenever Strahd appears outside his castle.</p>
+<table><thead><tr><th>d20</th><th>Creatures</th></tr></thead><tbody>
+<tr><td>1 - 3</td><td>1d4 + 2 <a href="./images/dire-wolf.png"><strong>Dire Wolves</strong></a></td></tr>
+<tr><td>4 - 6</td><td>1d6 + 3 <a href="./images/ghoul.png"><strong>Ghouls</strong></a></td></tr>
+<tr><td>7 - 9</td><td>1d4 + 2 <a href="./images/strahd-zombie.jpeg"><strong>Strahd Zombies</strong></a></td></tr>
+<tr><td>10 - 12</td><td>2d4 <a href="./images/swarm-of-bats.png"><strong>Swarms of Bats</strong></a></td></tr>
+<tr><td>13 - 15</td><td>1d4 + 1 <a href="./images/vampire-spawn.png"><strong>Vampire Spawn</strong></a></td></tr>
+<tr><td>16 - 18</td><td>3d6 <a href="./images/wolf.png"><strong>Wolves</strong></a></td></tr>
+<tr><td>19 - 20</td><td>None</td></tr>
+</tbody></table>
+<h2><a class="header" href="#revenant-resurrection-locations" id="revenant-resurrection-locations">Revenant Resurrection Locations</a></h2>
+<table><thead><tr><th>d20</th><th>Corpse Location</th></tr></thead><tbody>
+<tr><td>1 - 4</td><td>Village of Barovia cemetary</td></tr>
+<tr><td>5 - 11</td><td>Vallaki church graveyard</td></tr>
+<tr><td>12</td><td>Argynvostholt</td></tr>
+<tr><td>13</td><td>Grave in Krezk</td></tr>
+<tr><td>14</td><td>Berez cemetary</td></tr>
+<tr><td>15 - 16</td><td>Grave in Svalich Woods</td></tr>
+<tr><td>17 - 20</td><td>Corpse of a dead party member or NPC</td></tr>
+</tbody></table>
+<h2><a class="header" href="#random-books" id="random-books">Random Books</a></h2>
+<table><thead><tr><th>d12</th><th>Book theme</th></tr></thead><tbody>
+<tr><td>1</td><td>Alchemist's tome</td></tr>
+<tr><td>2</td><td>Bestiary of strange beasts</td></tr>
+<tr><td>3</td><td>Biography of a forgotten king or queen</td></tr>
+<tr><td>4</td><td>Book of exotic recipes</td></tr>
+<tr><td>5</td><td>Book of heraldry</td></tr>
+<tr><td>6</td><td>Book of military strategy</td></tr>
+<tr><td>7</td><td>Epic novel</td></tr>
+<tr><td>8</td><td>Guide to fine wines</td></tr>
+<tr><td>9</td><td>Heretical text</td></tr>
+<tr><td>10</td><td>Historical text</td></tr>
+<tr><td>11</td><td>Poetry anthology</td></tr>
+<tr><td>12</td><td>Theological text</td></tr>
+</tbody></table>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="travel.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="magic-items.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="travel.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="magic-items.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

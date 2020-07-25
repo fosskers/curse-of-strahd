@@ -179,27 +179,39 @@ Hiding creatures that are spotted and flee can be **Chased** (DMG 252).
 
 TODO: How to deal with the Strahd's spies?
 
-| d12 + d8 | Encounter                                                                               |
-|----------|-----------------------------------------------------------------------------------------|
-|        2 | 3d6 Barovian [Commoners](images/commoner.png)                                           |
-|        3 | 1d6 Barovian [Scouts](images/scout.png)                                                 |
-|        4 | Hunting trap                                                                            |
-|        5 | Grave                                                                                   |
-|        6 | False trail                                                                             |
-|        7 | 1d4 + 1 Vistani [Bandits](images/bandit.png)                                            |
-|        8 | Skeletal Rider                                                                          |
-|        9 | Trinket                                                                                 |
-|       10 | Hidden Bundle                                                                           |
-|       11 | 50% of 1d4 [Swarms of Ravens](images/swarm-of-ravens.png), 50% 1 Wereraven              |
-|       12 | 1d6 [**Dire Wolves**](./images/dire-wolf.png)                                           |
-|       13 | 3d6 [**Wolves**](./images/wolf.png)                                                     |
-|       14 | 1d4 [**Berserkers**](./images/berserker.png)                                            |
-|       15 | Corpse                                                                                  |
-|       16 | 1d6 Human-form [Werewolves](images/werewolf.png)                                        |
-|       17 | 1 [**Druid**](./images/druid.png) with 2d6 [**Twig Blights**](./images/twig-blight.png) |
-|       18 | 2d4 Needle Blights                                                                      |
-|       19 | 1d6 Scarecrows                                                                          |
-|       20 | 1 [**Revenant**](./images/revenant.png)                                                 |
+| d12 + d8 | Encounter                                      |
+|----------|------------------------------------------------|
+|        2 | 3d6 Barovian [Commoners]                       |
+|        3 | 1d6 Barovian [Scouts]                          |
+|        4 | Hunting trap                                   |
+|        5 | Grave                                          |
+|        6 | False trail                                    |
+|        7 | 1d4 + 1 Vistani [Bandits]                      |
+|        8 | Skeletal Rider                                 |
+|        9 | Trinket                                        |
+|       10 | Hidden Bundle                                  |
+|       11 | 50% of 1d4 [Swarms of Ravens], 50% 1 Wereraven |
+|       12 | 1d6 [Dire Wolves]                              |
+|       13 | 3d6 [Wolves]                                   |
+|       14 | 1d4 *Berserkers]                               |
+|       15 | Corpse                                         |
+|       16 | 1d6 Human-form [Werewolves]                    |
+|       17 | 1 [Druid] with 2d6 [Twig Blights]              |
+|       18 | 2d4 Needle Blights                             |
+|       19 | 1d6 Scarecrows                                 |
+|       20 | 1 [Revenant]                                   |
+
+[Commoners]: ./images/commoner.png
+[Scouts]: ./images/scount.png
+[Bandits]: ./images/bandit.png
+[Swarms of Ravens]: ./images/swarm-of-ravens.png
+[Dire Wolves]: ./images/dire-wolf.png
+[Wolves]: ./images/wolf.png
+[Berserkers]: ./images/berserker.png
+[Werewolves]: ./images/werewolf.png
+[Druid]: ./images/druid.png
+[Twig Blights]: ./images/twig-blight.png
+[Revenant]: ./images/revenant.png
 
 ## Random Encounters in Barovia (Night)
 

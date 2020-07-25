@@ -215,27 +215,40 @@ TODO: How to deal with the Strahd's spies?
 
 ## Random Encounters in Barovia (Night)
 
-| d12 + d8 | Encounter                                                                               |
-|----------|-----------------------------------------------------------------------------------------|
-|        2 | 1 [**Ghost**](./images/ghost.png)                                                       |
-|        3 | Hunting trap                                                                            |
-|        4 | Grave                                                                                   |
-|        5 | Trinket                                                                                 |
-|        6 | Corpse                                                                                  |
-|        7 | Hidden Bundle                                                                           |
-|        8 | Skeletal Rider                                                                          |
-|        9 | 1d8 [**Swarms of Bats**](./images/swarm-of-bats.png)                                    |
-|       10 | 1d6 [**Dire Wolves**](./images/dire-wolf.png)                                           |
-|       11 | 3d6 [**Wolves**](./images/wolf.png)                                                     |
-|       12 | 1d4 [**Berserkers**](./images/berserker.png)                                            |
-|       13 | 1 [**Druid**](./images/druid.png) with 2d6 [**Twig Blights**](./images/twig-blight.png) |
-|       14 | 2d4 Needle Blights                                                                      |
-|       15 | 1d6 Wolf-form [Werewolves](images/werewolf.png)                                         |
-|       16 | 3d6 [**Zombies**](./images/zombie.png)                                                  |
-|       17 | 1d6 Scarecrows                                                                          |
-|       18 | 1d8 [**Strahd Zombies**](./images/strahd-zombie.jpeg)                                   |
-|       19 | 1 [Will-o-Wisp](images/will-o-wisp.png) (once)                                          |
-|       20 | 1 [**Revenant**](./images/revenant.png)                                                 |
+| d12 + d8 | Encounter                         |
+|----------|-----------------------------------|
+|        2 | 1 [Ghost]                         |
+|        3 | Hunting trap                      |
+|        4 | Grave                             |
+|        5 | Trinket                           |
+|        6 | Corpse                            |
+|        7 | Hidden Bundle                     |
+|        8 | Skeletal Rider                    |
+|        9 | 1d8 [Swarms of Bats]              |
+|       10 | 1d6 [Dire Wolves]                 |
+|       11 | 3d6 [Wolves]                      |
+|       12 | 1d4 [Berserkers]                  |
+|       13 | 1 [Druid] with 2d6 [Twig Blights] |
+|       14 | 2d4 Needle Blights                |
+|       15 | 1d6 Wolf-form [Werewolves]        |
+|       16 | 3d6 [Zombies]                     |
+|       17 | 1d6 Scarecrows                    |
+|       18 | 1d8 [Strahd Zombies]              |
+|       19 | 1 [Will-o-Wisp] (once)            |
+|       20 | 1 [Revenant]                      |
+
+[Ghost]: ./images/ghost.png
+[Swarms of Bats]: ./images/swarm-of-bats.png
+[Dire Wolves]: ./images/dire-wolf.png
+[Wolves]: ./images/wolf.png
+[Berserkers]: ./images/berserker.png
+[Druid]: ./images/druid.png
+[Twig Blights]: ./images/twig-blight.png
+[Werewolves]: ./images/werewolf.png
+[Strahd Zombies]: ./images/strahd-zombie.jpeg
+[Will-o-Wisp]: ./images/will-o-wisp.png
+[Revenant]: ./images/revenant.png
+[Zombies]: ./images/zombie.png
 
 ## Random Encounters in Castle Ravenloft
 
@@ -247,41 +260,58 @@ encounter.
 
 Also check every 10 minutes the players spend resting.
 
-| d12 + d8 | Encounter                                                   |
-|----------|-------------------------------------------------------------|
-|        2 | Ezmerelda (once)                                            |
-|        3 | Rahadin                                                     |
-|        4 | 1 Black Cat (once if killed)                                |
-|        5 | 1 **Broom of Animated Attack**                              |
-|        6 | 1d4 + 1 [**Flying Swords**](./images/flying-sword.png)      |
-|        7 | Blinsky Toy                                                 |
-|        8 | Unseen Servant                                              |
-|        9 | 1d4 Barovian [Commoners](images/commoner.png)               |
-|       10 | 2d6 [**Crawling Claws**](./images/crawling-claw.png)        |
-|       11 | 1d6 [**Shadows**](./images/shadow.png)                      |
-|       12 | 1d6 [**Swarms of Bats**](./images/swarm-of-bats.png)        |
-|       13 | 1 crawling [**Strahd Zombie**](./images/strahd-zombie.jpeg) |
-|       14 | 1d4 + 1 Vistani [**Thugs**](./images/thug.png)              |
-|       15 | 1d4 [**Wights**](./images/wight.png)                        |
-|       16 | Trinket                                                     |
-|       17 | Giant Spider Cocoon (reroll if resting)                     |
-|       18 | 1 **Barovian Witch** (once)                                 |
-|       19 | 1d4 + 1 [**Vampire Spawn**](./images/vampire-spawn.png)     |
-|       20 | Strahd von Zarovich                                         |
+| d12 + d8 | Encounter                               |
+|----------|-----------------------------------------|
+|        2 | Ezmerelda (once)                        |
+|        3 | Rahadin                                 |
+|        4 | 1 Black Cat (once if killed)            |
+|        5 | 1 Broom of Animated Attack              |
+|        6 | 1d4 + 1 [Flying Swords]                 |
+|        7 | Blinsky Toy                             |
+|        8 | Unseen Servant                          |
+|        9 | 1d4 Barovian [Commoners]                |
+|       10 | 2d6 [Crawling Claws]                    |
+|       11 | 1d6 [Shadows]                           |
+|       12 | 1d6 [Swarms of Bats]                    |
+|       13 | 1 crawling [Strahd Zombie]              |
+|       14 | 1d4 + 1 Vistani [Thugs]                 |
+|       15 | 1d4 [Wights]                            |
+|       16 | Trinket                                 |
+|       17 | Giant Spider Cocoon (reroll if resting) |
+|       18 | 1 Barovian Witch (once)                 |
+|       19 | 1d4 + 1 [Vampire Spawn]                 |
+|       20 | Strahd von Zarovich                     |
+
+[Flying Swords]: ./images/flying-sword.png
+[Commoners]: ./images/commoner.png
+[Crawling Claws]: ./images/crawling-claw.png
+[Shadows]: ./images/shadow.png
+[Swarms of Bats]: ./images/swarm-of-bats.png
+[Strahd Zombie]: ./images/strahd-zombie.jpeg
+[Thugs]: ./images/thug.png
+[Wights]: ./images/wight.png
+[Vampire Spawn]: ./images/vampire-spawn.png
 
 ## Strahd's Minions
 
 Roll for this whenever Strahd appears outside his castle.
 
-| d20     | Creatures                                                 |
-|---------|-----------------------------------------------------------|
-| 1 - 3   | 1d4 + 2 [**Dire Wolves**](./images/dire-wolf.png)         |
-| 4 - 6   | 1d6 + 3 [**Ghouls**](./images/ghoul.png)                  |
-| 7 - 9   | 1d4 + 2 [**Strahd Zombies**](./images/strahd-zombie.jpeg) |
-| 10 - 12 | 2d4 [**Swarms of Bats**](./images/swarm-of-bats.png)      |
-| 13 - 15 | 1d4 + 1 [**Vampire Spawn**](./images/vampire-spawn.png)   |
-| 16 - 18 | 3d6 [**Wolves**](./images/wolf.png)                       |
-| 19 - 20 | None                                                      |
+| d20     | Creatures                |
+|---------|--------------------------|
+| 1 - 3   | 1d4 + 2 [Dire Wolves]    |
+| 4 - 6   | 1d6 + 3 [Ghouls]         |
+| 7 - 9   | 1d4 + 2 [Strahd Zombies] |
+| 10 - 12 | 2d4 [Swarms of Bats]     |
+| 13 - 15 | 1d4 + 1 [Vampire Spawn]  |
+| 16 - 18 | 3d6 [Wolves]             |
+| 19 - 20 | None                     |
+
+[Dire Wolves]: ./images/dire-wolf.png
+[Ghouls]: ./images/ghoul.png
+[Strahd Zombies]: ./images/strahd-zombie.jpeg
+[Swarms of Bats]: ./images/swarm-of-bats.png
+[Vampire Spawn]: ./images/vampire-spawn.png
+[Wolves]: ./images/wolf.png
 
 ## Revenant Resurrection Locations
 

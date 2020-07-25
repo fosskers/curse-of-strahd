@@ -1,5 +1,6 @@
-Music
------
+# Rolls and Charts
+
+## Music
 
 | Location             | Syrinscape Soundset             |
 |----------------------|---------------------------------|
@@ -21,8 +22,7 @@ Music
 | Amber Temple         | ?                               |
 | Castle Ravenloft     | Dungeon Depths / Flooded Cavern |
 
-Common DCs
-----------
+## Common DCs
 
 **Note:** Barred/Reinforced doors get +5 to the STR DC.
 
@@ -36,8 +36,7 @@ Common DCs
 | Pick Lock        | 15 DEX (with Thieves Tools) |
 | Smash Lock       | 20 STR                      |
 
-Barovian Mist
--------------
+## Barovian Mist
 
 *Original text on p. 23/24*
 
@@ -48,8 +47,7 @@ escape.
 save. Failure gives 1 level of exhaustion.
 - Creatures' vision is **Heavily Obscured** while in the mist.
 
-Weather
--------
+## Weather
 
 Strahd is known to be able to control the weather. Perhaps his mood affects
 it too?
@@ -102,8 +100,7 @@ visibility, all attacks based on sight are made with disadvantage.
 | 15 - 19 | Heavy     |
 | 20      | Choking   |
 
-Exhaustion
-----------
+## Exhaustion
 
 A long rest reduces exhaustion level by 1.
 
@@ -116,8 +113,7 @@ A long rest reduces exhaustion level by 1.
 |     5 | Speed reduced to 0                             |
 |     6 | Death                                          |
 
-Traps
------
+## Traps
 
 **Damage Severity**
 
@@ -142,28 +138,34 @@ Traps
 - **Poison Darts** do four attacks, +8, 1d4 piercing + 2d10 poison on a
 failed **DC 15 CON** save.
 
-Occupants of Barovian Houses
-----------------------------
+## Occupants of Barovian Houses
 
-| d20     | Occupants                                             |
-|---------|-------------------------------------------------------|
-| 1 - 3   | None                                                  |
-| 4 - 8   | 2d4 [**Swarms of Rats**](./images/swarm-of-rats.png)  |
-| 9 - 16  | 1d4 Barovian [Villagers](images/commoner.png)         |
-| 17 - 20 | 2d4 [**Strahd Zombies**](./images/strahd-zombie.jpeg) |
+| d20     | Occupants                |
+|---------|--------------------------|
+| 1 - 3   | None                     |
+| 4 - 8   | 2d4 [Swarms of Rats]     |
+| 9 - 16  | 1d4 Barovian [Villagers] |
+| 17 - 20 | 2d4 [Strahd Zombies]     |
 
-Occupants of Vallakian Houses
------------------------------
+[Swarms of Rats]: ./images/swarm-of-rats.png
+[Villagers]: ./images/commoner.png
+[Strahd Zombies]: ./images/strahd-zombie.jpeg
 
-| d20     | Occupants                                                                               |
-|---------|-----------------------------------------------------------------------------------------|
-| 1 - 3   | None                                                                                    |
-| 4 - 5   | 2d4 [**Swarms of Rats**](./images/swarm-of-rats.png)                                    |
-| 6 - 18  | 1d4 Vallakian [Townsfolk](images/commoner.png)                                          |
-| 19 - 20 | 2d4 Vallakian [Cultists](images/cultist.png), 1 [Cult Fanatic](images/cult-fanatic.png) |
+## Occupants of Vallakian Houses
 
-Random Encounters in Barovia (Day)
-----------------------------------
+| d20     | Occupants                                  |
+|---------|--------------------------------------------|
+| 1 - 3   | None                                       |
+| 4 - 5   | 2d4 [Swarms of Rats]                       |
+| 6 - 18  | 1d4 Vallakian [Townsfolk]                  |
+| 19 - 20 | 2d4 Vallakian [Cultists], 1 [Cult Fanatic] |
+
+[Swarms of Rats]: ./images/swarm-of-rats.png
+[Townsfolk]: ./images/commoner.png
+[Cultists]: ./images/cultist.png
+[Cult Fanatic]: ./images/cult-fanatic.png
+
+## Random Encounters in Barovia (Day)
 
 Roll for an encounter every 30 minutes the players are outside.
 Only allow two actual encounters per 12 hour period.
@@ -199,8 +201,7 @@ TODO: How to deal with the Strahd's spies?
 |       19 | 1d6 Scarecrows                                                                          |
 |       20 | 1 [**Revenant**](./images/revenant.png)                                                 |
 
-Random Encounters in Barovia (Night)
-------------------------------------
+## Random Encounters in Barovia (Night)
 
 | d12 + d8 | Encounter                                                                               |
 |----------|-----------------------------------------------------------------------------------------|
@@ -224,8 +225,7 @@ Random Encounters in Barovia (Night)
 |       19 | 1 [Will-o-Wisp](images/will-o-wisp.png) (once)                                          |
 |       20 | 1 [**Revenant**](./images/revenant.png)                                                 |
 
-Random Encounters in Castle Ravenloft
--------------------------------------
+## Random Encounters in Castle Ravenloft
 
 The first time the party enters an area that isn't occupied, roll for an
 encounter.
@@ -257,8 +257,7 @@ Also check every 10 minutes the players spend resting.
 |       19 | 1d4 + 1 [**Vampire Spawn**](./images/vampire-spawn.png)     |
 |       20 | Strahd von Zarovich                                         |
 
-Strahd's Minions
-----------------
+## Strahd's Minions
 
 Roll for this whenever Strahd appears outside his castle.
 
@@ -272,8 +271,7 @@ Roll for this whenever Strahd appears outside his castle.
 | 16 - 18 | 3d6 [**Wolves**](./images/wolf.png)                       |
 | 19 - 20 | None                                                      |
 
-Revenant Resurrection Locations
--------------------------------
+## Revenant Resurrection Locations
 
 | d20     | Corpse Location                      |
 |---------|--------------------------------------|
@@ -285,8 +283,7 @@ Revenant Resurrection Locations
 | 15 - 16 | Grave in Svalich Woods               |
 | 17 - 20 | Corpse of a dead party member or NPC |
 
-Random Books
-------------
+## Random Books
 
 | d12 | Book theme                             |
 |-----|----------------------------------------|

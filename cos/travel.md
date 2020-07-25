@@ -1,3 +1,5 @@
+# Travel in Barovia
+
 **Custom:** It's the transition of Autumn into Winter. The sun rises at 8
 a.m. and sets at 5 p.m.
 
@@ -16,8 +18,7 @@ Always check for encounters when reaching these locations:
 Anything marked `(difficult)` is a less-travelled trail, and the party moves
 at half speed.
 
-Eastern Barovia
----------------
+## Eastern Barovia
 
 | Leg                                  | Map Hexes | Distance | Time       | Rolls | Fast Time  | Fast Rolls |
 |--------------------------------------|-----------|----------|------------|-------|------------|------------|
@@ -33,8 +34,7 @@ Eastern Barovia
 | **Barovia to Vallaki (short)**       |        64 |       16 | 5.3 hours  |    10 | 4 hours    |          8 |
 | **Barovia to Vallaki (long)**        |        75 |    18.75 | 6.25 hours |    12 | 4.7 hours  |          9 |
 
-Western Barovia
------------------
+## Western Barovia
 
 | Leg                                      | Map Hexes | Distance | Time        |   Rolls | Fast Time  | Fast Rolls |
 |------------------------------------------|-----------|----------|-------------|---------|------------|------------|

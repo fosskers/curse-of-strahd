@@ -5,3 +5,7 @@ multilingual = false
 src = "cos"
 title = "Curse of Strahd: Master Quest"
 description = "Notes and extended content for the D&D 5E adventure: Curse of Strahd"
+
+[output.html]
+git-repository-url = "https://github.com/fosskers/curse-of-strahd"
+git-repository-icon = "fa-github"

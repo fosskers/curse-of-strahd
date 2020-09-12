@@ -59,3 +59,7 @@ Unfortunately for Patrina, Strahd has moved on.
 She would not allow herself to be enslaved, but neither would she help the
 characters defeat Strahd for the liberation of Barovia. Patrina is evil, and
 would seek vampirism on her own if necessary.
+
+Patrina also likely has no awareness of Tatyana/Ireena, and does not know that
+Strahd would discard Patrina in an instant if it meant choosing between her and
+Tatyana.

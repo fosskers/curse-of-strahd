@@ -15,6 +15,12 @@ It is Kasimir's belief that Patrina was a victim, corrupted by Strahd.
 
 However, it was Patrina who approached Strahd.
 
+> When a dusk elf named Patrina Velikovna came knocking on Strahd's door ...
+> Rahadin was suspicious of her motives. ... She told [Strahd] of a vault of
+> forbidden lore called the Amber Temple ...
+>
+> *Page 237, Rahadin*
+
 > In life ... [she] was nearly a match for Strahd's powers. She felt a great
 > bond with him and asked to solemnize that bond in a dark marriage.
 >
